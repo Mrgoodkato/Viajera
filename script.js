@@ -2,11 +2,14 @@ import { intro } from "./game/parser/intro-parser.js";
 
 console.log(intro);
 
+document.getElementById('#terminal').focus();
+
 var index = 0;
 
 
 $('#terminal').terminal(function() {
 
+    
     this.echo(intro.data[index].text);
     index++;
 
