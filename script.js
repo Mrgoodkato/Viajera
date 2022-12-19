@@ -22,7 +22,10 @@ $('#terminal').terminal(function() {
 });
 
 console.log(inputField.item(0))
-inputField.item(0).setAttribute('autofocus', 'true');
+$('#terminal').on('click', ()=>{
+    inputField.item(0).focus();
+})
+
 
 function newInt(command){
 
