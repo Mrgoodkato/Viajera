@@ -5,7 +5,6 @@ console.log(intro);
 var index = 0;
 
 $('#terminal').terminal(function() {
-
     
     this.echo(intro.data[index].text);
     index++;
@@ -16,7 +15,8 @@ $('#terminal').terminal(function() {
     prompt: intro.prompt,
     onBlur: function(){
         return true;
-    }
+    },
+    mobileDelete: false
 });
 
 function newInt(command){
