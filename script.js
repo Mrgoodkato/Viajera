@@ -13,7 +13,10 @@ $(function() {
     }
     , {
         greetings: 'Bienvenida',
-        prompt: intro.prompt
+        prompt: intro.prompt,
+        onBlur: function(){
+            return true;
+        }
     });
 });
 
