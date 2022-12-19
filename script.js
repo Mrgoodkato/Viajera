@@ -4,20 +4,19 @@ console.log(intro);
 
 var index = 0;
 
-$(function() {
-    $('#terminal').terminal(function() {
 
-        this.echo(intro.data[index].text);
-        index++;
+$('#terminal').terminal(function() {
 
+    this.echo(intro.data[index].text);
+    index++;
+
+}
+, {
+    greetings: 'Bienvenida',
+    prompt: intro.prompt,
+    onBlur: function(){
+        return true;
     }
-    , {
-        greetings: 'Bienvenida',
-        prompt: intro.prompt,
-        onBlur: function(){
-            return true;
-        }
-    });
 });
 
 function newInt(command){
