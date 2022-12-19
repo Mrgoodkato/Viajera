@@ -1,0 +1,9 @@
+Greeting.           (Prompt to continue)
+
+Introduction.       (Prompt to continue)
+
+Create character.   (Prompts to input data into object)
+    Name.
+    Stats.
+
+Scene.              (Starts game)

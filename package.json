@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "jquery.terminal": "^2.35.0"
+  },
+  "name": "traveler_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ansidec": "^0.3.4",
+    "clone": "^1.0.4",
+    "defaults": "^1.0.4",
+    "iconv-lite": "^0.6.3",
+    "jquery": "^3.6.2",
+    "prismjs": "^1.29.0",
+    "safer-buffer": "^2.1.2",
+    "wcwidth": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
