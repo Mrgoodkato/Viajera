@@ -8,20 +8,25 @@ const inputField = document.getElementsByClassName('clipboard');
 
 $('#terminal').terminal(function() {
     
-    this.echo(intro.data[index].text);
+    this.echo(
+        '[[u;;]\n-------]\n' + intro.data[index].text + "\n-------\n",
+        {
+            keepWords:true
+        });
+    
     index++;
 
 }
 , {
-    greetings: 'Bienvenida',
+    greetings: greetings.innerHTML,
     prompt: intro.prompt,
     onBlur: function(){
         return true;
     },
-    mobileDelete: false
+    mobileDelete: false,
+    scrollOnEcho: true
 });
 
-console.log(inputField.item(0))
 $('#terminal').on('click', ()=>{
     inputField.item(0).focus();
 })
