@@ -5,7 +5,7 @@ console.log(intro);
 var index = 0;
 
 $(function() {
-    $('#terminal').terminal(function() {
+    $('html').terminal(function() {
 
         this.echo(intro.data[index].text);
         index++;
