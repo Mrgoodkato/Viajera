@@ -1,25 +1,19 @@
 import { intro } from "./game/parser/intro-parser.js";
+import { introGame } from "./game/content/intro-logic.js";
 
 console.log(intro);
 
-var index = 0;
+const index = {page: -1};
 const inputField = document.getElementsByClassName('clipboard');
-
 
 $('#terminal').terminal(function() {
     
-    this.echo(
-        '[[u;;]\n-------]\n' + intro.data[index].text + "\n-------\n",
-        {
-            keepWords:true
-        });
+    introGame(intro, index, intro.prompt, intro.init_messages, this);
     
-    index++;
-
 }
 , {
-    greetings: greetings.innerHTML,
     prompt: intro.prompt,
+    greetings: greetings.innerHTML,
     onBlur: function(){
         return true;
     },
@@ -29,15 +23,4 @@ $('#terminal').terminal(function() {
 
 $('#terminal').on('click', ()=>{
     inputField.item(0).focus();
-})
-
-
-function newInt(command){
-
-    if(command == "hola de nuevo"){
-        this.echo('hola de nuevo mijo');
-    }else if(command == "return"){
-        this.pop();
-    }
-
-}
+});
