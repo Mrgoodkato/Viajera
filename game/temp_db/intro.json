@@ -1,5 +1,12 @@
 {
-    "prompt": "/Continuar...",
+    "prompt": "/Iniciar>>>",
+    "init_messages": [
+        "Abriendo brecha espacio-temporal",
+        "Fijando constantes universales",
+        "Ejecutando f -> bigBang(consts, rand)",
+        "Ejecutando timeout(universo(), years(10^10000000))",
+        "Estabilizando..."
+    ],
     "data": [
 
         {
