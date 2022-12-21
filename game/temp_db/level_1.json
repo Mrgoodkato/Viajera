@@ -1,0 +1,36 @@
+{
+
+    "data": [
+
+        
+        {
+            "scene": 0,
+            "mainTxt": "La puerta detrás de ti se cierra y estás parada en un claro, dirías, por la posición del sol, que está temprano en la mañana, quizás las nueve u ocho, a tu alrededor hay un bosque de pinos, huele a humedad, a rocío que se va evaporando y oyes pájaros que no conoces cantar en las ramas. Y… si te concentras, algo más, desde atrás de los árboles al frente tuyo.",
+            "prompt": "[[g;blue;]/] ¿Qué haces? [[g;blue;]>>>]\n[[g;blue;]1)]Presionas el botón\n[[g;blue;]2)]¿Qué es ese sonido?\n",
+            "actions": [
+                {"option": 1, "goTo": 2},
+                {"option": 2, "goTo": 1}
+            ]
+        },
+        {
+            "scene": 1,
+            "mainTxt": "Es algo extraño, dirías que es como si alguien estuviera talando árboles con una motosierra, pero es que el sonido de una motosierra normalmente es, bueno, agudo, esto parece un aparato más grande, como una motosierra si se escuchara en cámara lenta.\n\nEl sonido es rítmico, es un -BRRR- que se repite a ráfagas cada dos o tres segundos.\n\nTratas de imaginar qué máquina es, y lo único que se te viene a la mente tiene muchos dientes, dientes grandes, y un motor de mil demonios.\n\nY entonces ves el humo levantarse, una hilera pequeña, muy detrás, a quizás quinientos metros dentro del bosque al frente tuyo. Humo negro.\n\nY te das cuenta de que el ruido se está acercando.\n\n",
+            "prompt": "[[g;blue;]/] ¿Qué haces? [[g;blue;]>>>]\n[[g;blue;]1)]Presionas el botón\n[[g;blue;]2)]Esperas a ver qué se acerca.\n[[g;blue;]3)]Caminas en dirección contraria al ruido que se acerca\n",
+            "actions": [
+                {"option": 1, "goTo": 0},
+                {"option": 2, "goTo": 1},
+                {"option": 3, "goTo": 2}
+            ]
+        },
+        {
+            "scene": 2,
+            "mainTxt": "Lost connection...",
+            "prompt": "[[g;red;]NO SIGNAL]\n",
+            "actions":[
+                {"option": 1, "goTo": 2}
+            ]
+        }
+
+    ]
+
+}

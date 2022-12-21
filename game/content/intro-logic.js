@@ -1,18 +1,24 @@
-export function introGame(introData, index, prompt, initMessages, term){
+import { loadingPhaseInit, textIndexFinder } from "../utilities/main-utils.js";
 
-    prompt = '/Continuar>>';
-    term.set_prompt(prompt);
+export function introGame(introData, index, term){
+
+    const initMessages = introData.init_messages;
+
+    introData.prompt = '[[g;blue;]/] Continuar [[g;blue;]>>>]';
+    term.set_prompt(introData.prompt);
 
     if(index.page == -1){
 
         term.pause();
         
-        console.log(initMessages.length)
-
         for(let i = 0; i < initMessages.length; i++){
+            
+            if(i == 0) var msgIndex = ((i+1)*500)+initMessages[i].timeout;
+            else msgIndex = msgIndex + initMessages[i-1].timeout;
+
             var stop = false;
             if(i == initMessages.length-1) stop = true;
-            loadingPhaseInit(term, initMessages[i], (i+1)*1000, stop);
+            loadingPhaseInit(term, initMessages[i].message, msgIndex, stop);
         }
         index.page = 0;
         return;
@@ -23,25 +29,8 @@ export function introGame(introData, index, prompt, initMessages, term){
         {
             keepWords:true
         });
-    index.page++; 
+    if(index.page == introData.data.length-1) index.level = 1;
+    index.page++;
+    
 }
 
-function loadingPhaseInit(term, initMessage, timeout, stop){
-
-    setTimeout(() => {
-        console.log(initMessage);
-        term.update(-1, initMessage);
-        if(stop) term.resume();
-    }, timeout);
-
-}
-
-function textIndexFinder(data, index){
-
-    for(let i = 0; i < data.length; i++){
-        if(data[i].index == index){
-            return data[i].text;
-        };
-    };
-
-}

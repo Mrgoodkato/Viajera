@@ -1,24 +1,32 @@
-import { intro } from "./game/parser/intro-parser.js";
+//DUMMY DATA
+import { dummyIntro } from "./game/parser/intro-parser.js";
+
+import { intro, level_1 } from "./game/parser/intro-parser.js";
 import { introGame } from "./game/content/intro-logic.js";
+import { level1 } from "./game/content/level-1.js";
 
 console.log(intro);
 
-const index = {page: -1};
+const index = {
+    page: -1, 
+    action: 0,
+    level: 0
+};
+
 const inputField = document.getElementsByClassName('clipboard');
 
 $('#terminal').terminal(function() {
     
-    introGame(intro, index, intro.prompt, intro.init_messages, this);
-    
-}
-, {
+    if(index.level == 0) introGame(intro, index, this);
+    else if(index.level == 1) level1(level_1, index, this);
+}, 
+{
     prompt: intro.prompt,
     greetings: greetings.innerHTML,
     onBlur: function(){
         return true;
     },
-    mobileDelete: false,
-    scrollOnEcho: true
+    outputLimit: 0
 });
 
 $('#terminal').on('click', ()=>{

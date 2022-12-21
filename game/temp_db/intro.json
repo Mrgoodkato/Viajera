@@ -1,11 +1,123 @@
 {
-    "prompt": "/Iniciar>>>",
+    "prompt": "[[g;blue;]/] Iniciar [[g;grey;]>>>]",
     "init_messages": [
-        "Abriendo brecha espacio-temporal",
-        "Fijando constantes universales",
-        "Ejecutando f -> bigBang(consts, rand)",
-        "Ejecutando timeout(universo(), years(10^10000000))",
-        "Estabilizando..."
+
+        {
+            "timeout": 1000,
+            "message": "Abriendo brecha espacio-temporal"
+        },
+        {
+            "timeout": 250,
+            "message": "Fijando "
+        },
+        {
+            "timeout": 250,
+            "message": "Fijando constantes"
+        },
+        {
+            "timeout": 250,
+            "message": "Fijando constantes universsales"
+        },
+        {
+            "timeout": 250,
+            "message": "Ejecutando "
+        },
+        {
+            "timeout": 250,
+            "message": "Ejecutando f -> "
+        },
+        {
+            "timeout": 500,
+            "message": "Ejecutando f -> [[g;blue;]bigBang(consts, rand)]"
+        },
+        {
+            "timeout": 250,
+            "message": "Ejecutando "
+        },
+        {
+            "timeout": 250,
+            "message": "Ejecutando timeout "
+        },
+        {
+            "timeout": 500,
+            "message": "Ejecutando [[g;blue;]timeout(universo(), years(10^10000000))]"
+        },
+        {
+            "timeout": 500,
+            "message": "Estabilizando "
+        },
+        {
+            "timeout": 500,
+            "message": "Estabilizando. "
+        },
+        {
+            "timeout": 500,
+            "message": "Estabilizando.."
+        },
+        {
+            "timeout": 500,
+            "message": "Estabilizando..."
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;blue;]|Estabilizado|]"
+        },
+        {
+            "timeout": 500,
+            "message": "Ejecutando "
+        },
+        {
+            "timeout": 500,
+            "message": "Ejecutando f->"
+        },
+        {
+            "timeout": 1000,
+            "message": "Ejecutando f-> [[g;red;]hackPuerta(viajera, coords, timeDelta)]"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;red;]|Acceso al sistema obtenido|]"
+        },
+        {
+            "timeout": 500,
+            "message": "Desviando [[g;blue;]obj (puerta)] "
+        },
+        {
+            "timeout": 500,
+            "message": "Desviando [[g;blue;]obj (puerta)]."
+        },
+        {
+            "timeout": 500,
+            "message": "Desviando [[g;blue;]obj (puerta)].."
+        },
+        {
+            "timeout": 500,
+            "message": "Desviando [[g;blue;]obj (puerta)]..."
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;blue;]|obj (puerta) desviado|]"
+        },
+        {
+            "timeout": 500,
+            "message": "f-> [[g;red;]colocarTrampas()]"
+        },
+        {
+            "timeout": 500,
+            "message": "f-> [[g;red;]desatarEntidades(unknown, unknown)]"
+        },
+        {
+            "timeout": 500,
+            "message": "Localizando coordenadas finales de [[g;blue;]obj (puerta)]"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;red;]Success]"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;blue;]Programa ejecutado con éxito]\n"
+        }
     ],
     "data": [
 
@@ -15,87 +127,115 @@
         },
         {
             "index": 1,
-            "text": "Siempre te preguntas si esa, la puerta que acabaste de pasar va a ser la última que visitarás. Hay una inequívoca sensación de cansancio, de hastío cuando decides abrir otra puerta.\nNingún paraje se ha quedado en tu interior de tal manera que hayas decidido quedarte."
+            "text": "Siempre te preguntas si esa, la puerta que acabaste de pasar va a ser la última que visitarás. Hay una inequívoca sensación de cansancio, de hastío cuando decides abrir otra puerta.\n\nNingún paraje ha logrado entrar en ti de tal manera que hayas decidido quedarte."
         },
         {
             "index": 2,
-            "text": "Ni siquiera al visitar ciudades que se alzaban sobre las montañas, custodiadas por estatuas de héroes titánicas y linajes reales de miles de años. \nNi cuando estuviste frente a esa biblioteca infinita, con anaqueles que se apilaban hasta llegar más arriba de las nubes, por la que caminaste días sin sentir cansancio físico, revisando tomos con conocimientos e historias imposibles.\nTampoco cuando, en otro mundo podías decir las palabras adecuadas con una varita y hacer aparecer grifos, serpientes, o simplemente mandar a volar toda la comida en las mesas del comedor de la escuela de magos."
+            "text": "Ni siquiera al visitar ciudades que se alzaban sobre las montañas, custodiadas por estatuas de héroes titánicas y de linajes reales de miles de años. Sus hazañas y aventuras recopiladas en muros de obsidiana pulida. \n\nNi cuando estuviste frente a esa biblioteca infinita, con anaqueles que se apilaban hasta llegar más arriba de las nubes por la que caminaste días sin sentir cansancio físico, sin sentir hambre, revisando tomos con conocimientos e historias imposibles."
         },
         {
             "index": 3,
-            "text": "Podemos quedarnos enumerando lo que has visto, lo que has vivido, incluso a las “personas” que has conocido. Desde mundanos aldeanos de razas que nunca existieron, ofreciendo posada a la Viajera en villas rodeadas por planicies verdes donde pastan criaturas enormes y dóciles que en las noches arrullan el sueño con sus mugidos suaves mientras algún juglar toca, en la distancia una melodía melancólica."
+            "text": "Tampoco cuando, en otro mundo, podías decir las palabras adecuadas con una varita y hacer aparecer grifos, serpientes, o simplemente mandar a volar toda la comida en las mesas del comedor de la escuela de magos.\n\nPodemos quedarnos enumerando lo que has visto, lo que has vivido, incluso a las “personas” que has conocido. Desde mundanos aldeanos de razas que nunca existieron, ofreciendo posada a la Viajera en villas rodeadas por planicies verdes donde pastan criaturas enormes y dóciles que en las noches arrullan el sueño con sus suaves mugidos, y a lo lejos se escucha a un juglar tocar una guitarra de extraña forma, y aún más extraño sonido, una melodía cálida pero melancólica."
         },
         {
             "index": 4,
-            "text": "O qué tal si enumeramos, otras dos o tres locaciones para ilustrar un punto más adelante.\nPorque es que el hastío no viene de la falta de asombro, no en este caso.\nPorque si fuera falta de asombro, o aburrimiento, estaríamos hablando de una persona que no puede, si importar qué, conmoverse con nada; estaríamos hablando de una persona que carece de curiosidad."
+            "text": "O qué tal si enumeramos, otras dos o tres locaciones para ilustrar un punto más adelante.\n\nPorque es que el hastío no viene de la falta de asombro, no en este caso.\n\nPorque si fuera falta de asombro, o aburrimiento, estaríamos hablando de una persona que no puede, sin importar qué, conmoverse con nada. Estaríamos hablando de una persona que carece de curiosidad."
         },
         {
             "index": 5,
-            "text": "Pero tú, Viajera, no careces de curiosidad, tú sientes en lo más profundo los lugares que visitas.\nTú sentiste la adrenalina y el terror al huir de huestes de orcos malolientes en esas minas profundas dentro de la tierra, mientras desde el abismo un rugido que más se asemejaba al chocar de piedras volcánicas, se asomaba y hacía temblar el mundo.\nTú que comiste pastel de manzana en ese pueblito en las montañas rodeado de dos picos misteriosos, mientras una sensación de intriga y curiosidad te llevaba a ver a la gente de ese pueblo con ojos mágicos, sus vidas comunes escondiendo secretos, y tú desenmarañando ese asesinato. No tomaste café ahí en la cafetería, o quizás sí, porque igual se supone que es un 'muy buen café'."
+            "text": "Pero tú, Viajera, no careces de curiosidad, tú sientes en lo más profundo a los lugares que visitas.\n\nTú sentiste la adrenalina y el terror al huir de huestes de orcos malolientes en esas minas profundas dentro de la tierra, mientras desde el abismo un rugido que más se asemejaba al chocar de piedras volcánicas se avecinaba implacable y hacía temblar al mundo.\n\nTú que comiste pastel de manzana en ese pueblito en las montañas rodeado de dos picos misteriosos, mientras una sensación de intriga y curiosidad te llevaba a notar a la gente allí con ojos mágicos. Sus vidas comunes escondiendo secretos, y tú desenmarañando ese asesinato.\n\nViste las ruinas de una ciudad alzarse del mar, donde las esquinas se deformaban y no eran esquinas. Donde los ángulos de cada columna te hacían sentir vértigo. La imposibilidad y el terror moviendo el centro de tu ser, y de lo profundo de esa ciudad, algo más grande despertando y estirándose, moviendo las nubes en el firmamento tan solo con su respiración."
         },
         {
             "index": 6,
-            "text": "Pero tú, Viajera, no careces de curiosidad, tú sientes en lo más profundo los lugares que visitas.\nTú sentiste la adrenalina y el terror al huir de huestes de orcos malolientes en esas minas profundas dentro de la tierra, mientras desde el abismo un rugido que más se asemejaba al chocar de piedras volcánicas, se asomaba y hacía temblar el mundo.\nTú que comiste pastel de manzana en ese pueblito en las montañas rodeado de dos picos misteriosos, mientras una sensación de intriga y curiosidad te llevaba a ver a la gente de ese pueblo con ojos mágicos, sus vidas comunes escondiendo secretos, y tú desenmarañando ese asesinato. No tomaste café ahí en la cafetería, o quizás sí, porque igual se supone que es un 'muy buen café'.\nViste las ruinas de una ciudad alzarse del mar, donde las esquinas se deformaban y no eran esquinas. Donde los ángulos de cada columna mareaban. La imposibilidad y el terror titánico moviendo el centro de tu ser, y de lo profundo de esa ciudad, algo más grande despertando y estirándose, moviendo las nubes en el firmamento tan solo con su respiración."
-        },
-        {
-            "index": 7,
             "text": "Has visto esto, has visto mucho más."
         },
         {
-            "index": 8,
+            "index": 7,
             "text": "Pero como digo. No es que te aburras por el hecho de perder el interés, nada de lo que has vivido carece en lo más mínimo de profundidad."
         },
         {
+            "index": 8,
+            "text": "Es que.\n\nNo es real."
+        },
+        {
             "index": 9,
-            "text": "Es que.\nNo es real."
+            "text": "Es que…"
         },
         {
             "index": 10,
-            "text": "Es que..."
+            "text": "En el fondo, todo esto son solo ruinas, son simples ruinas carentes de sentido porque solo representan lo que no es, lo que nunca pudo ser.\n\nSon creaciones desesperadas de mentes agobiadas, aplastadas por un mundo que está al regresar por la puerta que abres, un mundo que se consume a sí mismo."
         },
         {
             "index": 11,
-            "text": "En el fondo, todo esto son solo ruinas, son simples ruinas carentes de sentido porque solo representan lo que no es, lo que nunca pudo ser.\nSon creaciones desesperadas de mentes agobiadas, aplastadas por un mundo que está al regresar por la puerta, un mundo que se consume a sí mismo."
-        },
-        {
-            "index": 13,
             "text": "Son los últimos bastiones de la humanidad antes de que todo se vuelva lo mismo."
         },
         {
+            "index": 12,
+            "text": "Centros comerciales, humo de escapes de carros que llenan los pulmones de cáncer, ruido estridente que se multiplica en cada esquina mientras zombies que mueven sus pies al ritmo de esa cacofonía se intoxican buscando la inconsciencia.\n\nEse mundo afuera de la puerta que hace fila para venderse, y para comprarse; que define su alma en referencia a objetos, a conceptos triviales como “raza”, “política”, “religión”, “moda”.\n\nLas cajas tontas con cabezas parlantes que hablan, hablan, hablan y hablan de todo, y de nada las veinticuatro horas."
+        },
+        {
+            "index": 13,
+            "text": "Las otras cajas, las más insidiosas, las que son pequeñas, esos rectángulos empacados al vacío que vibran y suenan, que vuelven a sus usuarios productos, catálogos de vida, datos en bulto, intereses y tendencias para corporaciones y gobiernos que compran esta información a un buen precio. Mostrando siempre lo que nadie puede llegar a ser, vendiendo ideales y sueños diseñados para aplastar la poca dignidad que queda en esta tierra desolada, para someter cualquier atisbo de individualidad, de libertad."
+        },
+        {
             "index": 14,
-            "text": "Centros comerciales, humo de escapes de carros que llenan los pulmones, ruido estridente que se multiplica en cada esquina mientras zombies que mueven sus pies al ritmo de esa cacofonía se intoxican buscando la inconsciencia.\nEse mundo afuera de la puerta que hace fila para otro producto, que define su alma en referencia a objetos, a conceptos triviales como “raza”, “política”, “religión”, “moda”.\nLas cajas tontas con cabezas parlantes que hablan y hablan de todo, y de nada las veinticuatro horas.\n"
-        },
-        {
-            "index": 15,
-            "text": "Las otras cajas, las más insidiosas, las que son pequeñas, esos rectángulos empacados al vacío que vibran y suenan, que vuelven a sus usuarios productos, catálogos de vida, datos en bulto, intereses y tendencias para corporaciones y gobiernos que compran esta información a un buen precio. Mostrando siempre lo que nadie puede llegar a ser, vendiendo ideales y sueños diseñados para aplastar la autoestima, para someter cualquier atisbo de individualidad, de libertad."
-        },
-        {
-            "index": 16,
             "text": "Eso es el mundo. Eso es la humanidad."
         },
         {
+            "index": 15,
+            "text": "Por eso se siente como una mentira esto que ves al frente tuyo ahora, esta vez que entras por la puerta. Porque esos otros mundos también son, al final, productos. Y no son más que despojos de momentos de lucidez de unos cuantos que se atrevieron."
+        },
+        {
+            "index": 16,
+            "text": "Son sueños."
+        },
+        {
             "index": 17,
-            "text": "Por eso se siente como una mentira todo lo que ves al entrar a otro mundo. Porque esos otros mundos también son, al final, productos. Y no son más que despojos de momentos de lucidez de unos cuantos que se atrevieron.\nPero que al final, ya no están, o bien, se han relegado a volverse también productos, como todos, como todo."
+            "text": "Y cruzas el portal otra vez."
+        },
+        {
+            "index": 18,
+            "text": "Y suspiras porque no sabes si ya después de este escape, pues va a ser hora de terminar con el viaje.\n\nY terminar, por fin, con todo."
         },
         {
             "index": 19,
-            "text": "Y ahora abres otra puerta."
+            "text": "Metes tu mano en un bolsillo y sientes el dispositivo, frío y metálico. Puedes sentir el color rojo de ese botón.\n\nRojo."
         },
         {
             "index": 20,
-            "text": "Y suspiras porque no sabes si ya después de este escape, pues va a ser hora de terminar con el viaje.\nY terminar, por fin, con todo."
-        },
-        {
-            "index": 21,
-            "text": "Metes tu mano en un bolsillo y sientes el dispositivo, frío y metálico. Sientes el color rojo de ese botón."
-        },
-        {
-            "index": 22,
             "text": "Y sería muy fácil."
         },
         {
+            "index": 21,
+            "text": "Y lo recorres con tu dedo pulgar lentamente.\n\nPorque… ¿Qué tiene de malo bailar con la muerte de vez en cuando?"
+        },
+        {
+            "index": 22,
+            "text": "La puerta detrás de ti se cierra como de costumbre y estás parada en un claro, y dirías, por la posición del sol, que está temprano en la mañana, quizás las nueve u ocho. \n\nA tu alrededor hay un bosque de pinos. Huele a humedad, a rocío que se va evaporando y oyes pájaros que no conoces cantar en las ramas. Todo está muy tranquilo, no se escucha por ningún lado el ruido de la ciudad.\n\nEs un bosque hermoso. Verde."
+        },
+        {
             "index": 23,
-            "text": "Y lo recorres con tu dedo pulgar lentamente, porque bailar con la muerte es la danza más sincera que uno puede realizar."
+            "text": "Pero…"
+        },
+        {
+            "index": 24,
+            "text": "Espera.\n\nAlgo anda mal."
+        },
+        {
+            "index": 25,
+            "text": "Este no es el mundo que se suponía estarías visitando. Este no es el mundo de Kafka para el cual abriste la puerta."
+        },
+        {
+            "index": 26,
+            "text": "Porque Kafka no es verde, no es de pajaritos, no es de olor a pinos y rocío de la mañana."
+        },
+        {
+            "index": 27,
+            "text": "Kafka es gris, y te oprime con cada párrafo. Edificios grises, monolíticos. Burocracia, leyes irracionales, la figura de un estado omnipresente, de gente con la cabeza baja y chalecos y corbatas y sombreros y…"
+        },
+        {
+            "index": 28,
+            "text": "Algo anda mal."
         }
     ]
 }

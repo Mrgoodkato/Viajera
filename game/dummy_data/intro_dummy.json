@@ -1,0 +1,29 @@
+{
+    "prompt": "[[g;blue;]/] Iniciar [[g;grey;]>>>]",
+    "init_messages": [
+
+        {
+            "timeout": 1000,
+            "message": "Abriendo brecha espacio-temporal"
+        },
+        {
+            "timeout": 250,
+            "message": "Fijando "
+        }
+    ],
+    "data": [
+
+        {
+            "index": 0,
+            "text": "Atraviesas la puerta.\n\nOtra puerta más."
+        },
+        {
+            "index": 1,
+            "text": "Siempre te preguntas si esa, la puerta que acabaste de pasar va a ser la última que visitarás. Hay una inequívoca sensación de cansancio, de hastío cuando decides abrir otra puerta.\nNingún paraje se ha quedado en tu interior de tal manera que hayas decidido quedarte."
+        },
+        {
+            "index": 2,
+            "text": "Ni siquiera al visitar ciudades que se alzaban sobre las montañas, custodiadas por estatuas de héroes titánicas y linajes reales de miles de años. \nNi cuando estuviste frente a esa biblioteca infinita, con anaqueles que se apilaban hasta llegar más arriba de las nubes, por la que caminaste días sin sentir cansancio físico, revisando tomos con conocimientos e historias imposibles.\nTampoco cuando, en otro mundo podías decir las palabras adecuadas con una varita y hacer aparecer grifos, serpientes, o simplemente mandar a volar toda la comida en las mesas del comedor de la escuela de magos."
+        }
+    ]
+}
