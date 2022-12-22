@@ -3,7 +3,7 @@ import { levelIndexFinder } from "../utilities/main-utils.js";
 export function level1(levelData, index, term){
 
     index.page = 0;
-
+    term.clear();
     console.log(term)
 
     term.echo(
@@ -15,13 +15,12 @@ export function level1(levelData, index, term){
     
     term.push(
         function(cmd){
-            
+            this.clear();
             level1Progress(levelData, index, cmd, this);
             this.set_prompt(levelData.data[index.page].prompt);
         },
         {
-            prompt: levelData.data[index.page].prompt,
-            scrollOnEcho: true
+            prompt: levelData.data[index.page].prompt
         }
     );
 }
