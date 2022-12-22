@@ -1,12 +1,10 @@
 {
 
-    "data": [
-
-        
+    "data": [      
         {
             "scene": "0",
             "mainTxt": "Algo muy extraño está pasando aquí…",
-            "prompt": "[[g;blue;]/] ¿Qué haces? [[g;blue;]>>>]\n[[g;blue;]1)]Presionas el botón\n[[g;blue;]2)]Escapas por una nueva puerta.\n[[g;blue;]3)]Das una mirada a tus alrededores.\n",
+            "prompt": "[[g;grey;]Itroduce el número de la opción que deseas seleccionar]\n[[g;blue;]/] ¿Qué haces? [[g;blue;]>>>]\n[[g;blue;]1)]Presionas el botón\n[[g;blue;]2)]Escapas por una nueva puerta.\n[[g;blue;]3)]Das una mirada a tus alrededores.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
                 {"option": 2, "goTo": "END2"},
@@ -15,7 +13,7 @@
         },
         {
             "scene": "1",
-            "mainTxt": "Le das una mirada a los alrededores. No hay señales de peligro evidentes.\n\nPero te parece extrañísimo que, al abrir una puerta, de tantas que has abierto, esta vez hayas llegado a un lugar que no te esperabas.\n\nLogras ver, en un punto un pequeño sendero de tierra y piedras entre los pinos.",
+            "mainTxt": "Le das una mirada a los alrededores. No hay señales de [[g;red;]peligro] evidentes.\n\nPero te parece extrañísimo que, al abrir una puerta, de tantas que has abierto, esta vez hayas llegado a un lugar que no te esperabas.\n\nLogras ver, en un punto un pequeño sendero de tierra y piedras entre los pinos.",
             "prompt": "[[g;blue;]/] ¿Qué haces? [[g;blue;]>>>]\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Escapas por una nueva puerta\n[[g;blue;]3)]Avanzas hacia el sendero.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -82,7 +80,7 @@
         {
             "scene": "4A",
             "mainTxt": "Ves una bandada de aves negras volando en círculos a varios metros sobre la cabaña. Cuentas aproximadamente diez.\n\nLos cuervos graznan. Notas que hay dos o tres posados en el techo, y uno en el lado de la casa, en el barandal del pórtico.\n\nMientras más te acercas, más fuerte es el graznido.",
-            "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)Oprimes el botón.\n[[g;blue;]2)]Abres otra puerta y te vas, esto está tornándose raro.\n[[g;blue;]3)]Continúas y te acercas a la entrada de la cabaña.\n",
+            "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres otra puerta y te vas, esto está tornándose raro.\n[[g;blue;]3)]Continúas y te acercas a la entrada de la cabaña.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
                 {"option": 2, "goTo": "END2"},
@@ -120,7 +118,7 @@
         },
         {
             "scene": "6A",
-            "mainTxt": "Dices ‘¿hola?’ o algo así en voz alta.\n\nY como era de esperarse.\n\nNo hay respuesta alguna.",
+            "mainTxt": "Dices [[g;blue;]‘¿hola?’] o algo así en voz alta.\n\nY como era de esperarse.\n\nNo hay respuesta alguna.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Vuelves a llamar.\n[[g;blue;]2)]Examinas la cocina y la sala.\n",
             "actions": [
                 {"option": 1, "goTo": "6B"},
@@ -129,7 +127,7 @@
         },
         {
             "scene": "6B",
-            "mainTxt": "‘¡Alguien!’ – Dices, o quizás dices otra cosa, realmente no hay forma de saberlo.\n\nY, una vez más, no hay respuesta.\n\nY te sientes ridícula.",
+            "mainTxt": "[[g;blue;]‘¡Alguien!’] – Dices, o quizás dices otra cosa, realmente no hay forma de saberlo.\n\nY una vez más, no hay respuesta.\n\nY te sientes ridícula.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Examinas la cocina y la sala.\n",
             "actions": [
                 {"option": 1, "goTo": "6C"}
@@ -137,7 +135,7 @@
         },
         {
             "scene": "6C",
-            "mainTxt": "Vas a la sala, en la mesa hay tres tazas de café y un vasito pequeño con jugo a medio terminar. Las dos primeras tazas están más juntas que la tercera, todas dando al lado que da al sofá.\n\nLas tazas juntas tienen fotografías de un hombre y una mujer, mediana edad, respectivamente, son blancas. La foto del hombre lo muestra sosteniendo un pescado enorme en un muelle y con una sonrisa de oreja a oreja. Un hombre barbado, un poco pasado de peso, de camisilla y cachetes rojos.\n\nLa taza con la foto de la mujer muestra a una ejecutiva, con un traje elegante, en una pose de las que se ven en redes sociales, sacando la cadera. Es rubia, de ojos claros, delgada y bonita. Su sonrisa es muy exagerada, pero no al punto de ser perturbadora.\n\nAmbas tazas están vacías, pero notas que tienen residuos de café.\n\nLa tercera taza no. Es una taza blanca, sin adornos, y está en una esquina de la mesa, frente a una silla puesta al frente.\n\nEl vasito de jugo tiene a Spiderman tirando su telaraña. Está al otro lado, al frente de una sillita pequeña, para un niño probablemente, pero no para un bebé.",
+            "mainTxt": "Vas a la sala, en la mesa hay tres tazas de café y un vasito pequeño con jugo a medio terminar. Las dos primeras tazas están más juntas que la tercera, todas dando al lado que da al sofá.\n\nLas tazas juntas tienen fotografías de un hombre y una mujer, mediana edad, respectivamente, son blancas. La foto del hombre lo muestra sosteniendo un pescado enorme en un muelle y con una sonrisa de oreja a oreja. Un hombre barbado, un poco pasado de peso, de camisilla y cachetes rojos.\n\nLa taza con la foto de la mujer muestra a una ejecutiva, con un traje elegante, en una pose de las que se ven en redes sociales, sacando la cadera. Es rubia, de ojos claros, delgada y bonita. Su sonrisa es muy exagerada, pero no al punto de ser perturbadora.\n\nAmbas tazas están vacías, pero notas que tienen residuos de café.\n\nLa tercera taza no, está llena de hecho. Es una taza blanca, sin adornos, y está en una esquina de la mesa, frente a una silla puesta al frente.\n\nEl vasito de jugo tiene a Spiderman tirando su telaraña. Está al otro lado, al frente de una sillita pequeña, para un niño probablemente, pero no para un bebé.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Revisas la cocina.\n[[g;blue;]2)]Vas al pasillo, a las dos habitaciones.\n",
             "actions": [
                 {"option": 1, "goTo": "6D"},
@@ -165,7 +163,7 @@
         },
         {
             "scene": "6F",
-            "mainTxt": "¿Estás por probar un polvo extraño que huele a almendras, de una cuchara sospechosamente puesta en una cocina de una cabaña en medio de la nada, rodeada por una parvada de cuervos?\n\nTu sentido común te da un calvazo y dejas la cuchara.\n\n‘¿Por qué tengo estos pensamientos?’ Te dices para tus adentros.",
+            "mainTxt": "¿Estás por probar un polvo extraño que huele a almendras, de una cuchara sospechosamente puesta en una cocina de una cabaña en medio de la nada, rodeada por una parvada de cuervos?\n\nTu sentido común te da un calvazo y dejas la cuchara.\n\n[[g;blue;]‘¿Por qué tengo estos pensamientos?’] Te dices para tus adentros.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Te diriges al pasillo de las habitaciones de la casa.\n[[g;blue;]2)]Es suficiente y mejor me largo de este lugar macabro, abres una puerta tuya y escapas de este mundo.\n",
             "actions": [
                 {"option": 1, "goTo": "7"},
@@ -182,7 +180,7 @@
         },
         {
             "scene": "8",
-            "mainTxt": "Abres la puerta más cercana a ti. Al principio nada parece fuera de lugar mientras la puerta gira en sus bisagras.\n\nUna cama doble, maletas en el suelo, el armario en un lado cerrado, el nochero con un reloj antiguo de mesa que mueve su péndulo rítmicamente (son las 10:15am).\n\nVes la cama, un par de pies con zapatos, con botas y pantalón y luego otro par de pies con unos tenis rosa.\n\nVes ahora los cuerpos.\n\nAmbos boca arriba.\n\nAmbos con la espuma rojiza secándose aún de sus bocas, tiesos, brazos recogidos como ramas secas, dedos en un rictus de tensión mortal.\n\nSus espaldas recogidas en una especie de posición fetal, sus ojos abiertos de par en par, y sus rostros en una expresión de agonía imposible de replicar por alguien que todavía esté vivo.\n\nSus rostros tan parecidos, pero tan distintos a los de las fotos de las tazas de café.",
+            "mainTxt": "Abres la puerta más cercana a ti. Al principio nada parece fuera de lugar mientras la puerta gira en sus bisagras.\n\nUna cama doble, maletas en el suelo, el armario en un lado cerrado, el nochero con un reloj antiguo de mesa que mueve su péndulo rítmicamente [[g;grey;](son las 10:15am)].\n\nVes la cama, un par de pies con zapatos, con botas y pantalón y luego otro par de pies con unos tenis rosa.\n\n[[g;red;]Ves ahora los cuerpos.]\n\nAmbos boca arriba.\n\nAmbos con la espuma rojiza secándose aún de sus bocas, tiesos, brazos recogidos como ramas secas, dedos en un rictus de tensión mortal.\n\nSus espaldas recogidas en una especie de posición fetal, sus ojos abiertos de par en par, y sus rostros en una expresión de agonía imposible de replicar por alguien que todavía esté vivo.\n\nSus rostros tan parecidos, pero tan distintos a los de las fotos de las tazas de café.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Esto es demasiado, te vas por otra puerta de este mundo bizarro.\n[[g;blue;]3)]Te acercas a examinar los cuerpos.\n[[g;blue;]4)]Sales de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -193,7 +191,7 @@
         },
         {
             "scene": "8A",
-            "mainTxt": "Te acercas a los cuerpos. Hay ahora sí, un olor, un olor a vómito, un olor dulzón repugnante.\n\nNinguna tiene señas de heridas o de que hayan peleado con alguien a simple vista. La espuma rojiza que sale de sus bocas indica que lo más posible es que hayan sido envenenados.\n\nPero te preguntas por qué, te preguntas cómo simplemente se tiraron a la cama, como si fueran a dormir, sin tratar de ir por ayuda, sin tratar de hacer algo, o salir por lo menos.\n\nNotas, mientras te agachas a mirar que, al lado de la cama, en el suelo, hay otra colilla de cigarrillo. Y hay ceniza en el suelo.\n\nLa colilla tiene una marca de labial morado.\n\nApagada hace rato ya.",
+            "mainTxt": "Te acercas a los cuerpos. Hay ahora sí, un olor, un olor a vómito, un olor dulzón repugnante.\n\nNinguno tiene señas de heridas o de que hayan peleado con alguien a simple vista. La espuma rojiza que sale de sus bocas indica que lo más posible es que hayan sido envenenados.\n\nPero te preguntas por qué, te preguntas cómo simplemente se tiraron a la cama, como si fueran a dormir, sin tratar de ir por ayuda, sin tratar de hacer algo, o salir por lo menos.\n\nNotas, mientras te agachas a mirar que, al lado de la cama, en el suelo, hay otra colilla de cigarrillo. Y hay ceniza en el suelo.\n\nLa colilla tiene una marca de labial morado.\n\nApagada hace rato ya.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Sales de la habitación.\n[[g;blue;]2)]Revisas el closet.\n[[g;blue;]3)]Revisas la ventana de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "9"},
@@ -212,7 +210,7 @@
         },
         {
             "scene": "8C",
-            "mainTxt": "Miras por la ventana, un cuervo que estaba posado en el barandal te mira del otro lado. Casi puedes oír lo que dice:\n\n‘Déjame entrar, que tengo hambre, humana’.",
+            "mainTxt": "Miras por la ventana, un cuervo que estaba posado en el barandal te mira del otro lado. Casi puedes oír lo que dice:\n\n[[g;grey;]‘Déjame entrar, que tengo hambre, humana’.]",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Abres la ventana.\n[[g;blue;]2)]Revisas el closet.\n[[g;blue;]3)]Te volteas y sales de la habitación, esto es una escena del crimen y ese cuervo la dañaría.\n",
             "actions": [
                 {"option": 1, "goTo": "8D"},
@@ -222,7 +220,7 @@
         },
         {
             "scene": "8D",
-            "mainTxt": "Abres la ventana.\n\nEl cuervo se queda mirando, luego mira para un lado y lanza un graznido.\n\n‘¡Ya abrieron muchachos!’ Probablemente.\n\nAl momento, varios otros cuervos se posan en el barandal. Ahora solo esperan algo de privacidad con su almuerzo.",
+            "mainTxt": "Abres la ventana.\n\nEl cuervo se queda mirando, luego mira para un lado y lanza un graznido.\n\n[[g;grey;]‘¡Ya abrieron muchachos!’] Probablemente.\n\nAl momento, varios otros cuervos se posan en el barandal. Ahora solo esperan algo de privacidad con su almuerzo.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres otra puerta, ya al menos hiciste algo bueno en este mundo de asesinatos raros.\n[[g;blue;]3)]Sales de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -233,17 +231,16 @@
         {
             "scene": "9",
             "mainTxt": "Sales de la habitación. Estás parada en el corredor. Te sientes asqueada, y el olor a cigarrillo solo empeora todo más.\n\nY ahora recuerdas ese vaso de jugo en la mesa.",
-            "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres una tercera puerta, una que te saque de este lugar mórbido.\n[[g;blue;]3)]Vas a la segunda habitación.\n[[g;blue;]4)]Sales de la casa.\n",
+            "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres una tercera puerta, una que te saque de este lugar mórbido.\n[[g;blue;]3)]Vas a la segunda habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
                 {"option": 2, "goTo": "END2"},
-                {"option": 3, "goTo": "9A"},
-                {"option": 4, "goTo": "10"}
+                {"option": 3, "goTo": "9A"}
             ]
         },
         {
             "scene": "9A",
-            "mainTxt": "Te aproximas a esa última puerta y la abres.\n\nLo primero que ves es el afiche de Los Vengadores pegado de la pared, junto con otros afiches de superhéroes que no tienes tiempo de ponerte a nombrar. \n\nLuego está el armario, los tenis en el suelo tirados, el morral de Spiderman rojo al lado de los zapatos desparramado. \n\nVes variados juguetes, figuras de acción, y otros misceláneos coloridos tirados por doquier.\n\nLuego ves la cama con un tendido que sigue el tema de todo lo demás, Hulk golpeando, Thor con su martillo, Iron Man volando, y luego los pies, los tenis de color rojo con marcas negras y cordones a medio amarrar.\n\nY la posición fetal, las manos encogidas en un rictus deforme, contra el pecho, dedos en posiciones dispares, como garras.\n\nY la espuma de la boca.\n\nY la cara de alguien que no entendía qué estaba pasando, que no debía haber tenido que estar ahí, así.\n\nY recuerdas entonces el vaso a medio terminar de jugo.",
+            "mainTxt": "Te aproximas a esa última puerta y la abres.\n\nLo primero que ves es el afiche de Los Vengadores pegado de la pared, junto con otros afiches de superhéroes que no tienes tiempo de ponerte a nombrar. \n\nLuego está el armario, los tenis en el suelo tirados, el morral de Spiderman rojo al lado de los zapatos desparramado. \n\nVes variados juguetes, figuras de acción, y otros misceláneos coloridos tirados por doquier.\n\nLuego ves la cama con un tendido que sigue el tema de todo lo demás, Hulk golpeando, Thor con su martillo, Iron Man volando, y luego los pies, los tenis de color rojo con marcas negras y cordones a medio amarrar.\n\n[[g;red;]Y el cuerpo, pequeño]\n\nY la posición fetal, las manos encogidas en un rictus deforme, contra el pecho, dedos en posiciones dispares, como garras.\n\nY la espuma de la boca.\n\nY la cara de alguien que no entendía qué estaba pasando, que no debía haber tenido que estar ahí, así.\n\nY recuerdas entonces el vaso a medio terminar de jugo.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Suficiente es suficiente, y un niño muerto es como ya el límite de la paciencia aquí, así que abres otra puerta y te largas.\n[[g;blue;]3)]Examinas la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -253,7 +250,7 @@
         },
         {
             "scene": "9B",
-            "mainTxt": "Revisas la habitación, pasas por encima de los juguetes, y ves una colilla de cigarrillo terminada, y cenizas, y hueles el remanente de cigarrillo que permea la habitación.\n\nVes el nombre ‘Jamie’ en el morral.\n\nTe acercas a ‘Jamie’. El niño es, bueno, era rubio. No más de seis años por lo que puedes observar.\n\nUn olor extraño a almendras y otro agridulce empieza a volverse más y más intenso mientras más te acercas.\n\nNo puedes imaginar cómo pudo haber sido esto, cómo pudo haber sufrido, pero las señales están ahí, en su expresión.",
+            "mainTxt": "Revisas la habitación, pasas por encima de los juguetes, y ves una colilla de cigarrillo terminada, y cenizas, y hueles el remanente de cigarrillo que permea la habitación.\n\nVes el nombre [[g;grey;]‘Jamie’] en el morral.\n\nTe acercas a [[g;grey;]‘Jamie’]. El niño es, bueno, era rubio. No más de seis años por lo que puedes observar.\n\nUn olor extraño a almendras y otro agridulce empieza a volverse más y más intenso mientras más te acercas.\n\nNo puedes imaginar cómo pudo haber sido esto, cómo pudo haber sufrido, pero las señales están ahí, en su expresión.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Revisas el armario y bajo la cama.\n[[g;blue;]2)]Miras por la ventana de la habitación.\n[[g;blue;]3)]Sales de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "9C"},
@@ -283,7 +280,7 @@
         },
         {
             "scene": "9E",
-            "mainTxt": "Vas a las últimas páginas, para ahorrar tiempo, para ver si hay algo que hable de lo que pasó aquí, alguna pista.\n\nEn las últimas páginas del diario, Jamie describe el viaje a las montañas con su familia.\n\n‘Porque la doctora nos lo recomendó’.\n\n‘Porque me dijo que así mi papá no nos va a dejar’.\n\n‘Ella me dice que tenemos que tomar un salto de fe’.\n\n‘Mi papá ha estado raro, y mi mamá también’.\n\n‘La doctora dice que es normal que estén así, que están curándose’.",
+            "mainTxt": "Vas a las últimas páginas, para ahorrar tiempo, para ver si hay algo que hable de lo que pasó aquí, alguna pista.\n\nEn las últimas páginas del diario, Jamie describe el viaje a las montañas con su familia.\n\n[[g;grey;]‘Porque la doctora nos lo recomendó’.\n\n‘Porque me dijo que así mi papá no nos va a dejar’.\n\n‘Ella me dice que tenemos que tomar un salto de fe’.\n\n‘Mi papá ha estado raro, y mi mamá también’.\n\n‘La doctora dice que es normal que estén así, que están curándose’.]",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Sigues leyendo.\n[[g;blue;]2)]Vas a la ventana.\n[[g;blue;]3)]Sales de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "9F"},
@@ -293,7 +290,7 @@
         },
         {
             "scene": "9F",
-            "mainTxt": "‘La verdad no me gusta mucho que ella tenga que venir con nosotros’.\n\n‘Ella me mira muy raro y me da miedo’.\n\n‘Y huele a humo todo el tiempo’.\n\n‘Anoche la vi mirando por la ventana a mi cuarto’.\n\n‘Creyó que no la veía porque me escondí bajo las cobijas’.\n\n‘Pero se quedó mirando, porque la podía ver por un agujero de la cobija’.\n\nEl diario termina. No hay más.\n\nRevisas menciones de la ‘Doctora’ en otras partes del diario.\n\nNo hay fechas, no hay mayor forma de saber quién es. No hay más información.",
+            "mainTxt": "[[g;grey;]‘La verdad no me gusta mucho que ella tenga que venir con nosotros’.\n\n‘Ella me mira muy raro y me da miedo’.\n\n‘Y huele a humo todo el tiempo’.\n\n‘Anoche la vi mirando por la ventana a mi cuarto’.\n\n‘Creyó que no la veía porque me escondí bajo las cobijas’.\n\n‘Pero se quedó mirando, porque la podía ver por un agujero de la cobija’.]\n\nEl diario termina. No hay más.\n\nRevisas menciones de la [[g;grey;]‘Doctora’] en otras partes del diario.\n\nNo hay fechas, no hay mayor forma de saber quién es. No hay más información.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Miras por la ventana.\n[[g;blue;]2)]Sales de la habitación.\n",
             "actions": [
                 {"option": 1, "goTo": "9G"},
@@ -311,7 +308,7 @@
         },
         {
             "scene": "10",
-            "mainTxt": "Sales de la habitación. Estás un poco mareada.\n\nTe apoyas contra una pared mientras caminas por el corredor. No estabas preparada para esto. Y para estar tan de cerca con tantos cadáveres tan seguidos unos de otros.\n\nMientras caminas por ese corredor escuchas algo que te hace detenerte de golpe.\n\nAlgo afuera de la casa.\n\nEl motor de un vehículo que se acerca.",
+            "mainTxt": "Sales de la habitación. Estás un poco mareada.\n\nTe apoyas contra una pared mientras caminas por el corredor. No estabas preparada para esto. Y para estar tan de cerca con tantos cadáveres tan seguidos unos de otros.\n\nMientras caminas por ese corredor escuchas algo que te hace detenerte de golpe.\n\nAlgo afuera de la casa.\n\n[[g;red;]El motor de un vehículo que se acerca.]",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres otra puerta y te largas de este mundo, lo que sea que viene en ese carro, no es bueno, no señor.\n[[g;blue;]3)]Te acercas con cuidado a una de las ventanas, la de la habitación principal, la de los padres.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -331,7 +328,7 @@
         },
         {
             "scene": "11A",
-            "mainTxt": "Escuchas la voz del tipo distorsionada y amplificada por el parlante:\n\n‘¡AMANDA, ESTÁS RODEADA, SAL DE AHÍ CON LAS MANOS ARRIBA Y SIN JUEGOS, ESTÁS BAJO ARRESTO!’\n\nLuego, un sonido afuera de algo parecido a un radio, a interferencia. Y ahora la voz del sujeto, ya no usando el megáfono:\n\n‘Que pregunte por los ¿qué?… ¡ah sí!’\n\nAhora la voz otra vez amplificada:\n\n‘Y LA FAMILIA JONES, DÉJALOS SALIR, POR FAVOR’.\n\nTratas de asomar un poco la mirada por la ventana para ver afuera.\n\n---\n\nLo primero que escuchas es el impacto de algo contra el vidrio de la ventana, luego algo que choca contra la pared de madera atrás.\n\nLuego el sonido de un arma de fuego de atrás del vehículo, desde el bosque, un trueno que reverbera.\n\nPor unos pocos centímetros y el disparo te da en la cabeza. Te agachas de nuevo por simple reflejo.",
+            "mainTxt": "Escuchas la voz del tipo distorsionada y amplificada por el parlante:\n\n[[g;grey;]‘¡AMANDA, ESTÁS RODEADA, SAL DE AHÍ CON LAS MANOS ARRIBA Y SIN JUEGOS, ESTÁS BAJO ARRESTO!’]\n\nLuego, un sonido afuera de algo parecido a un radio, a interferencia. Y ahora la voz del sujeto, ya no usando el megáfono:\n\n[[g;grey;]‘Que pregunte por los ¿qué?… ¡ah sí!’]\n\nAhora la voz otra vez amplificada:\n\n[[g;grey;]‘Y LA FAMILIA JONES, DÉJALOS SALIR, POR FAVOR’].\n\nTratas de asomar un poco la mirada por la ventana para ver afuera.\n\n[[g;red;]---]\n\nLo primero que escuchas es el impacto de algo contra el vidrio de la ventana, luego algo que choca contra la pared de madera atrás.\n\nLuego el sonido de un arma de fuego de atrás del vehículo, desde el bosque, un trueno que reverbera.\n\nPor unos pocos centímetros y el disparo te da en la cabeza. Te agachas de nuevo por simple reflejo.",
             "prompt": "[[g;blue;]/|Perdiendo conexión| |Variables inesperadas en el programa|]\n¿Qué haces?\n[[g;blue;]1)]Oprimir el botón.\n[[g;blue;]2)]Abres una puerta al frente tuyo lo más rápido posible antes de que te maten.\n[[g;blue;]3)]Tratas de salir de la habitación evitando la ventana.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -341,7 +338,7 @@
         },
         {
             "scene": "12",
-            "mainTxt": "Te vas arrastrando fuera de la habitación de la pareja, la adrenalina del disparo te ayuda a moverte más rápido y ágil de lo que creías eras capaz.\n\nMientras estás saliendo oyes de afuera la voz del sujeto del vehículo, otra vez no está usando el megáfono, habla con alguien más.\n\n‘¡Hey alto el fuego! ¿Quieres matarla, gran pendejo?’\n\nLuego un sonido de estática y otra voz muy tenue bajo la estática. Está hablando por un radio.\n\nTe arrastras por fin a la salida de la habitación y sales al corredor.",
+            "mainTxt": "Te vas arrastrando fuera de la habitación de la pareja, la adrenalina del disparo te ayuda a moverte más rápido y ágil de lo que creías eras capaz.\n\nMientras estás saliendo oyes de afuera la voz del sujeto del vehículo, otra vez no está usando el megáfono, habla con alguien más.\n\n[[g;grey;]‘¡Hey alto el fuego! ¿Quieres matarla, gran pendejo?’]\n\nLuego un sonido de estática y otra voz muy tenue bajo la estática. Está hablando por un radio.\n\nTe arrastras por fin a la salida de la habitación y sales al corredor.",
             "prompt": "[[g;blue;]/] ¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Abres una nueva puerta y escapas antes de que te disparen otra vez.\n[[g;blue;]3)]Escapas de la cabaña por la ventana que ves al final del pasillo a tu izquierda.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -351,7 +348,7 @@
         },
         {
             "scene": "13",
-            "mainTxt": "Corres y abres la ventana al final de ese pasillo. Te encaramas y sales con el mayor cuidado de no ser vista por la esquina.\n\nCaes a la grama y empiezas a correr en dirección de la parte trasera de la cabaña, usando la misma como cobertura para que no vaya a verte el sujeto raro del carro, ni el otro, el que te disparó y no has podido siquiera ver.\n\nCorres unos 10 metros y…\n\n---\n\nComo la primera vez. Primero escuchas el impacto, justo a tu lado derecho, en la maleza. Luego sientes como se levanta la tierra.\n\nLuego el trueno desde el bosque detrás de ti.\n\n‘AMANDA, DETENTE, TE DIJE QUE TE TENEMOS RODEADA’.\n\nLa voz del megáfono.\n\nTe detienes. Porque ese último disparo estuvo cerca, demasiado cerca.",
+            "mainTxt": "Corres y abres la ventana al final de ese pasillo. Te encaramas y sales con el mayor cuidado de no ser vista por la esquina.\n\nCaes a la grama y empiezas a correr en dirección de la parte trasera de la cabaña, usando la misma como cobertura para que no vaya a verte el sujeto raro del carro, ni el otro, el que te disparó y no has podido siquiera ver.\n\nCorres unos 10 metros y…\n\n[[g;red;]---]\n\nComo la primera vez. Primero escuchas el impacto, justo a tu lado derecho, en la maleza. Luego sientes como se levanta la tierra.\n\nLuego el trueno desde el bosque detrás de ti.\n\n[[g;grey;]‘AMANDA, DETENTE, TE DIJE QUE TE TENEMOS RODEADA’.]\n\nLa voz del megáfono.\n\nTe detienes. Porque ese último disparo estuvo cerca, demasiado cerca.",
             "prompt": "[[g;blue;]/|Terminando conexión…|]\n¿Qué haces?\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Te volteas y encaras al tipo del parlante.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -360,7 +357,7 @@
         },
         {
             "scene": "14",
-            "mainTxt": "Volteas y ves a un tipo que parecería de esos del FBI de las películas pero desarreglado, con la camisa blanca afuera, la corbata a medio ajustar y ojeras largas y oscuras bajo un pelo desenmarañado.\n\nSin embargo el tipo te mira fijamente, y ves su determinación mientras se acerca, un revólver apuntándote.\n\nLevanta el megáfono rojo con su mano izquierda.\n\n‘AMANDA LOPEZ, EST…’\n\nPara. Luego baja el megáfono. Como dándose cuenta a último momento.\n\n‘Amanda Lopez, estás bajo arresto’.\n\nY sonríe, orgulloso, y extraño, muy extraño.",
+            "mainTxt": "Volteas y ves a un tipo que parecería de esos del FBI de las películas pero desarreglado, con la camisa blanca afuera, la corbata a medio ajustar y ojeras largas y oscuras bajo un pelo desenmarañado.\n\nSin embargo el tipo te mira fijamente, y ves su determinación mientras se acerca, un revólver apuntándote.\n\nLevanta el megáfono rojo con su mano izquierda.\n\n[[g;grey;]‘AMANDA LOPEZ, EST…’]\n\nPara. Luego baja el megáfono. Como dándose cuenta a último momento.\n\n[[g;grey;]‘Amanda Lopez, estás bajo arresto’].\n\nY sonríe, orgulloso, y extraño, muy extraño.",
             "prompt": "[[g;blue;]/|Señal perdida| |Recopilando información de error|]\n¿Qué haces?\n\n[[g;blue;]1)]Oprimes el botón.\n[[g;blue;]2)]Continuas.\n",
             "actions": [
                 {"option": 1, "goTo": "END1"},
@@ -390,9 +387,7 @@
             "mainTxt": "[[g;blue;]|obj Viajera|] missing",
             "prompt": "[[g;red;]/Conexión perdida]\n",
             "actions": [
-                {"option": 1, "goTo": "0"},
-                {"option": 2, "goTo": "0"},
-                {"option": 3, "goTo": "2"}
+
             ]
         }
     ]
