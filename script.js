@@ -16,8 +16,7 @@ const index = {
 const inputField = document.getElementsByClassName('clipboard');
 
 $('#terminal').terminal(function() {
-    
-    if(index.level == 0) introGame(intro, index, this);
+    if(index.level == 0) introGame(dummyIntro, index, this);
     else if(index.level == 1) level1(level_1, index, this);
 }, 
 {
@@ -25,8 +24,7 @@ $('#terminal').terminal(function() {
     greetings: greetings.innerHTML,
     onBlur: function(){
         return true;
-    },
-    outputLimit: 0
+    }
 });
 
 $('#terminal').on('click', ()=>{

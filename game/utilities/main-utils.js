@@ -5,7 +5,7 @@ export function loadingPhaseInit(term, initMessage, timeout, stop){
         if(stop) term.resume();
     }, timeout);
 
-}
+};
 
 export function textIndexFinder(data, index){
 
@@ -14,5 +14,16 @@ export function textIndexFinder(data, index){
             return data[i].text;
         };
     };
+
+};
+
+export function levelIndexFinder(data, goTo){
+
+    for(let i = 0; i< data.length; i++){
+        if(data[i].scene == goTo){
+            console.log(i);
+            return i;
+        }
+    }
 
 }

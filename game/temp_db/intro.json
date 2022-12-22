@@ -104,7 +104,7 @@
         },
         {
             "timeout": 500,
-            "message": "f-> [[g;red;]desatarEntidades(unknown, unknown)]"
+            "message": "f-> [[g;red;]desatarAmenazas(unknown, unknown)]"
         },
         {
             "timeout": 500,

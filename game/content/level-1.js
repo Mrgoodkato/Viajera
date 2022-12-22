@@ -1,3 +1,5 @@
+import { levelIndexFinder } from "../utilities/main-utils.js";
+
 export function level1(levelData, index, term){
 
     index.page = 0;
@@ -19,7 +21,6 @@ export function level1(levelData, index, term){
         },
         {
             prompt: levelData.data[index.page].prompt,
-            outputLimit: 0
         }
     );
 }
@@ -31,7 +32,9 @@ function level1Progress(levelData, index, cmd, term){
     for(let i = 0; i < levelData.data.length; i++){
 
         scene.actions.forEach(action => {
-            if(action.option == cmd) index.page = action.goTo;
+            if(action.option == cmd) {
+                index.page = levelIndexFinder(levelData.data, action.goTo);
+            }
         });
 
     }
@@ -40,7 +43,7 @@ function level1Progress(levelData, index, cmd, term){
         '[[g;blue;]\n-------]\n' + levelData.data[index.page].mainTxt + '[[g;blue;]\n-------]\n',
         
         {
-            keepWords:true
+            keepWords: true
         }
     )
 
