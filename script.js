@@ -24,7 +24,8 @@ $('#terminal').terminal(function() {
     greetings: greetings.innerHTML,
     onBlur: function(){
         return true;
-    }
+    },
+    scrollOnEcho: true
 });
 
 $('#terminal').on('click', ()=>{

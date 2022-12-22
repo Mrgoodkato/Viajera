@@ -21,6 +21,7 @@ export function level1(levelData, index, term){
         },
         {
             prompt: levelData.data[index.page].prompt,
+            scrollOnEcho: true
         }
     );
 }
