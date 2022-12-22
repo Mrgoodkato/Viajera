@@ -24,6 +24,7 @@ export function introGame(introData, index, term){
         return;
     }
 
+    term.clear();
     term.echo(
         '[[g;blue;]\n-------]\n' + textIndexFinder(introData.data, index.page) + '[[g;blue;]\n-------]\n',
         {
