@@ -16,8 +16,9 @@ const index = {
 const inputField = document.getElementsByClassName('clipboard');
 
 $('#terminal').terminal(function() {
-    if(index.level == 0) introGame(intro, index, this);
-    else if(index.level == 1) level1(level_1, index, this);
+    introGame(dummyIntro, index, this);
+    /* if(index.level == 0) introGame(intro, index, this);
+    else if(index.level == 1) level1(level_1, index, this); */
 }, 
 {
     prompt: intro.prompt,
