@@ -3,239 +3,163 @@
     "init_messages": [
 
         {
-            "timeout": 1000,
-            "message": "Abriendo brecha espacio-temporal"
+            "timeout": 250,
+            "message": "Abriendo conexión..."
         },
         {
             "timeout": 250,
-            "message": "Fijando "
+            "message": "Abriendo conexión.."
         },
         {
             "timeout": 250,
-            "message": "Fijando constantes"
+            "message": "Abriendo conexión."
         },
         {
             "timeout": 250,
-            "message": "Fijando constantes universsales"
+            "message": "Abriendo conexión"
         },
         {
             "timeout": 250,
-            "message": "Ejecutando "
+            "message": "Abriendo conexión..."
         },
         {
             "timeout": 250,
-            "message": "Ejecutando f -> "
-        },
-        {
-            "timeout": 500,
-            "message": "Ejecutando f -> [[g;blue;]bigBang(consts, rand)]"
+            "message": "Abriendo conexión.."
         },
         {
             "timeout": 250,
-            "message": "Ejecutando "
+            "message": "Abriendo conexión."
         },
         {
             "timeout": 250,
-            "message": "Ejecutando timeout "
-        },
-        {
-            "timeout": 500,
-            "message": "Ejecutando [[g;blue;]timeout(universo(), years(10^10000000))]"
-        },
-        {
-            "timeout": 500,
-            "message": "Estabilizando "
-        },
-        {
-            "timeout": 500,
-            "message": "Estabilizando. "
-        },
-        {
-            "timeout": 500,
-            "message": "Estabilizando.."
-        },
-        {
-            "timeout": 500,
-            "message": "Estabilizando..."
-        },
-        {
-            "timeout": 1000,
-            "message": "[[g;blue;]|Estabilizado|]"
-        },
-        {
-            "timeout": 500,
-            "message": "Ejecutando "
-        },
-        {
-            "timeout": 500,
-            "message": "Ejecutando f->"
-        },
-        {
-            "timeout": 1000,
-            "message": "Ejecutando f-> [[g;red;]hackPuerta(viajera, coords, timeDelta)]"
-        },
-        {
-            "timeout": 1000,
-            "message": "[[g;red;]|Acceso al sistema obtenido|]"
-        },
-        {
-            "timeout": 500,
-            "message": "Desviando [[g;blue;]obj (puerta)] "
-        },
-        {
-            "timeout": 500,
-            "message": "Desviando [[g;blue;]obj (puerta)]."
-        },
-        {
-            "timeout": 500,
-            "message": "Desviando [[g;blue;]obj (puerta)].."
-        },
-        {
-            "timeout": 500,
-            "message": "Desviando [[g;blue;]obj (puerta)]..."
-        },
-        {
-            "timeout": 1000,
-            "message": "[[g;blue;]|obj (puerta) desviado|]"
-        },
-        {
-            "timeout": 500,
-            "message": "f-> [[g;red;]colocarTrampas()]"
-        },
-        {
-            "timeout": 500,
-            "message": "f-> [[g;red;]desatarAmenazas(unknown, unknown)]"
-        },
-        {
-            "timeout": 500,
-            "message": "Localizando coordenadas finales de [[g;blue;]obj (puerta)]"
-        },
-        {
-            "timeout": 1000,
-            "message": "[[g;red;]Success]"
-        },
-        {
-            "timeout": 1000,
-            "message": "[[g;blue;]Programa ejecutado con éxito]\n"
+            "message": "Abriendo conexión"
         }
     ],
     "data": [
 
         {
             "index": 0,
-            "text": "Atraviesas la puerta.\n\nOtra puerta más."
+            "text": "En tus viajes, mientras avanzas por junglas pobladas de criaturas de muchas patas, o bien entre los escombros de ciudades destruidas por dioses primigenios encontraste algo."
         },
         {
             "index": 1,
-            "text": "Siempre te preguntas si esa, la puerta que acabaste de pasar va a ser la última que visitarás. Hay una inequívoca sensación de cansancio, de hastío cuando decides abrir otra puerta.\n\nNingún paraje ha logrado entrar en ti de tal manera que hayas decidido quedarte."
+            "text": "Es posible que haya estado tirado en el suelo, sobresaliendo entre escombros, o entre hierba o arena."
         },
         {
             "index": 2,
-            "text": "Ni siquiera al visitar ciudades que se alzaban sobre las montañas, custodiadas por estatuas de héroes titánicas y de linajes reales de miles de años. Sus hazañas y aventuras recopiladas en muros de obsidiana pulida. \n\nNi cuando estuviste frente a esa biblioteca infinita, con anaqueles que se apilaban hasta llegar más arriba de las nubes por la que caminaste días sin sentir cansancio físico, sin sentir hambre, revisando tomos con conocimientos e historias imposibles."
+            "text": "Un objeto simple, fácil de obviar, de ignorar por lo mundano. Pero de alguna manera que sobresalía, tal vez por el color, tal vez por que la luz parecía no darle de la misma manera que a otras cosas a su alrededor."
         },
         {
             "index": 3,
-            "text": "Tampoco cuando, en otro mundo, podías decir las palabras adecuadas con una varita y hacer aparecer grifos, serpientes, o simplemente mandar a volar toda la comida en las mesas del comedor de la escuela de magos.\n\nPodemos quedarnos enumerando lo que has visto, lo que has vivido, incluso a las [[g;grey;]“personas”] que has conocido. Desde mundanos aldeanos de razas que nunca existieron, ofreciendo posada a la [[g;blue;]Viajera] en villas rodeadas por planicies [[g;green;]verdes] donde pastan criaturas enormes y dóciles que en las noches arrullan el sueño con sus suaves mugidos, y a lo lejos se escucha a un juglar tocar una guitarra de extraña forma, y aún más extraño sonido, una melodía cálida pero melancólica."
+            "text": "O tal vez este objeto cayó al frente tuyo de improviso, sobresaltándote."
         },
         {
             "index": 4,
-            "text": "O qué tal si enumeramos, otras dos o tres locaciones para ilustrar un punto más adelante.\n\nPorque es que el hastío no viene de la falta de asombro, no en este caso.\n\nPorque si fuera falta de asombro, o aburrimiento, estaríamos hablando de una persona que no puede, sin importar qué, conmoverse con nada. Estaríamos hablando de una persona que carece de curiosidad."
+            "text": "Quizás te dio en la cabeza, y si es así…"
         },
         {
             "index": 5,
-            "text": "Pero tú, [[g;blue;]Viajera], no careces de curiosidad, tú sientes en lo más profundo a los lugares que visitas.\n\nTú sentiste la adrenalina y el terror al huir de huestes de orcos malolientes en esas minas profundas dentro de la tierra, mientras desde el abismo un rugido que más se asemejaba al chocar de piedras volcánicas se avecinaba implacable y hacía temblar al mundo.\n\nTú que comiste pastel de manzana en ese pueblito en las montañas rodeado de dos picos misteriosos, mientras una sensación de intriga y curiosidad te llevaba a notar a la gente allí con ojos mágicos. Sus vidas comunes escondiendo secretos, y tú desenmarañando ese asesinato.\n\nViste las ruinas de una ciudad alzarse del mar, donde las esquinas se deformaban y no eran esquinas. Donde los ángulos de cada columna te hacían sentir vértigo. La imposibilidad y el terror moviendo el centro de tu ser, y de lo profundo de esa ciudad, algo más grande despertando y estirándose, moviendo las nubes en el firmamento tan solo con su respiración."
+            "text": "Ups…"
         },
         {
             "index": 6,
-            "text": "Has visto esto, has visto mucho más."
+            "text": "El objeto, un pequeño cilindro de plástico con una tapa, de color azul claro."
         },
         {
             "index": 7,
-            "text": "Pero como digo. No es que te aburras por el hecho de perder el interés, nada de lo que has vivido carece en lo más mínimo de profundidad."
+            "text": "¿No es acaso ese uno de esos cilindros para cepillos de dientes?"
         },
         {
             "index": 8,
-            "text": "Es que.\n\n[[g;grey;]No es real.]"
+            "text": "-Lo siento, pero no tenía otra cosa en la cual mandar esto-\nDice una inscripción claramente hecha en marcador Sharpie en el cuerpo del cilindro."
         },
         {
             "index": 9,
-            "text": "Es que…"
+            "text": "Lo abres eventualmente y ves que dentro hay un pedazo de papel pequeño."
         },
         {
             "index": 10,
-            "text": "En el fondo, todo esto son solo ruinas, son simples ruinas carentes de sentido porque solo representan lo que no es, lo que nunca pudo ser.\n\nSon creaciones desesperadas de mentes agobiadas, aplastadas por un mundo que está al regresar por la puerta que abres, un mundo que se consume a sí mismo."
+            "text": "Y lo lees, no sin una sensación de extrañeza, y no sin mirar varias veces a los lados. Entran en tu cabeza cien mil posibles escenarios, por lo que, para estar segura, una mano sostiene el botón dentro de tu bolsillo mientras la otra abre la pequeña hoja de papel."
         },
         {
             "index": 11,
-            "text": "Son los últimos bastiones de la humanidad antes de que todo se vuelva lo mismo."
+            "text": "-Hola Viajera.\n\nProbablemente te imaginas que hay un grupo de orcos u otros seres extraños asechando desde, no sé, debajo de una piedra, o tras un matorral."
         },
         {
             "index": 12,
-            "text": "Centros comerciales, humo de escapes de carros que llenan los pulmones de cáncer, ruido estridente que se multiplica en cada esquina mientras zombies que mueven sus pies al ritmo de esa cacofonía se intoxican buscando la inconsciencia.\n\nEse mundo afuera de la puerta que hace fila para venderse, y para comprarse; que define su alma en referencia a objetos, a conceptos triviales como [[g;grey;]“raza”, “política”, “religión”, “moda”].\n\nLas cajas tontas con cabezas parlantes que hablan, hablan, hablan y hablan de todo, y de nada las veinticuatro horas."
+            "text": "Pero te puedo asegurar que no es así."
         },
         {
             "index": 13,
-            "text": "Las otras cajas, las más insidiosas, las que son pequeñas, esos rectángulos empacados al vacío que vibran y suenan, que vuelven a sus usuarios productos, catálogos de vida, datos en bulto, intereses y tendencias para corporaciones y gobiernos que compran esta información a un buen precio. Mostrando siempre lo que nadie puede llegar a ser, vendiendo ideales y sueños diseñados para aplastar la poca dignidad que queda en esta tierra desolada, para someter cualquier atisbo de individualidad, de libertad."
+            "text": "No sería tan barato, ni tan evidente."
         },
         {
             "index": 14,
-            "text": "Eso es el mundo. [[g;grey;]Eso es la humanidad.]"
+            "text": "Además, tampoco puedo hacer mucho desde aquí en este momento, ya que estás en otra historia. Y esas, no tengo forma de cambiarlas."
         },
         {
             "index": 15,
-            "text": "Por eso se siente como una mentira esto que ves al frente tuyo ahora, esta vez que entras por la puerta. Porque esos otros mundos también son, al final, productos. Y no son más que despojos de momentos de lucidez de unos cuantos que se atrevieron."
+            "text": "Aún…"
         },
         {
             "index": 16,
-            "text": "[[g;grey;]Son sueños.]"
+            "text": "(Hay un garabato crudo de una cara de un tipo riéndose de manera malvada)."
         },
         {
             "index": 17,
-            "text": "Y cruzas el portal otra vez."
+            "text": "Solo veía que la tierra estaba completando una vuelta completa al sol de acuerdo con los cálculos arbitrarios de algún grupo de momias de la antigüedad. Y que al parecer esto es a lo que llaman: Año nuevo."
         },
         {
             "index": 18,
-            "text": "Y suspiras porque no sabes si ya después de este escape, pues va a ser hora de terminar con el viaje.\n\n[[g;red;]Y terminar, por fin, con todo.]"
+            "text": "Quería desearte un feliz año nuevo, a ti y a tu condenado botón de la destrucción. Pero bueno, igualmente, un feliz año nuevo."
         },
         {
             "index": 19,
-            "text": "Metes tu mano en un bolsillo y sientes el dispositivo, frío y metálico. Puedes sentir el color rojo de ese botón.\n\n[[g;red;]Rojo.]"
+            "text": "Nos volveremos a ver… Viajera."
         },
         {
             "index": 20,
-            "text": "Y sería muy fácil."
+            "text": "Y la próxima vez, tendrás que tener mucho, mucho más cuidado con los orcos."
         },
         {
             "index": 21,
-            "text": "Y lo recorres con tu dedo pulgar lentamente.\n\nPorque… [[g;grey;]¿Qué tiene de malo bailar con la muerte de vez en cuando?]"
+            "text": "Digo…"
         },
         {
             "index": 22,
-            "text": "La puerta detrás de ti se cierra como de costumbre y estás parada en un claro, y dirías, por la posición del sol, que está temprano en la mañana, quizás las nueve u ocho. \n\nA tu alrededor hay un bosque de pinos. Huele a humedad, a rocío que se va evaporando y oyes pájaros que no conoces cantar en las ramas. Todo está muy tranquilo, no se escucha por ningún lado el ruido de la ciudad.\n\nEs un bosque hermoso. [[g;green;]Verde]."
+            "text": "No, orcos no…"
         },
         {
             "index": 23,
-            "text": "Pero…"
+            "text": "¡Demonios!"
         },
         {
             "index": 24,
-            "text": "Espera.\n\nAlgo anda mal."
+            "text": "¿Cómo hago para borrar…?"
         },
         {
             "index": 25,
-            "text": "Este no es el mundo que se suponía estarías visitando. Este no es el mundo de Kafka para el cual abriste la puerta."
+            "text": "Hm… No puedo."
         },
         {
             "index": 26,
-            "text": "Porque Kafka no es [[g;green;]verde], no es de pajaritos, no es de olor a pinos y rocío de la mañana."
+            "text": "Bueno, ehm…"
         },
         {
             "index": 27,
-            "text": "Kafka es [[g;grey;]gris], y te oprime con cada párrafo. Edificios grises, monolíticos. Burocracia, leyes irracionales, la figura de un estado omnipresente, de gente con la cabeza baja y chalecos y corbatas y sombreros y…"
+            "text": "Feliz… (¿qué año es?)… Feliz 2223…"
         },
         {
             "index": 28,
-            "text": "Algo anda mal."
+            "text": "O 2033…"
+        },
+        {
+            "index": 29,
+            "text": "Es difícil seguir el transcurso del tiempo a veces."
+        },
+        {
+            "index": 30,
+            "text": ":)"
         }
     ]
 }
