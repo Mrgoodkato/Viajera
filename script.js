@@ -5,7 +5,7 @@ import { intro, level_1 } from "./game/parser/intro-parser.js";
 import { introGame } from "./game/content/intro-logic.js";
 import { level1 } from "./game/content/level-1.js";
 
-console.log(intro);
+console.log(text);
 
 const index = {
     page: -1, 
