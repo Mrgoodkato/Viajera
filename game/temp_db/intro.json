@@ -33,133 +33,194 @@
         {
             "timeout": 250,
             "message": "Abriendo conexión"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;blue;]Conexión establecida]"
         }
+        
     ],
     "data": [
-
         {
-            "index": 0,
-            "text": "En tus viajes, mientras avanzas por junglas pobladas de criaturas de muchas patas, o bien entre los escombros de ciudades destruidas por dioses primigenios encontraste algo."
-        },
-        {
-            "index": 1,
-            "text": "Es posible que haya estado tirado en el suelo, sobresaliendo entre escombros, o entre hierba o arena."
-        },
-        {
-            "index": 2,
-            "text": "Un objeto simple, fácil de obviar, de ignorar por lo mundano. Pero de alguna manera que sobresalía, tal vez por el color, tal vez por que la luz parecía no darle de la misma manera que a otras cosas a su alrededor."
-        },
-        {
-            "index": 3,
-            "text": "O tal vez este objeto cayó al frente tuyo de improviso, sobresaltándote."
-        },
-        {
-            "index": 4,
-            "text": "Quizás te dio en la cabeza, y si es así…"
-        },
-        {
-            "index": 5,
-            "text": "Ups…"
-        },
-        {
-            "index": 6,
-            "text": "El objeto, un pequeño cilindro de plástico con una tapa, de color azul claro."
-        },
-        {
-            "index": 7,
-            "text": "¿No es acaso ese uno de esos cilindros para cepillos de dientes?"
-        },
-        {
-            "index": 8,
-            "text": "-Lo siento, pero no tenía otra cosa en la cual mandar esto-\nDice una inscripción claramente hecha en marcador Sharpie en el cuerpo del cilindro."
-        },
-        {
-            "index": 9,
-            "text": "Lo abres eventualmente y ves que dentro hay un pedazo de papel pequeño."
-        },
-        {
-            "index": 10,
-            "text": "Y lo lees, no sin una sensación de extrañeza, y no sin mirar varias veces a los lados. Entran en tu cabeza cien mil posibles escenarios, por lo que, para estar segura, una mano sostiene el botón dentro de tu bolsillo mientras la otra abre la pequeña hoja de papel."
-        },
-        {
-            "index": 11,
-            "text": "-Hola Viajera.\n\nProbablemente te imaginas que hay un grupo de orcos u otros seres extraños asechando desde, no sé, debajo de una piedra, o tras un matorral."
-        },
-        {
-            "index": 12,
-            "text": "Pero te puedo asegurar que no es así."
-        },
-        {
-            "index": 13,
-            "text": "No sería tan barato, ni tan evidente."
-        },
-        {
-            "index": 14,
-            "text": "Además, tampoco puedo hacer mucho desde aquí en este momento, ya que estás en otra historia. Y esas, no tengo forma de cambiarlas."
-        },
-        {
-            "index": 15,
-            "text": "Aún…"
-        },
-        {
-            "index": 16,
-            "text": "(Hay un garabato crudo de una cara de un tipo riéndose de manera malvada)."
-        },
-        {
-            "index": 17,
-            "text": "Solo veía que la tierra estaba completando una vuelta completa al sol de acuerdo con los cálculos arbitrarios de algún grupo de momias de la antigüedad. Y que al parecer esto es a lo que llaman: Año nuevo."
-        },
-        {
-            "index": 18,
-            "text": "Quería desearte un feliz año nuevo, a ti y a tu condenado botón de la destrucción. Pero bueno, igualmente, un feliz año nuevo."
-        },
-        {
-            "index": 19,
-            "text": "Nos volveremos a ver… Viajera."
-        },
-        {
-            "index": 20,
-            "text": "Y la próxima vez, tendrás que tener mucho, mucho más cuidado con los orcos."
-        },
-        {
-            "index": 21,
-            "text": "Digo…"
-        },
-        {
-            "index": 22,
-            "text": "No, orcos no…"
-        },
-        {
-            "index": 23,
-            "text": "¡Demonios!"
-        },
-        {
-            "index": 24,
-            "text": "¿Cómo hago para borrar…?"
-        },
-        {
-            "index": 25,
-            "text": "Hm… No puedo."
-        },
-        {
-            "index": 26,
-            "text": "Bueno, ehm…"
-        },
-        {
-            "index": 27,
-            "text": "Feliz… (¿qué año es?)… Feliz 2223…"
-        },
-        {
-            "index": 28,
-            "text": "O 2033…"
-        },
-        {
-            "index": 29,
-            "text": "Es difícil seguir el transcurso del tiempo a veces."
-        },
-        {
-            "index": 30,
-            "text": ":)"
-        }
+            "index" : 1,
+            "text" : "Hola Viajera."
+            },
+            {
+            "index" : 2,
+            "text" : "Antes de que tu siguiente portal se cierre tras de tí a ese espacio desconocido, pero tan conocido, porque todas las historias parecen conocidas mientras más te adentras en los garabatos que llamamos ‘letras’."
+            },
+            {
+            "index" : 3,
+            "text" : "Te quiero hacer una pregunta."
+            },
+            {
+            "index" : 4,
+            "text" : "Pero para hacer esta pregunta, quiero primero plantear un escenario. Quiero darle vida a un espacio sin espacio, donde solo el tiempo e imágenes difusas se manifiestan. Como si estuvieras viendo un sueño en cámara lenta."
+            },
+            {
+            "index" : 5,
+            "text" : "No tienes cuerpo en este espacio, lo único que tienes es la percepción de tus sentidos, flotando en el éter. Y lo que ocupa esta percepción pasa al frente tuyo a ráfagas difusas."
+            },
+            {
+            "index" : 6,
+            "text" : "Vas viendo una sonrisa en una tarde calurosa, voces en corredores de cemento. Avisos en carteleras que lees interesada."
+            },
+            {
+            "index" : 7,
+            "text" : "Ves libros abrirse y cerrarse, las letras surcan como hormigas supersónicas sobre un fondo blanco, para un lado, para el otro."
+            },
+            {
+            "index" : 8,
+            "text" : "Sientes rocío y el pasto húmedo bajo tus pies descalzos en una mañana, agarras el suelo con los dedos de los pies, como tratando de plantarte ahí, y hueles la montaña."
+            },
+            {
+            "index" : 9,
+            "text" : "Cuadernos que se abren, argollados, sientes las argollas y las recorres con los dedos como tocando una extraña arpa de cuerdas circulares que dan vueltas y vueltas. Se ven prístinos, pero luego, esas esquinas rectas empiezan a doblarse y a mostrar las señales del tiempo."
+            },
+            {
+            "index" : 10,
+            "text" : "Encuentras una pelota, la lanzas por los aires. Corres, sudas, sientes que te quema el sol, pero sigues. Te duele la cara de sonreír, te dan ganas de toser por la risa."
+            },
+            {
+            "index" : 11,
+            "text" : "Y hay otras risas alrededor."
+            },
+            {
+            "index" : 12,
+            "text" : "Un gato te sigue por la calle, te parece lindo. Te sientes mal, porque no sabes si te va a seguir a casa, y no sabes si quizás esté buscando quedarse."
+            },
+            {
+            "index" : 13,
+            "text" : "Comes … mondongo. Y está muy bien hecho. Las personas alrededor de tu mesa cuentan anécdotas insulsas a las cuales no prestas mucha atención."
+            },
+            {
+            "index" : 14,
+            "text" : "Ves el sol directamente por un rato largo (no muy recomendado). Miras a tu alrededor y aparece una mancha que es un color alienígena, un color que no es negro del todo, que es como un vacío de lo que el concepto ‘color’ debería ser."
+            },
+            {
+            "index" : 15,
+            "text" : "Repites el mismo proceso con una bombilla, y tiene un resultado similar."
+            },
+            {
+            "index" : 16,
+            "text" : "Suena una alarma y te despiertas sintiendo que tu cabeza va a explotar por el dolor. Quieres morir ahí, es imposible que tengas que estar parándote en este estado."
+            },
+            {
+            "index" : 17,
+            "text" : "Lloras por algo, y se llena la nariz de líquido, los ojos están salados, arden. Hay una especie de objeto hecho de dolor pegado en el interior de tu garganta que se mueve rítmicamente, que pareciera tomar el control de tu espalda, de tu pecho. Pero aún así una parte tuya piensa, fría y claramente “estoy llorando”. Como mirando esto desde arriba, quizás desde un microscopio."
+            },
+            {
+            "index" : 18,
+            "text" : "Tratas de probar el ají."
+            },
+            {
+            "index" : 19,
+            "text" : "No vuelves a probar el ají."
+            },
+            {
+            "index" : 20,
+            "text" : "Un gato, conoces un gato. Decides que los gatos, son ante todo, peludos."
+            },
+            {
+            "index" : 21,
+            "text" : "Luego descubres que son criaturas del mal."
+            },
+            {
+            "index" : 22,
+            "text" : "Te miras al espejo. Hay un grano en tu cara."
+            },
+            {
+            "index" : 23,
+            "text" : "Te miras al espejo. Hoy vas a decir algo que no quieres decir, pero tienes que decirlo."
+            },
+            {
+            "index" : 24,
+            "text" : "Te miras al espejo. Hoy podría ser un buen día."
+            },
+            {
+            "index" : 25,
+            "text" : "Te miras al espejo. No fue un buen día."
+            },
+            {
+            "index" : 26,
+            "text" : "Estás frente a gente que te felicita por algo. Sonríes, pero lo haces forzando el gesto."
+            },
+            {
+            "index" : 27,
+            "text" : "Hay algo con la luna, hoy el color es más claro que de costumbre. Hace frío, hay mucho viento. Pero ves las nubes claramente en el firmamento, en la oscuridad de la noche. Son manchas negras que se delinean con un brillo azulado. Hay grillos cantando. Hay estrellas tras esas nubes. No sabes cuantas estrellas hay, pero sabes que son suficientes."
+            },
+            {
+            "index" : 28,
+            "text" : "Te detienes en tu camino en la calle por un segundo mientras carros pitan, la mugre de la ciudad se te pega aún más de la piel y sientes como empieza a llover mientras el bullicio pareciera incrementar de alguna manera, todo huele a gasolina y humo, y piensas que odias todo lo que hay alrededor tuyo."
+            },
+            {
+            "index" : 29,
+            "text" : "Hay un botón en tu mano. El botón se siente frío, es algo pesado. Es rojo y no es ni de metal ni plástico. Es otra cosa. Es una cosa…"
+            },
+            {
+            "index" : 30,
+            "text" : "Justa."
+            },
+            {
+            "index" : 31,
+            "text" : "De entre todas las sensaciones, imágenes, sonidos, olores, sabores, emociones habrá algunas que podrían haber dado en algo real, o en algo imaginado, o en algo tuyo. Así como otras que serán completamente ajenas, como viendo los recuerdos y sueños de un desconocido."
+            },
+            {
+            "index" : 32,
+            "text" : "El método para recolectar esta serie de… escenas, es inexacto. Pero es lo mejor que se puede hacer con el poco tiempo que queda mientras el umbral entre este espacio y el nuevo espacio al que entras se cierra."
+            },
+            {
+            "index" : 33,
+            "text" : "Hubo algo ahí. Tal vez hubo algo ahí."
+            },
+            {
+            "index" : 34,
+            "text" : "Y es posible que esté en tu mente también la pregunta que eso puede plantear, algunas noches, quizá en momentos en los que el tiempo se dilata y solo queda pensar para llenar los tic tocs que el reloj suelta al aire inmisericorde:"
+            },
+            {
+            "index" : 35,
+            "text" : "¿Qué se ha perdido?"
+            },
+            {
+            "index" : 36,
+            "text" : "Y si se perdió algo."
+            },
+            {
+            "index" : 37,
+            "text" : "¿Cuándo se perdió?"
+            },
+            {
+            "index" : 38,
+            "text" : "Preguntas ambiguas, ciertamente. Extremadamente ambiguas."
+            },
+            {
+            "index" : 39,
+            "text" : "Pero es en la ambigüedad que la mente tiende a llenar los vacíos, con cosas que son nuestras, y solo nuestras. Cosas que nadie más que nosotros mismos podemos acceder."
+            },
+            {
+            "index" : 40,
+            "text" : "Pero quizás esas son mejores preguntas, como las imágenes de los sueños, como la impresión de un atardecer que nunca se va a repetir en el universo, y que solo nuestros ojos han visto desde ese ángulo en toda la creación."
+            },
+            {
+            "index" : 41,
+            "text" : "Además, tenía que ser ambiguo, porque he desviado tu puerta a otro lugar."
+            },
+            {
+            "index" : 42,
+            "text" : "Un lugar en el que no va a ser fácil establecer causalidad, si la hay."
+            },
+            {
+            "index" : 43,
+            "text" : "Un lugar donde solo puedo hacer una advertencia, tal y como en los mapas de antaño: Habrá Dragones. Más allá del mundo, habrá Dragones."
+            },
+            {
+            "index" : 44,
+            "text" : "Te presento un pequeño lugar que solo existe en el nexo entre la vigilia y el sueño al cual me gusta llamar:"
+            },
+            {
+            "index" : 45,
+            "text" : "El Hombre del Faro'."
+            }
+            
     ]
 }

@@ -1,0 +1,397 @@
+SCENE -1A+
+
+TEXT -Pasas el portal y lo primero que sientes es el agua, un vendaval que te hace estremecer. No logras ver bien lo que hay al frente tuyo, solo una pared gris y blanca. El sonido de la tormenta lo es todo.
+
+El portal está por cerrarse detrás tuyo, y recuerdas que al entrar algo te habló, un… mensaje ¿quizás?
+
+Sabes que este no es el mundo al que te dirigías, sabes que aquí no debería haber lluvia, no ahora, si este fuera tu destino real.
+
+Recuerdas la cabaña en esa montaña, recuerdas los cuerpos. Sabes que esto es otra vez lo mismo, alguien ha desviado tu puerta. Estás en un lugar desconocido.
+
+Un relámpago zigzaguea entre nubes negras y espesas, y luego el trueno ensordecedor. Se te muestra la silueta de una estructura alta, a unos doscientos metros de distancia, una torre enorme que contrasta con el gris de la tormenta, iluminada por la luz eléctrica.+
+
+
+PROMPT -¿Qué haces?+
+
+1-Presionas el botón que sostienes en tu bolsillo.+END1
+2-Te das media vuelta y te vas de este lugar a un lugar seguro y conocido, después de todo, esto no podría ser otra cosa que una trampa.+END2
+3-Caminas hacia la torre que te dejó vislumbrar el rayo.+2A
+4-Revisas mejor tus alrededores, después de todo, detrás de tí, a través del ruido de la tormenta puedes distinguir el sonido de las olas del mar chocando+1B
+
+
+SCENE -1B+
+
+TEXT -La tormenta es demasiado fuerte pero logras ver mejor lo que hay al frente tuyo luego de un momento de acostumbrar los ojos. El agua es fría y el olor te resulta familiar, un olor salado.
+
+Es el mar, lo sabes.
+
+Estás parada en un risco de rocas grises y abajo puedes distinguir un camino de lodo. Tierra posiblemente si no estuviera cayendo ésta tormenta de mil demonios.
+
+Detrás tuyo ves como el portal se cierra e inmediatamente en la distancia una serie de rayos te dejan ver las aguas turbulentas. Montañas de agua que se forman para chocar con otras montañas en un mar erizado, enojado. El viento amenaza con hacerte salir volando como una cometa sin hilo.
+
+El trueno llega a los cinco segundos aproximadamente, lo que te dice que la tormenta va hasta cinco kilómetros más o menos de distancia, aunque… ahora ves fogonazos blancos mucho más lejos que te muestran lo apocalíptica que es en realidad. Nubes que se distinguen entre las muchas ramas brillantes que se propagan de aquí a allá. Nubes negras, nubes que parecen los cuerpos abultados de Leviatanes.+
+
+PROMPT -¿Sigues mirando?+
+
+1-No, comienzas a bajar por el risco, es muy arriesgado estar aquí.+2A
+2-Crees ver algo entre los rayos, tratas de ver mejor. Solo por un momento.+1C
+
+SCENE -1C+
+
+TEXT -Hay algo que no es la tormenta, no es nubes, no es mar.
+
+Estás segura de ello. Eso… eso que se… ¿retorció?
+
+Está tan lejos, es apenas distinguible.
+
+Eso no puede ser una nube. Eso tiene una forma definida.
+
+Pero, ¿qué puede ser?
+
+¿Qué puede ser tan enorme como para verse desde tan gran distancia?
+
+(Aunque realmente la pregunta no es tan difícil si consideras lo que has visto en tus viajes. Pues has visto demasiado, y sabes lo que es un dragón, sabes lo que es un Antiguo levantándose del océano).
+
+Una parte tuya se siente decepcionada, por ver algo tan común. 
+
+Otra parte tuya no está segura de si lo que está viendo, esa masa que se levanta y se mueve, que tendría el tamaño de uno o varios edificios, es lo que crees que es.
+
+Porque hay algo que… mientras más distingues su forma, mientras los innumerables rayos descubren su silueta, mientras se distingue su color más claramente… hay algo que te dice que eso no es lo que tu mente imagina.+
+
+PROMPT -¿Sigues mirando la forma que se alza en la distancia?+
+
+1-Sí. Quieres saber qué diablos es eso.+1D	
+2-No. Te volteas y bajas el risco al camino.+2AA
+3-Mejor te vas de este mundo de una vez, es solo otro ser Lovecraftiano después de todo, y no estás de humor para esas cosas hoy.+END2
+4-Oprimes el botón.+END1
+SCENE -1D+
+
+TEXT -Está lejos, extremadamente lejos, kilómetros, lo que sea que se estremece en el mar. Su forma es larga, puedes distinguir eso.
+
+Pero, quizás… ¿su volumen? Es algo que no logras distinguir bien, porque jurarias que por momentos se va desvaneciendo, su silueta tornándose delgada, y en otros… pareciera hacerse más grande.
+
+Lo primero que se te viene a la mente es la palabra “gusano”. Un gusano gordo que se asoma desde la profundidad del océano, los truenos van mostrando su cuerpo lleno de estrías, seccionado y doblado. Su cabeza mirando hacia un lado, retorciéndose lentamente, las olas chocando contra su forma inamovible.
+
+El gusano se está girando, su cabeza, ahora que la ves más de frente no es el agujero lleno de dientes que uno imaginaría muchas veces de seres enormes que devoran navíos. No ves boca o cavidad alguna, no ves ojos, no ves nada que puedas distinguir como algo familiar en otro ser vivo. Ves una masa de… protuberancias difusas, como si su cabeza hubiera sido derretida y solo quedara el desastre donde debería haber algún tipo de órgano sensorial.
+
+El gusano ahora ha girado su cuerpo por completo y se muestra de frente. Los relámpagos siguen revelando detalles momentáneos, como fotografías en ráfaga en una habitación oscura. Pero algo no anda bien, porque de alguna manera, a cada relámpago, esa figura a kilómetros de distancia, se vuelve cada vez más detallada. Y tus ojos la pueden enfocar mejor.
+
+Porque está cerca.+
+
+PROMPT -¿Qué haces?+
+
+1-Te volteas al camino, has visto suficiente.+2AAA
+2-¿Por qué esa palabra llega a tu mente? ¿Cerca? Si no se ha movido, si está tan lejos...+1E
+3-Escapas por otra puerta.+END2
+4-Oprimes el botón.+END1
+SCENE -1E+
+
+TEXT -Es que. Eso que está allá.
+
+Está aquí.
+
+El gusano, no se ha movido ni abalanzado, pero está aquí, por el solo hecho de estar, por el solo hecho de pensarlo así. El ser que se alza del agua, en el momento en que dirige su cabeza a ti, de repente lo es todo al frente tuyo.
+
+Has distinguido el cambio, pero no te explicas cómo pasó. De un momento a otro el espacio alrededor de ese cuerpo seccionado y rugoso se extendió hacia todos lados, haciendo crecer su forma más y más en todas direcciones en apenas un segundo.
+
+Pasó más rápido de lo que podrías haber apretado el botón, y de no ser por tu equilibrio, y por pura suerte, no te echaste para atrás, cayendo del risco.
+
+Pero ahora está ahí, y su cabeza se alza a apenas unos metros del risco en el que te paras. Y te… mira… y lo sabes así no tenga ojos, así la pared de masas y crecimientos disformes que ocupan sus “facciones” no tengan sentido. Así los innumerables agujeros y pulsantes crecimientos de color brillante no sean familiares con ningún ser vivo que conozcas.
+
+El color de moscas gordas de cementerio, verde azul.
+
+Los patrones que ahora ves en sus pliegues y rugosidades, los patrones que tienen forma, que tienen tantas formas que te mareas con solo mirarlas.
+
+El total silencio con el que este ser te contempla.
+
+Porque ahora está completamente quieto, una pared viva, completamente quieta.+
+
+PROMPT -¿Qué haces?+
+
+1-Oprimes el botón.+END1
+2-Te tiras para atrás, así caigas por el risco, eso es preferible a ver lo que viene.+2AAAA
+3-Esperas a ver qué hará este ser.+1F
+
+SCENE -1F
+
+TEXT -El gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.
+
+Porque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.
+
+Tratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.
+
+Y notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.
+
+Y ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar su nombre. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.
+
+Su nombre es el concepto, su nombre es una idea. La idea de…
+
+Pero de repente. Luz.
+
+El sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.
+
+La imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.
+
+Tu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.
+
+No tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.
+
+Y luego, ya no.+
+
+PROMPT -¿Qué haces?+
+
+1-Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.+END1
+2-Tratas de recobrar tu forma, de sentir, de moverte.+3A
+
+SCENE -2A+
+
+DESC-Baja sin ver a su alrededor al camino.+
+
+TEXT -Bajas al camino por las rocas resbaladizas del risco no sin antes dar dos miradas rápidas alrededor y darte cuenta que estás en lo que parecería ser una isla. El las olas del mar son feroces y chocan contra el risco que tratas de bajar del otro lado. Es difícil pero lo logras después de varios resbalones que logras controlar de pura suerte.
+
+Te embadurnas los zapatos con el barro del camino pero comienzas a subir una pendiente, puedes distinguir la forma de la torre por los relámpagos en el horizonte.
+
+Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
+
+El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
+
+Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
+
+Y un “Faro”.+
+
+PROMPT -¿Qué haces?+
+
+1-Continúas el camino hacia el “Faro”.+2B
+2-Oprimes el botón.+END1
+3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
+
+SCENE -2AA+
+
+DESC-Baja habiendo mirado a su alrededor primero un poco.+
+
+TEXT -Bajas al camino con cuidado pues las rocas del risco están muy mojadas, resbaladizas. Cuidas cada paso mientras el viento amenaza con echarte rodando. Pero lo logras.
+
+El camino está lleno de lodo y tus zapatos se embadurnan. Es una pendiente difícil de recorrer.
+
+Mientras subes el camino fangoso y te esfuerzas por no resbalar logras divisar la estructura que te llamó la atención cuando llegaste.
+
+Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
+
+El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
+
+Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
+
+Y un “Faro”+
+
+PROMPT -¿Qué haces?+
+
+1-Continúas el camino hacia el “Faro”.+2B
+2-Oprimes el botón.+END1
+3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
+
+SCENE -2AAA+
+
+DESC-Baja habiendo al ver al gusano más detalladamente, y sentir que se acerca.+
+
+TEXT -Te bajas rápidamente de este risco, tratas de no caer, tropiezas y por poco, más de una vez caes de cara al camino abajo tuyo. Las rocas son resbalosas y en las últimas finalmente pierdes el equilibrio y caes sobre el camino lleno de agua y fango. Toda tu ropa se embadurna de fango, tu pelo, y la mitad de tu cara.
+
+Pero al menos, como está mojado, no te hiciste daño.
+
+Aunque no es tanto consuelo ahora que te levantas vuelta nada.
+
+Sin embargo hay algo más importante, y es moverse lejos de lo que sea que había en ese horizonte. Así que avanzas por el camino, que es una pendiente que da a la estructura en el centro de esta isla.
+
+Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
+
+El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
+
+Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
+
+Y un “Faro”+
+
+PROMPT -¿Qué haces?+
+
+1-Continúas el camino hacia el “Faro”.+2B
+2-Oprimes el botón.+END1
+3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
+
+
+
+
+
+
+SCENE -2AAAA+
+
+DESC-Se tira por el risco escapando del gusano.+
+
+TEXT -Te tiras paras atrás, lo único que piensas es que si te quedas ahí un segundo más, esa cosa, esa masa de arrugas, de símbolos, de colores brillantes, ese gusano va a envolverte por completo con su forma, va a devorarte.
+
+No te importa en este momento nada más que alejarte, tu cuerpo no protesta, no sientes el susto de la caída hacia atrás mientras te lanzas de un brinco al abismo tras de tí.
+
+Notas todo lentamente al principio, el gusano, que antes ocupaba toda tu periferia, con su rostro que… no era un rostro, comienza a retraerse desde los lados, desde arriba y abajo de tu punto focal de visión. Como una ilusión óptica hecha con lentes de esas que hacen en el cine.
+
+De repente el campo de visión vuelve a la normalidad, mientras tu mirada da la vuelta con tu cuerpo en el aire y ves el cielo gris oscuro, y los rayos que lo recorren, mientras sientes el agua de la lluvia caer en tu cara.
+
+Y vas cayendo. Y ahora sí te das cuenta que vas cayendo…
+
+Pero no te das cuenta de cuando caes, no te das cuenta de un golpe, simplemente estabas en el aire, y luego… en el suelo boca abajo en el fango, con la mitad de la cara hundida en ese camino y la lluvia repiqueteando en tu rostro, a tu alrededor.+
+
+PROMPT -¿Qué haces?+
+
+1-Tratas de levantarte y analizar el daño que tienes antes de continuar, así como dónde demonios has caído+2BB
+2-Oprimes el botón.+END1
+SCENE -2B+
+
+DESC-Camina al faro luego de bajar sin mayor inconveniente el risco.+
+
+TEXT -Mientras subes el camino de fango hacia el Faro, te das cuenta de algo de repente. Te das cuenta que la puerta del Faro, está abriéndose.
+
+La tormenta no deja ver bien el interior, pero la puerta se abre lentamente y puedes ver un interior oscuro del cual sale una figura a la entrada.
+
+Ves a un Hombre, un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.
+
+El hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.
+
+El hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.
+
+Luego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.
+
+Para ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.+
+
+PROMPT -¿Qué haces?+
+
+1-Te volteas, miras qué diantres ha asustado tanto a un hombre que parece más rudo que un clavo de ataúd en este lugar olvidado por dios.+2C
+2-Abres una nueva puerta en ese instante, no quieres saber qué es lo que hizo que ese hombre abriera los ojos con tanto miedo, sería mejor evitar.+END2
+3-Oprimes el botón.+END1
+SCENE -2BB+
+
+DESC-Se levanta luego de haber caído del risco.+
+
+TEXT -Tratas de levantarte, tus brazos están bien, tienes fuerzas, y te empujas del lodo. Escupes un poco porque has estado hundida con casi media cara dios sabe cuánto tiempo aquí.
+
+No te duele ni la cabeza, ni el pecho, solo te sientes extremadamente mareada, y desorientada. Por instinto miras hacia el risco. El risco está solo, de él no se levanta ningún monstruo Lovecraftiano esperando devorar tu alma. Das un suspiro de… ¿alivio?
+
+Ahora intentas pararte.
+
+Y ahí viene el dolor, el dolor centelleante que te hace desplomar otra vez al barro. Tu pierna derecha, algo pasó en la caída, y el dolor es increíble.
+
+No puedes creer que hayas sido tan descuidada, aprietas los dientes, el agua te cae directo en las mejillas, en los párpados, y cuando los abres ves desenfocado todo. Te limpias la cara y tratas de levantarte usando el otro pie.
+
+Sabes que el daño debe estar en la rodilla, sentiste como si alguien hubiera tomado un hierro caliente y te hubiera empezado a pegar directo en esa rodilla cuando trataste de apoyarte.+
+
+PROMPT -¿Qué haces?+
+
+1-Abres una nueva puerta, esto es muy peligroso, es mejor escapar ahora, mientras tienes tiempo.+END2
+2-Oprimes el botón.+END1
+3-Te mueves por el camino de barro hacia la estructura que se ve entre la tormenta, la torre, el… Faro.+2CC
+
+SCENE -2C+
+
+DESC-Voltea a mirar lo que el Hombre del Faro ha mirado con terror.+
+
+TEXT -Te volteas siguiendo la mirada horrorizada del Hombre.
+
+Te volteas a ver lo que se asoma desde el risco en el que estabas parada apenas unos minutos atrás.
+
+Y lo ves, ves la cabeza llena de bultos, ves su forma tubular imposiblemente alta alzarse y mirarte, y mirar la isla entera al mismo tiempo desde una altura que te hace dar vértigo.
+
+El gusano.
+
+No sabes cómo lo hizo, no tienes idea de cómo algo tan grande pudiera moverse tan rápido de tan lejos para estar tan cerca ahora. Su cuerpo rugoso se alza casi tocando las rocas de ese risco maldito.
+
+Y sientes ahora que, aunque su cabeza y su cuerpo no se mueven un centímetro, y se alzan como una torre inclemente, el gusano se moviera hacia abajo, hacia ti.
+
+PROMPT -¿Qué haces?+
+
+1-Se acabó, abres una nueva puerta en este mismo instante, para escapar. Algo en el cuerpo de ese ser no te gusta, algo en ese cuerpo lleno de pliegues y masas informes, parece… Tener una forma, una que no te gusta para nada.+END2
+2-Oprimes el botón.+END1
+3-Te giras para correr al faro lo más rápido que puedes.+2D
+SCENE -2CC+
+
+DESC-Sube herida el camino de barro al Faro.+
+
+TEXT -Con mucho cuidado y soportando el dolor que comienza a asomarse de tu rodilla derecha subes el camino fangoso hacia el Faro.
+
+La lluvia y el frío viento de la tormenta solo ayudan a que el dolor se multiplique. Pero continúas apretando los dientes.
+
+Y de repente distingues bien la forma de la estructura a la que te diriges entre la ventisca, entre el agua que trata de tapar tu vista. Ves las paredes de ladrillo pintadas de blanco, ves la erosión en la pintura en las paredes, el moho que crece en varios de los recovecos de esos ladrillos.
+
+Y ves la puerta del Faro. Y al Hombre asomándose mientras la abre.
+
+Es un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.
+
+El hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.
+
+El hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.
+
+Luego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.
+
+Para ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.+
+
+PROMPT -¿Qué haces?+
+
+1-Abres una puerta, porque lo que sea que este hombre con cara ruda y experimentada vio, no puede ser bueno, y mucho menos luego de lo que has visto que se levanta del mar ahì atràs.+END2
+2-Oprimes el botón.+END1
+3-Tratas de avanzar más rápido hacia la entrada del Faro, y tratas de llamar la atención del Hombre.+2DD
+4-Te volteas a mirar lo que sospechas el Hombre acaba de ver. Porque sabes muy posiblemente lo que verás.+1F
+SCENE -2D+
+
+DESC-Trata de escapar del gusano hacia el Faro+
+
+TEXT -Te giras para correr. Pero es muy tarde, el movimiento, el cambio pasa en fracciones de segundo.
+
+El gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.
+
+Porque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.
+
+Tratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.
+
+Y notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.
+
+Y ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar su nombre. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.
+
+Su nombre es el concepto, su nombre es una idea. La idea de…
+
+Pero de repente. Luz.
+
+El sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.
+
+La imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.
+
+Tu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.
+
+No tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.
+
+Y luego, ya no.+
+
+PROMPT -¿Qué haces?+
+
+1-Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.+END1
+2-Tratas de recuperar tu forma, de sentir, de moverte.+3A
+SCENE -3A+
+
+DESC-Despierta.+
+
+TEXT -El brillo, el agua, el frío. El olor salado del mar y el ruido de incontables truenos en la distancia.
+
+Escuchas pasos acercarse mientras comienzas a sentir tus piernas, a sentir tus brazos, tu espalda contra un suelo mojado, no, más que mojado, un riachuelo donde el agua fría te roza la espalda.
+
+Pero no te sientes fría, te sientes… como si no hubiera distinción en la sensación, como salida de una anestesia particularmente fuerte.
+
+En tu cabeza retumba una especie de zumbido, una vibración que se siente seca, que se siente como lijas que se retuercen dentro de tu cráneo. Tu boca tiene un sabor metálico, tus labios están semi dormidos.
+
+Pero te sientes de alguna manera, tranquila. Por un momento no existías, por un momento la luz cegadora te borró, y eras algo que no estaba limitado por la piel, eras algo que existía y se movía por todos lados, como la lluvia.
+
+Los pasos están más cerca y tratas de ver algo, pero solo está la imagen residual de esa luz, solo está el tenue brillo de la tormenta.
+
+Escuchas una voz sobre el agua que cae, y sobre el océano enojado.
+
+Escuchas una voz vieja, algo carrasposa, pero segura, muy segura de lo que está diciendo.
+
+-Usted no debería estar aquí-
+
+Y de repente tus ojos se van cerrando, mientras pierdes la conciencia.+
+
+PROMPT -Conexión perdida…+
+
+

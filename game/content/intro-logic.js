@@ -20,7 +20,7 @@ export function introGame(introData, index, term){
             if(i == initMessages.length-1) stop = true;
             loadingPhaseInit(term, initMessages[i].message, msgIndex, stop);
         }
-        index.page = 0;
+        index.page = introData.data[0].index;
         return;
     }
 
