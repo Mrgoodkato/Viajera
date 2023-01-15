@@ -1,11 +1,10 @@
 //DUMMY DATA
 import { dummyIntro } from "./game/parser/intro-parser.js";
 
-import { intro, level_1 } from "./game/parser/intro-parser.js";
+import { intro, level_1, level_2 } from "./game/parser/intro-parser.js";
 import { introGame } from "./game/content/intro-logic.js";
 import { level1 } from "./game/content/level-1.js";
-
-console.log(text);
+import { level2 } from "./game/content/level-2.js";
 
 const index = {
     page: -1, 
@@ -13,12 +12,17 @@ const index = {
     level: 0
 };
 
+const colorsDream = {
+    color: ["#7A7E90", "#475c85"],
+    back: ["#191A1F", "#c1cfda"]
+}
+
 const inputField = document.getElementsByClassName('clipboard');
 
 $('#terminal').terminal(function() {
-    introGame(intro, index, this);
-    /* if(index.level == 0) introGame(intro, index, this);
-    else if(index.level == 1) level1(level_1, index, this); */
+    if(window.innerWidth > 800) this.resize(400, 600);
+    if(index.level == 0) introGame(intro, index, this, colorsDream);
+    else if(index.level == 1) level2(level_2, index, this, colorsDream);
 }, 
 {
     prompt: intro.prompt,

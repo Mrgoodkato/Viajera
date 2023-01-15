@@ -1,13 +1,13 @@
-import { levelIndexFinder } from "../utilities/main-utils.js";
+import { levelIndexFinder, atmosphereChangeFull } from "../utilities/main-utils.js";
 
-export function level2(levelData, index, term){
+export function level2(levelData, index, term, colors){
 
     index.page = 0;
     term.clear();
+    atmosphereChangeFull(colors);
     console.log(term)
-
     term.echo(
-        '[[g;blue;]\n-------]\n' + levelData.data[index.page].mainTxt + '[[g;blue;]\n-------]\n',
+        '[[g;#475c85;]\n-------]\n' + levelData.data[index.page].mainTxt + '[[g;#475c85;]\n-------]\n',
         {
             keepWords: true
         }
@@ -16,7 +16,7 @@ export function level2(levelData, index, term){
     term.push(
         function(cmd){
             this.clear();
-            level1Progress(levelData, index, cmd, this);
+            levelProgress(levelData, index, cmd, this);
             this.set_prompt(levelData.data[index.page].prompt);
         },
         {
@@ -25,7 +25,7 @@ export function level2(levelData, index, term){
     );
 }
 
-function level1Progress(levelData, index, cmd, term){
+function levelProgress(levelData, index, cmd, term){
 
     const scene = levelData.data[index.page];
 
@@ -38,9 +38,8 @@ function level1Progress(levelData, index, cmd, term){
         });
 
     }
-
     term.echo(
-        '[[g;blue;]\n-------]\n' + levelData.data[index.page].mainTxt + '[[g;blue;]\n-------]\n',
+        '[[g;#475c85;]\n-------]\n' + levelData.data[index.page].mainTxt + '[[g;#475c85;]\n-------]\n',
         
         {
             keepWords: true

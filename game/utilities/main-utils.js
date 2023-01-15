@@ -27,3 +27,23 @@ export function levelIndexFinder(data, goTo){
     }
 
 }
+
+export function atmosphereChanger(indexPage, indexInit, indexEnd, colors){
+
+    if(indexPage > indexInit && indexPage < indexEnd){    
+        $(".terminal").css("--color", `${colors.color[0]}`);
+        $(".terminal").css("--background", `${colors.back[0]}`);
+        $("body").css("background-color", `${colors.back[0]}`);
+    }else{
+        $(".terminal").css("--color", `${colors.color[1]}`);
+        $(".terminal").css("--background", `${colors.back[1]}`);
+        $("body").css("background-color", `${colors.back[1]}`);
+    }
+
+}
+
+export function atmosphereChangeFull(colors){
+    $(".terminal").css("--color", `${colors.color[0]}`);
+    $(".terminal").css("--background", `${colors.back[0]}`);
+    $("body").css("background-color", `${colors.back[0]}`);
+}

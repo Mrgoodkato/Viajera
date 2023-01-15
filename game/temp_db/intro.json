@@ -1,69 +1,141 @@
 {
-    "prompt": "[[g;blue;]/] Iniciar [[g;grey;]>>>]",
+    "prompt": "[[g;#475c85F;]/] Iniciar [[g;#475c85;]>>>]",
     "init_messages": [
 
         {
             "timeout": 250,
-            "message": "Abriendo conexión..."
+            "message": "[[g;#475c85;]Abriendo conexión...]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión.."
+            "message": "[[g;#475c85;]Abriendo conexión..]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión."
+            "message": "[[g;#475c85;]Abriendo conexión.]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión"
+            "message": "[[g;#475c85;]Abriendo conexión]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión..."
+            "message": "[[g;#475c85;]Abriendo conexión...]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión.."
+            "message": "[[g;#475c85;]Abriendo conexión..]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión."
+            "message": "[[g;#475c85;]Abriendo conexión.]"
         },
         {
             "timeout": 250,
-            "message": "Abriendo conexión"
+            "message": "[[g;#475c85;]Abriendo conexión"
         },
         {
             "timeout": 1000,
-            "message": "[[g;blue;]Conexión establecida]"
+            "message": "[[g;red;]Conexión establecida]"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Colapsando variables naturales ||||] fn -> spaceTimeCont(m,v)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Colapsando variables naturales |||] fn -> termodinVar(entr)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Colapsando variables naturales ||] fn -> auspex(omen)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Colapsando variables naturales |] fn -> exstCohesion(I)"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;#475c85;]Colapso exitoso]"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Generando: ]oceano(depth, ext)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Generando: ]superficie(ext)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Generando: ]faro(unkn)"
+        },
+        {
+            "timeout": 500,
+            "message": "[[g;#475c85;]Generando: ]entidad()"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta ||||||||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta |||||||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta ||||||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta |||||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta ||||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta |||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta ||]"
+        },
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Desviando puerta |]"
+        },
+        {
+            "timeout": 1000,
+            "message": "[[g;#red;]Puerta desviada exitosamente]\n"
         }
         
     ],
     "data": [
         {
             "index" : 1,
-            "text" : "Hola Viajera."
+        "text" : "Hola [[g;#3488EF;]Viajera].\n\nEspero estés bien."
             },
             {
             "index" : 2,
-            "text" : "Antes de que tu siguiente portal se cierre tras de tí a ese espacio desconocido, pero tan conocido, porque todas las historias parecen conocidas mientras más te adentras en los garabatos que llamamos ‘letras’."
+            "text" : "Antes de que tu siguiente portal se cierre tras de tí a ese espacio desconocido, pero tan conocido, porque todas las historias parecen conocidas mientras más te adentras en los garabatos que llamamos [[g;#3488EF;]‘letras’.]"
             },
             {
             "index" : 3,
-            "text" : "Te quiero hacer una pregunta."
+            "text" : "Te quiero hacer una [[g;#3488EF;]pregunta]."
             },
             {
             "index" : 4,
-            "text" : "Pero para hacer esta pregunta, quiero primero plantear un escenario. Quiero darle vida a un espacio sin espacio, donde solo el tiempo e imágenes difusas se manifiestan. Como si estuvieras viendo un sueño en cámara lenta."
+            "text" : "Pero para hacer esta [[g;#3488EF;]pregunta], quiero primero plantear un escenario.\n\nQuiero darle vida a un espacio sin espacio, donde solo el tiempo e imágenes difusas se manifiestan.\n\nComo si estuvieras viendo un sueño en cámara lenta."
             },
             {
             "index" : 5,
-            "text" : "No tienes cuerpo en este espacio, lo único que tienes es la percepción de tus sentidos, flotando en el éter. Y lo que ocupa esta percepción pasa al frente tuyo a ráfagas difusas."
+            "text" : "No tienes cuerpo en este espacio, lo único que tienes es la percepción de tus sentidos, flotando en el éter. Y lo que ocupa esta percepción pasa al frente tuyo a ráfagas difusas.\n\nPodríamos decir que es una especie de ejercicio de... [[g;#3488EF;]¿libre asociación?]"
             },
             {
             "index" : 6,
-            "text" : "Vas viendo una sonrisa en una tarde calurosa, voces en corredores de cemento. Avisos en carteleras que lees interesada."
+            "text" : "Vas viendo una sonrisa en una tarde calurosa, voces en corredores de cemento.\n\nAvisos en carteleras que lees interesada.\n\nEl aire huele a café, cigarrillos y colonias baratas."
             },
             {
             "index" : 7,
@@ -71,15 +143,15 @@
             },
             {
             "index" : 8,
-            "text" : "Sientes rocío y el pasto húmedo bajo tus pies descalzos en una mañana, agarras el suelo con los dedos de los pies, como tratando de plantarte ahí, y hueles la montaña."
+            "text" : "Sientes rocío y el pasto húmedo bajo tus pies descalzos en una mañana, agarras el suelo con los dedos de los pies, como tratando de plantarte ahí.\n\n[[g;#3488EF;]Hueles la montaña.]"
             },
             {
             "index" : 9,
-            "text" : "Cuadernos que se abren, argollados, sientes las argollas y las recorres con los dedos como tocando una extraña arpa de cuerdas circulares que dan vueltas y vueltas. Se ven prístinos, pero luego, esas esquinas rectas empiezan a doblarse y a mostrar las señales del tiempo."
+            "text" : "Cuadernos que se abren, sientes las argollas y las recorres con los dedos como tocando una extraña arpa de cuerdas circulares que dan vueltas y vueltas.\n\nSe ven prístinos, pero luego, esas esquinas rectas empiezan a doblarse y a mostrar las señales del tiempo."
             },
             {
             "index" : 10,
-            "text" : "Encuentras una pelota, la lanzas por los aires. Corres, sudas, sientes que te quema el sol, pero sigues. Te duele la cara de sonreír, te dan ganas de toser por la risa."
+            "text" : "Encuentras una pelota, la lanzas por los aires. Corres, sudas, sientes que te quema el sol, pero sigues.\n\nTe duele la cara de sonreír, te dan ganas de toser por la risa."
             },
             {
             "index" : 11,
@@ -87,27 +159,27 @@
             },
             {
             "index" : 12,
-            "text" : "Un gato te sigue por la calle, te parece lindo. Te sientes mal, porque no sabes si te va a seguir a casa, y no sabes si quizás esté buscando quedarse."
+            "text" : "Un [[g;#3488EF;]gato] te sigue por la calle, te parece lindo.\n\nTe sientes mal, porque no sabes si te va a seguir a casa, y no sabes si quizás esté buscando quedarse."
             },
             {
             "index" : 13,
-            "text" : "Comes … mondongo. Y está muy bien hecho. Las personas alrededor de tu mesa cuentan anécdotas insulsas a las cuales no prestas mucha atención."
+            "text" : "Comes … mondongo.\n\nY está muy bien hecho. Las personas alrededor de tu mesa cuentan anécdotas insulsas a las cuales no prestas mucha atención."
             },
             {
             "index" : 14,
-            "text" : "Ves el sol directamente por un rato largo (no muy recomendado). Miras a tu alrededor y aparece una mancha que es un color alienígena, un color que no es negro del todo, que es como un vacío de lo que el concepto ‘color’ debería ser."
+            "text" : "Ves el sol directamente por un rato largo (no muy recomendado).\n\nMiras a tu alrededor y aparece una mancha que es un color alienígena, un color que no es negro del todo, que es como un vacío de lo que el concepto [[g;#3488EF;]‘color’] debería ser."
             },
             {
             "index" : 15,
-            "text" : "Repites el mismo proceso con una bombilla, y tiene un resultado similar."
+            "text" : "Repites el mismo proceso con la luz de una bombilla, y tiene un resultado similar."
             },
             {
             "index" : 16,
-            "text" : "Suena una alarma y te despiertas sintiendo que tu cabeza va a explotar por el dolor. Quieres morir ahí, es imposible que tengas que estar parándote en este estado."
+            "text" : "Suena una alarma y te despiertas sintiendo que tu cabeza va a explotar por el dolor.\n\nQuieres morir ahí, es imposible que tengas que estar parándote en este estado."
             },
             {
             "index" : 17,
-            "text" : "Lloras por algo, y se llena la nariz de líquido, los ojos están salados, arden. Hay una especie de objeto hecho de dolor pegado en el interior de tu garganta que se mueve rítmicamente, que pareciera tomar el control de tu espalda, de tu pecho. Pero aún así una parte tuya piensa, fría y claramente “estoy llorando”. Como mirando esto desde arriba, quizás desde un microscopio."
+            "text" : "Lloras por algo, y se llena la nariz de líquido, los ojos están salados, arden.\n\nHay una especie de objeto hecho de dolor pegado en el interior de tu garganta que se mueve rítmicamente, que pareciera tomar el control de tu espalda, de tu pecho. Pero aún así una parte tuya piensa, fría y claramente [[g;#3488EF;]“estoy llorando”]. Como mirando esto desde arriba, quizás desde un microscopio."
             },
             {
             "index" : 18,
@@ -119,7 +191,7 @@
             },
             {
             "index" : 20,
-            "text" : "Un gato, conoces un gato. Decides que los gatos, son ante todo, peludos."
+            "text" : "Un gato, conoces un gato.\n\nDecides que los gatos, son ante todo, peludos."
             },
             {
             "index" : 21,
@@ -127,51 +199,51 @@
             },
             {
             "index" : 22,
-            "text" : "Te miras al espejo. Hay un grano en tu cara."
+            "text" : "[[g;#3488EF;]Te] miras al espejo.\n\nHay un grano en tu cara."
             },
             {
             "index" : 23,
-            "text" : "Te miras al espejo. Hoy vas a decir algo que no quieres decir, pero tienes que decirlo."
+            "text" : "[[g;#3488EF;]Te miras] al espejo.\n\nHoy vas a decir algo que no quieres decir, pero tienes que decirlo."
             },
             {
             "index" : 24,
-            "text" : "Te miras al espejo. Hoy podría ser un buen día."
+            "text" : "[[g;#3488EF;]Te miras al] espejo.\n\nHoy podría ser un buen día."
             },
             {
             "index" : 25,
-            "text" : "Te miras al espejo. No fue un buen día."
+            "text" : "[[g;#3488EF;]Te miras al espejo].\n\nNo fue un buen día."
             },
             {
             "index" : 26,
-            "text" : "Estás frente a gente que te felicita por algo. Sonríes, pero lo haces forzando el gesto."
+            "text" : "Estás frente a gente que te felicita por algo.\n\nSonríes, pero lo haces forzando el gesto."
             },
             {
             "index" : 27,
-            "text" : "Hay algo con la luna, hoy el color es más claro que de costumbre. Hace frío, hay mucho viento. Pero ves las nubes claramente en el firmamento, en la oscuridad de la noche. Son manchas negras que se delinean con un brillo azulado. Hay grillos cantando. Hay estrellas tras esas nubes. No sabes cuantas estrellas hay, pero sabes que son suficientes."
+            "text" : "Hay algo con la [[g;#3488EF;]luna], hoy el color es más claro que de costumbre. Hace frío, hay mucho viento.\n\nPero ves las nubes claramente en el firmamento, en la oscuridad de la noche. Son manchas negras que se delinean con un brillo azulado.\n\nHay grillos cantando.\n\nHay estrellas tras esas nubes. No sabes cuantas estrellas hay, pero sabes que son suficientes."
             },
             {
             "index" : 28,
-            "text" : "Te detienes en tu camino en la calle por un segundo mientras carros pitan, la mugre de la ciudad se te pega aún más de la piel y sientes como empieza a llover mientras el bullicio pareciera incrementar de alguna manera, todo huele a gasolina y humo, y piensas que odias todo lo que hay alrededor tuyo."
+            "text" : "Te detienes en tu camino en la calle por un segundo mientras carros pitan, la mugre de la ciudad se te pega aún más de la piel y sientes como empieza a llover mientras el bullicio pareciera incrementar de alguna manera, todo huele a gasolina y humo, y piensas que [[g;#3488EF;]odias todo lo que hay alrededor tuyo.]"
             },
             {
             "index" : 29,
-            "text" : "Hay un botón en tu mano. El botón se siente frío, es algo pesado. Es rojo y no es ni de metal ni plástico. Es otra cosa. Es una cosa…"
+            "text" : "Hay un [[g;red;]botón] en tu mano. El botón se siente frío, es algo pesado. Es rojo y no es ni de metal ni plástico. Es otra cosa. Es una cosa…"
             },
             {
             "index" : 30,
-            "text" : "Justa."
+            "text" : "[[g;red;]Justa.]"
             },
             {
             "index" : 31,
-            "text" : "De entre todas las sensaciones, imágenes, sonidos, olores, sabores, emociones habrá algunas que podrían haber dado en algo real, o en algo imaginado, o en algo tuyo. Así como otras que serán completamente ajenas, como viendo los recuerdos y sueños de un desconocido."
+            "text" : "De entre todas las sensaciones, imágenes, sonidos, olores, sabores, emociones habrá algunas que podrían haber dado en algo real, o en algo imaginado, o en algo tuyo.\n\nAsí como otras que serán completamente ajenas, como viendo los recuerdos y sueños de un desconocido."
             },
             {
             "index" : 32,
-            "text" : "El método para recolectar esta serie de… escenas, es inexacto. Pero es lo mejor que se puede hacer con el poco tiempo que queda mientras el umbral entre este espacio y el nuevo espacio al que entras se cierra."
+            "text" : "El método para recolectar esta serie de… escenas, es inexacto.\n\nPero es lo mejor que se puede hacer con el poco tiempo que queda mientras el umbral entre este espacio y el nuevo espacio al que entras se cierra."
             },
             {
             "index" : 33,
-            "text" : "Hubo algo ahí. Tal vez hubo algo ahí."
+            "text" : "¿Hubo algo ahí?\n\nTal vez hubo algo ahí."
             },
             {
             "index" : 34,
@@ -179,7 +251,7 @@
             },
             {
             "index" : 35,
-            "text" : "¿Qué se ha perdido?"
+            "text" : "[[g;#3488EF;]¿Qué se ha perdido?]"
             },
             {
             "index" : 36,
@@ -187,7 +259,7 @@
             },
             {
             "index" : 37,
-            "text" : "¿Cuándo se perdió?"
+            "text" : "[[g;#3488EF;]¿Cuándo se perdió?]"
             },
             {
             "index" : 38,
@@ -195,11 +267,11 @@
             },
             {
             "index" : 39,
-            "text" : "Pero es en la ambigüedad que la mente tiende a llenar los vacíos, con cosas que son nuestras, y solo nuestras. Cosas que nadie más que nosotros mismos podemos acceder."
+            "text" : "Pero es en la ambigüedad que la mente tiende a llenar los vacíos, con cosas que son nuestras, y solo nuestras.\n\nCosas que nadie más que nosotros mismos podemos acceder."
             },
             {
             "index" : 40,
-            "text" : "Pero quizás esas son mejores preguntas, como las imágenes de los sueños, como la impresión de un atardecer que nunca se va a repetir en el universo, y que solo nuestros ojos han visto desde ese ángulo en toda la creación."
+            "text" : "Pero quizás esas son las mejores preguntas, como las imágenes de los sueños, como la impresión de un atardecer que nunca se va a repetir en el universo, y que solo nuestros ojos han visto desde ese ángulo en toda la creación."
             },
             {
             "index" : 41,
@@ -211,7 +283,7 @@
             },
             {
             "index" : 43,
-            "text" : "Un lugar donde solo puedo hacer una advertencia, tal y como en los mapas de antaño: Habrá Dragones. Más allá del mundo, habrá Dragones."
+            "text" : "Un lugar donde solo puedo hacer una advertencia, tal y como en los mapas de antaño:\n\n[[g;red;]Habrá Dragones].\n\nMás allá del mundo, [[g;red;]habrá Dragones.]"
             },
             {
             "index" : 44,
@@ -219,7 +291,7 @@
             },
             {
             "index" : 45,
-            "text" : "El Hombre del Faro'."
+            "text" : "[[g;#3488EF;]El Hombre del Faro.]"
             }
             
     ]

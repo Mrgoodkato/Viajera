@@ -1,10 +1,10 @@
-import { loadingPhaseInit, textIndexFinder } from "../utilities/main-utils.js";
+import { loadingPhaseInit, textIndexFinder, atmosphereChanger } from "../utilities/main-utils.js";
 
-export function introGame(introData, index, term){
+export function introGame(introData, index, term, colors){
 
     const initMessages = introData.init_messages;
 
-    introData.prompt = '[[g;blue;]/] Continuar [[g;blue;]>>>]';
+    introData.prompt = '[[g;#475c85;]/] Continuar [[g;#475c85;]>>>]';
     term.set_prompt(introData.prompt);
 
     if(index.page == -1){
@@ -25,13 +25,13 @@ export function introGame(introData, index, term){
     }
 
     term.clear();
+    atmosphereChanger(index.page, 5, 31, colors);
     term.echo(
-        '[[g;blue;]\n-------]\n' + textIndexFinder(introData.data, index.page) + '[[g;blue;]\n-------]\n',
+        '[[g;#475c85;]\n-------]\n' + textIndexFinder(introData.data, index.page) + '[[g;#475c85;]\n-------]\n',
         {
             keepWords:true
         });
-    if(index.page == introData.data.length-1) index.level = 1;
+    if(index.page == introData.data.length) index.level = 1;
     index.page++;
     
 }
-

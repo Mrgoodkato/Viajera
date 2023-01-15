@@ -1,0 +1,303 @@
+{
+    "data": [
+        {
+            "scene": "1A",
+            "mainTxt": "Pasas el portal y lo primero que sientes es el agua, un vendaval que te hace estremecer. No logras ver bien lo que hay al frente tuyo, solo una pared gris y blanca. El sonido de la tormenta lo es todo.\r\n\r\nEl portal está por cerrarse detrás tuyo, y recuerdas que al entrar algo te habló, un… mensaje ¿quizás?\r\n\r\nSabes que este no es el mundo al que te dirigías, sabes que aquí no debería haber lluvia, no ahora, si este fuera tu destino real.\r\n\r\nRecuerdas la cabaña en esa montaña, recuerdas los cuerpos. Sabes que esto es otra vez lo mismo, alguien ha desviado tu puerta. Estás en un lugar desconocido.\r\n\r\nUn relámpago zigzaguea entre nubes negras y espesas, y luego el trueno ensordecedor. Se te muestra la silueta de una estructura alta, a unos doscientos metros de distancia, una torre enorme que contrasta con el gris de la tormenta, iluminada por la luz eléctrica.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Presionas el botón que sostienes en tu bolsillo.\n[[g;#475c85;]2)]Te das media vuelta y te vas de este lugar a un lugar seguro y conocido, después de todo, esto no podría ser otra cosa que una trampa.\n[[g;#475c85;]3)]Caminas hacia la torre que te dejó vislumbrar el rayo.\n[[g;#475c85;]4)]Revisas mejor tus alrededores, después de todo, detrás de tí, a través del ruido de la tormenta puedes distinguir el sonido de las olas del mar chocando\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 4,
+                    "goTo": "1B"
+                }
+            ]
+        },
+        {
+            "scene": "1B",
+            "mainTxt": "La tormenta es demasiado fuerte pero logras ver mejor lo que hay al frente tuyo luego de un momento de acostumbrar los ojos. El agua es fría y el olor te resulta familiar, un olor salado.\r\n\r\nEs el mar, lo sabes.\r\n\r\nEstás parada en un risco de rocas grises y abajo puedes distinguir un camino de lodo. Tierra posiblemente si no estuviera cayendo ésta tormenta de mil demonios.\r\n\r\nDetrás tuyo ves como el portal se cierra e inmediatamente en la distancia una serie de rayos te dejan ver las aguas turbulentas. Montañas de agua que se forman para chocar con otras montañas en un mar erizado, enojado. El viento amenaza con hacerte salir volando como una cometa sin hilo.\r\n\r\nEl trueno llega a los cinco segundos aproximadamente, lo que te dice que la tormenta va hasta cinco kilómetros más o menos de distancia, aunque… ahora ves fogonazos blancos mucho más lejos que te muestran lo apocalíptica que es en realidad. Nubes que se distinguen entre las muchas ramas brillantes que se propagan de aquí a allá. Nubes negras, nubes que parecen los cuerpos abultados de Leviatanes.",
+            "prompt": "[[g;#475c85;]/]¿Sigues mirando?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]No, comienzas a bajar por el risco, es muy arriesgado estar aquí.\n[[g;#475c85;]2)]Crees ver algo entre los rayos, tratas de ver mejor. Solo por un momento.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1C"
+                }
+            ]
+        },
+        {
+            "scene": "1C",
+            "mainTxt": "Hay algo que no es la tormenta, no es nubes, no es mar.\r\n\r\nEstás segura de ello. Eso… eso que se… ¿retorció?\r\n\r\nEstá tan lejos, es apenas distinguible.\r\n\r\nEso no puede ser una nube. Eso tiene una forma definida.\r\n\r\nPero, ¿qué puede ser?\r\n\r\n¿Qué puede ser tan enorme como para verse desde tan gran distancia?\r\n\r\n(Aunque realmente la pregunta no es tan difícil si consideras lo que has visto en tus viajes. Pues has visto demasiado, y sabes lo que es un dragón, sabes lo que es un Antiguo levantándose del océano).\r\n\r\nUna parte tuya se siente decepcionada, por ver algo tan común. \r\n\r\nOtra parte tuya no está segura de si lo que está viendo, esa masa que se levanta y se mueve, que tendría el tamaño de uno o varios edificios, es lo que crees que es.\r\n\r\nPorque hay algo que… mientras más distingues su forma, mientras los innumerables rayos descubren su silueta, mientras se distingue su color más claramente… hay algo que te dice que eso no es lo que tu mente imagina.",
+            "prompt": "[[g;#475c85;]/]¿Sigues mirando la forma que se alza en la distancia?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Sí. Quieres saber qué diablos es eso.\n[[g;#475c85;]2)]No. Te volteas y bajas el risco al camino.\n[[g;#475c85;]3)]Mejor te vas de este mundo de una vez, es solo otro ser Lovecraftiano después de todo, y no estás de humor para esas cosas hoy.\n[[g;#475c85;]4)]Oprimes el botón.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1D"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "1D",
+            "mainTxt": "Está lejos, extremadamente lejos, kilómetros, lo que sea que se estremece en el mar. Su forma es larga, puedes distinguir eso.\r\n\r\nPero, quizás… ¿su volumen? Es algo que no logras distinguir bien, porque jurarias que por momentos se va desvaneciendo, su silueta tornándose delgada, y en otros… pareciera hacerse más grande.\r\n\r\nLo primero que se te viene a la mente es la palabra [[g;red;]“gusano”]. Un gusano gordo que se asoma desde la profundidad del océano, los truenos van mostrando su cuerpo lleno de estrías, seccionado y doblado. Su cabeza mirando hacia un lado, retorciéndose lentamente, las olas chocando contra su forma inamovible.\r\n\r\nEl gusano se está girando, su cabeza, ahora que la ves más de frente no es el agujero lleno de dientes que uno imaginaría muchas veces de seres enormes que devoran navíos. No ves boca o cavidad alguna, no ves ojos, no ves nada que puedas distinguir como algo familiar en otro ser vivo. Ves una masa de… protuberancias difusas, como si su cabeza hubiera sido derretida y solo quedara el desastre donde debería haber algún tipo de órgano sensorial.\r\n\r\nEl gusano ahora ha girado su cuerpo por completo y se muestra de frente. Los relámpagos siguen revelando detalles momentáneos, como fotografías en ráfaga en una habitación oscura. Pero algo no anda bien, porque de alguna manera, a cada relámpago, esa figura a kilómetros de distancia, se vuelve cada vez más detallada. Y tus ojos la pueden enfocar mejor.\r\n\r\nPorque está [[g;red;]cerca.]",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Te volteas al camino, has visto suficiente.\n[[g;#475c85;]2)]¿Por qué esa palabra llega a tu mente? ¿Cerca? Si no se ha movido, si está tan lejos...\n[[g;#475c85;]3)]Escapas por otra puerta.\n[[g;#475c85;]4)]Oprimes el botón.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AAA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1E"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "1E",
+            "mainTxt": "Es que. Eso que está allá.\r\n\r\n[[g;red;]Está aquí.]\r\n\r\nEl gusano, no se ha movido ni abalanzado, pero está aquí, por el solo hecho de estar, por el solo hecho de pensarlo así. El ser que se alza del agua, en el momento en que dirige su cabeza a ti, de repente lo es todo al frente tuyo.\r\n\r\nHas distinguido el cambio, pero no te explicas cómo pasó. De un momento a otro el espacio alrededor de ese cuerpo seccionado y rugoso se extendió hacia todos lados, haciendo crecer su forma más y más en todas direcciones en apenas un segundo.\r\n\r\nPasó más rápido de lo que podrías haber apretado el botón, y de no ser por tu equilibrio, y por pura suerte, no te echaste para atrás, cayendo del risco.\r\n\r\nPero ahora está ahí, y su cabeza se alza a apenas unos metros del risco en el que te paras. Y te… mira… y lo sabes así no tenga ojos, así la pared de masas y crecimientos disformes que ocupan sus [[g;red;]“facciones”] no tengan sentido. Así los innumerables agujeros y pulsantes crecimientos de color brillante no sean familiares con ningún ser vivo que conozcas.\r\n\r\nEl color de moscas gordas de cementerio, verde azul.\r\n\r\nLos patrones que ahora ves en sus pliegues y rugosidades, los patrones que tienen forma, que tienen tantas formas que te mareas con solo mirarlas.\r\n\r\nEl total silencio con el que este ser te contempla.\r\n\r\nPorque ahora está completamente quieto, una pared viva, completamente quieta.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Oprimes el botón.\n[[g;#475c85;]2)]Te tiras para atrás, así caigas por el risco, eso es preferible a ver lo que viene.\n[[g;#475c85;]3)]Esperas a ver qué hará este ser.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AAAA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "1F"
+                }
+            ]
+        },
+        {
+            "scene": "1F",
+            "mainTxt": "El gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.\r\n\r\nPorque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.\r\n\r\nTratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.\r\n\r\nY notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.\r\n\r\nY ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar su nombre. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.\r\n\r\nSu nombre es el concepto, su nombre es una idea. La idea de…\r\n\r\nPero de repente. [[g;#3488EF;]Luz].\r\n\r\nEl sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.\r\n\r\nLa imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.\r\n\r\nTu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.\r\n\r\nNo tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.\r\n\r\nY luego, ya no.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.\n[[g;#475c85;]2)]Tratas de recobrar tu forma, de sentir, de moverte.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 2,
+                    "goTo": "3A"
+                }
+            ]
+        },
+        {
+            "scene": "2A",
+            "mainTxt": "Bajas al camino por las rocas resbaladizas del risco no sin antes dar dos miradas rápidas alrededor y darte cuenta que estás en lo que parecería ser una isla. El las olas del mar son feroces y chocan contra el risco que tratas de bajar del otro lado. Es difícil pero lo logras después de varios resbalones que logras controlar de pura suerte.\r\n\r\nTe embadurnas los zapatos con el barro del camino pero comienzas a subir una pendiente, puedes distinguir la forma de la torre por los relámpagos en el horizonte.\r\n\r\nEs una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta \r\n\r\nEl cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.\r\n\r\nEs un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.\r\n\r\nY un [[g;#3488EF;]“Faro”.]",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Continúas el camino hacia el “Faro”.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2B"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2AA",
+            "mainTxt": "Bajas al camino con cuidado pues las rocas del risco están muy mojadas, resbaladizas. Cuidas cada paso mientras el viento amenaza con echarte rodando. Pero lo logras.\r\n\r\nEl camino está lleno de lodo y tus zapatos se embadurnan. Es una pendiente difícil de recorrer.\r\n\r\nMientras subes el camino fangoso y te esfuerzas por no resbalar logras divisar la estructura que te llamó la atención cuando llegaste.\r\n\r\nEs una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta \r\n\r\nEl cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.\r\n\r\nEs un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.\r\n\r\nY un [[g;#3488EF;]“Faro”]",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Continúas el camino hacia el “Faro”.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2B"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2AAA",
+            "mainTxt": "Te bajas rápidamente de este risco, tratas de no caer, tropiezas y por poco, más de una vez caes de cara al camino abajo tuyo. Las rocas son resbalosas y en las últimas finalmente pierdes el equilibrio y caes sobre el camino lleno de agua y fango. Toda tu ropa se embadurna de fango, tu pelo, y la mitad de tu cara.\r\n\r\nPero al menos, como está mojado, no te hiciste daño.\r\n\r\nAunque no es tanto consuelo ahora que te levantas vuelta nada.\r\n\r\nSin embargo hay algo más importante, y es moverse lejos de lo que sea que había en ese horizonte. Así que avanzas por el camino, que es una pendiente que da a la estructura en el centro de esta isla.\r\n\r\nEs una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta \r\n\r\nEl cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.\r\n\r\nEs un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.\r\n\r\nY un [[g;#3488EF;]“Faro”]",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Continúas el camino hacia el “Faro”.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2B"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2AAAA",
+            "mainTxt": "Te tiras paras atrás, lo único que piensas es que si te quedas ahí un segundo más, esa cosa, esa masa de arrugas, de símbolos, de colores brillantes, ese gusano va a envolverte por completo con su forma, va a devorarte.\r\n\r\nNo te importa en este momento nada más que alejarte, tu cuerpo no protesta, no sientes el susto de la caída hacia atrás mientras te lanzas de un brinco al abismo tras de tí.\r\n\r\nNotas todo lentamente al principio, el gusano, que antes ocupaba toda tu periferia, con su rostro que… no era un rostro, comienza a retraerse desde los lados, desde arriba y abajo de tu punto focal de visión. Como una ilusión óptica hecha con lentes de esas que hacen en el cine.\r\n\r\nDe repente el campo de visión vuelve a la normalidad, mientras tu mirada da la vuelta con tu cuerpo en el aire y ves el cielo gris oscuro, y los rayos que lo recorren, mientras sientes el agua de la lluvia caer en tu cara.\r\n\r\nY vas cayendo. Y ahora sí te das cuenta que vas cayendo…\r\n\r\nPero no te das cuenta de cuando caes, no te das cuenta de un golpe, simplemente estabas en el aire, y luego… en el suelo boca abajo en el fango, con la mitad de la cara hundida en ese camino y la lluvia repiqueteando en tu rostro, a tu alrededor.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Tratas de levantarte y analizar el daño que tienes antes de continuar, así como dónde demonios has caído\n[[g;#475c85;]2)]Oprimes el botón.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2BB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "2B",
+            "mainTxt": "Mientras subes el camino de fango hacia el Faro, te das cuenta de algo de repente. Te das cuenta que la puerta del Faro, está abriéndose.\r\n\r\nLa tormenta no deja ver bien el interior, pero la puerta se abre lentamente y puedes ver un interior oscuro del cual sale una figura a la entrada.\r\n\r\nVes a un Hombre, un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.\r\n\r\nEl hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.\r\n\r\nEl hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.\r\n\r\nLuego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.\r\n\r\nPara ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Te volteas, miras qué diantres ha asustado tanto a un hombre que parece más rudo que un clavo de ataúd en este lugar olvidado por dios.\n[[g;#475c85;]2)]Abres una nueva puerta en ese instante, no quieres saber qué es lo que hizo que ese hombre abriera los ojos con tanto miedo, sería mejor evitar.\n[[g;#475c85;]3)]Oprimes el botón.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2C"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "2BB",
+            "mainTxt": "Tratas de levantarte, tus brazos están bien, tienes fuerzas, y te empujas del lodo. Escupes un poco porque has estado hundida con casi media cara dios sabe cuánto tiempo aquí.\r\n\r\nNo te duele ni la cabeza, ni el pecho, solo te sientes extremadamente mareada, y desorientada. Por instinto miras hacia el risco. El risco está solo, de él no se levanta ningún monstruo Lovecraftiano esperando devorar tu alma. Das un suspiro de… ¿alivio?\r\n\r\nAhora intentas pararte.\r\n\r\nY ahí viene el dolor, el dolor centelleante que te hace desplomar otra vez al barro. Tu pierna derecha, algo pasó en la caída, y el dolor es increíble.\r\n\r\nNo puedes creer que hayas sido tan descuidada, aprietas los dientes, el agua te cae directo en las mejillas, en los párpados, y cuando los abres ves desenfocado todo. Te limpias la cara y tratas de levantarte usando el otro pie.\r\n\r\nSabes que el daño debe estar en la rodilla, sentiste como si alguien hubiera tomado un hierro caliente y te hubiera empezado a pegar directo en esa rodilla cuando trataste de apoyarte.\r\n\r\nMiras hacia el final del camino, ves una estructura en la distancia. Una torre que se alza impasible.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Abres una nueva puerta, esto es muy peligroso, es mejor escapar ahora, mientras tienes tiempo.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Te mueves por el camino de barro hacia la estructura que se ve entre la tormenta al final del camino de barro: La torre, el… Faro.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2CC"
+                }
+            ]
+        },
+        {
+            "scene": "2C",
+            "mainTxt": "Te volteas siguiendo la mirada horrorizada del Hombre.\r\n\r\nTe volteas a ver lo que se asoma desde el risco en el que estabas parada apenas unos minutos atrás.\r\n\r\nY lo ves, ves la cabeza llena de bultos, ves su forma tubular imposiblemente alta alzarse y mirarte, y mirar la isla entera al mismo tiempo desde una altura que te hace dar vértigo.\r\n\r\n[[g;red;]El gusano].\r\n\r\nNo sabes cómo lo hizo, no tienes idea de cómo algo tan grande pudiera moverse tan rápido de tan lejos para estar tan cerca ahora. Su cuerpo rugoso se alza casi tocando las rocas de ese risco maldito.\r\n\r\nY sientes ahora que, aunque su cabeza y su cuerpo no se mueven un centímetro, y se alzan como una torre inclemente, el gusano se moviera hacia abajo, hacia ti.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Se acabó, abres una nueva puerta en este mismo instante, para escapar. Algo en el cuerpo de ese ser no te gusta, algo en ese cuerpo lleno de pliegues y masas informes, parece… Tener una forma, una que no te gusta para nada.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Te giras para correr al faro lo más rápido que puedes.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2D"
+                }
+            ]
+        },
+        {
+            "scene": "2CC",
+            "mainTxt": "Con mucho cuidado y soportando el dolor que comienza a asomarse de tu rodilla derecha subes el camino fangoso hacia el Faro.\r\n\r\nLa lluvia y el frío viento de la tormenta solo ayudan a que el dolor se multiplique. Pero continúas apretando los dientes.\r\n\r\nY de repente distingues bien la forma de la estructura a la que te diriges entre la ventisca, entre el agua que trata de tapar tu vista. Ves las paredes de ladrillo pintadas de blanco, ves la erosión en la pintura en las paredes, el moho que crece en varios de los recovecos de esos ladrillos.\r\n\r\nY ves la puerta del Faro. Y al Hombre asomándose mientras la abre.\r\n\r\nEs un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.\r\n\r\nEl hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.\r\n\r\nEl hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.\r\n\r\nLuego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.\r\n\r\nPara ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Abres una puerta, porque lo que sea que este hombre con cara ruda y experimentada vio, no puede ser bueno, y mucho menos luego de lo que has visto que se levanta del mar ahì atràs.\n[[g;#475c85;]2)]Oprimes el botón.\n[[g;#475c85;]3)]Te volteas a mirar lo que sospechas el Hombre acaba de ver. Porque sabes muy posiblemente lo que verás.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "1F"
+                }
+            ]
+        },
+        {
+            "scene": "2D",
+            "mainTxt": "Te giras para correr. Pero es muy tarde, el movimiento, el cambio pasa en fracciones de segundo.\r\n\r\nEl gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.\r\n\r\nPorque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.\r\n\r\nTratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.\r\n\r\nY notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.\r\n\r\nY ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar [[g;red;]su nombre]. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.\r\n\r\nSu nombre es el concepto, su nombre es una idea. La idea de…\r\n\r\nPero de repente. [[g;#3488EF;]Luz].\r\n\r\nEl sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.\r\n\r\nLa imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.\r\n\r\nTu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.\r\n\r\nNo tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.\r\n\r\nY luego, ya no.",
+            "prompt": "[[g;#475c85;]/]¿Qué haces?[[g;#475c85;]>>>>]\n[[g;#475c85;]1)]Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.\n[[g;#475c85;]2)]Tratas de recuperar tu forma, de sentir, de moverte.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 2,
+                    "goTo": "3A"
+                }
+            ]
+        },
+        {
+            "scene": "3A",
+            "mainTxt": "El brillo, el agua, el frío. El olor salado del mar y el ruido de incontables truenos en la distancia.\r\n\r\nEscuchas pasos acercarse mientras comienzas a sentir tus piernas, a sentir tus brazos, tu espalda contra un suelo mojado, no, más que mojado, un riachuelo donde el agua fría te roza la espalda.\r\n\r\nPero no te sientes fría, te sientes… como si no hubiera distinción en la sensación, como salida de una anestesia particularmente fuerte.\r\n\r\nEn tu cabeza retumba una especie de zumbido, una vibración que se siente seca, que se siente como lijas que se retuercen dentro de tu cráneo. Tu boca tiene un sabor metálico, tus labios están semi dormidos.\r\n\r\nPero te sientes de alguna manera, tranquila. Por un momento no existías, por un momento la luz cegadora te borró, y eras algo que no estaba limitado por la piel, eras algo que existía y se movía por todos lados, como la lluvia.\r\n\r\nLos pasos están más cerca y tratas de ver algo, pero solo está la imagen residual de esa luz, solo está el tenue brillo de la tormenta.\r\n\r\nEscuchas una voz sobre el agua que cae, y sobre el océano enojado.\r\n\r\nEscuchas una voz vieja, algo carrasposa, pero segura, muy segura de lo que está diciendo.\r\n\r\n[[g;grey;]-Usted no debería estar aquí-] \r\n\r\nY de repente tus ojos se van cerrando, mientras pierdes la conciencia.",
+            "prompt": "[[g;red;]/]Conexión perdida…[[g;#475c85;]>>>>][[g;red;][ESPERANDO RECONEXIÓN...]]\n",
+            "actions": []
+        },
+        {
+            "scene": "END1",
+            "mainTxt": "[[g;red;]FATAL ERROR]",
+            "prompt": "[[g;#475c85;]/]Conexión perdida…[[g;#475c85;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "END2",
+            "mainTxt": "[[g;red;]NOT FOUND]",
+            "prompt": "[[g;#475c85;]/]Conexión perdida…[[g;#475c85;]>>>>]\n",
+            "actions": []
+        }
+    ]
+}

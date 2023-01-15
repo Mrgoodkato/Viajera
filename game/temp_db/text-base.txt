@@ -394,4 +394,16 @@ Y de repente tus ojos se van cerrando, mientras pierdes la conciencia.+
 
 PROMPT -Conexión perdida…+
 
+SCENE -END1+
+
+TEXT -FATAL ERROR+
+
+PROMPT -Conexión perdida…+
+
+SCENE -END2+
+
+TEXT -NOT FOUND+
+
+PROMPT -Conexión perdida…+
+
 

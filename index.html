@@ -10,7 +10,21 @@
     <link rel="stylesheet" href="https://unpkg.com/jquery.terminal@2.0.0/css/jquery.terminal.css"/>
     <style>
         body{
-            background-color: black;
+            background-color: #c1cfda;
+        }
+        .terminal{
+            --color: #475c85;
+            --background: #c1cfda;
+            --size: 1;
+        }
+        .cmd .cursor.blink {
+            -webkit-animation-name: terminal-bar;
+            -moz-animation-name: terminal-bar;
+            -ms-animation-name: terminal-bar;
+            animation-name: terminal-bar;
+        }
+        .terminal .inverted, .cmd .inverted {
+            border-left-color: #aaa;
         }
     </style>
     <title>Traveler Project</title>
@@ -18,27 +32,17 @@
 <body id="terminal">
 
     <template id="greetings">
-[[g;grey;]            
- |   |           |         
- |   |    _ \    |    _` | 
- ___ |   (   |   |   (   | 
-_|  _|  \___/   _|  \__,_| 
-                          
-------------------------]
-[[g;blue;]Viajera.]
+[[g;#475c85;]
 
-. _  .    .__  .  .  __,--'
-(_)    ' /__\ __,--'
-'  .  ' | '| o|'
-        [IIII]`--.__
-        (|  |)       `--.__
-        (| :|)             `--.__
-        (|  |)                   `--.__
-._,,.-,.__.'__`.___.,.,.-..,_.,.,.,-._..`--..-.,
+|=¯¯|_|¯¯¯|  /¯¯,¯¯\   |=¯¯|__    /¯¯,¯¯\ 
+|==_|█|=__| |\=___ /|' |===__'|  /=_/'\__\ 
+|███|¯|██_|  \|██_|/ ° |████_'| |██ |/\|█_|
+°°°   °°      °°       °°°      °°      °]
 
-[[g;grey;]Presiona 
-[[;blue;]ENTER] o [[;blue;]⏎ ](en tu teclado de celular)]
------------------------------------
+[[g;#475c85;]Viajera.]
+
+
+█[[g!;#c1cfda;#475c85;;https://youtu.be/h8JtF4VfUQY;]Click aqui, para algo "inmersivo" mientras cruzas]█
                             
     </template>
 
