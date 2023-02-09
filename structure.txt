@@ -1,9 +1,45 @@
-Greeting.           (Prompt to continue)
+1)
 
-Introduction.       (Prompt to continue)
+MAINTEXT        Es una casa, grande y al tiempo negra, como la noche. <-space.description
 
-Create character.   (Prompts to input data into object)
-    Name.
-    Stats.
+PROMPT          ¿Qué haces? <-space.prompt
 
-Scene.              (Starts game)
+OPTIONS         -Derecha- <-space.actions[index].key
+                    Te mueves a la derecha <-space.actions[index].description
+                -Izquierda-
+                    Te mueves a la izquierda
+                -Adelante-
+                    Te mueves adelante
+                -Atras-
+                    Te mueves para atrás
+                -Observar-
+                    Observas el lugar
+                -Martillar-
+                    Usas el martillo
+                -Sombrilla-
+                    Abres la sombrilla
+
+CMD           "Observar"
+
+
+
+2)
+
+MAINTEXT        Encuentras en el suelo un martillo y una sombrilla. <-space.description
+
+PROMPT          ¿Qué haces? <-space.prompt
+
+OPTIONS         -Derecha- <-space.actions[index].key
+                    Te mueves a la derecha <-space.actions[index].description
+                -Izquierda-
+                    Te mueves a la izquierda
+                -Adelante-
+                    Te mueves adelante
+                -Atras-
+                    Te mueves para atrás
+                -Observar-
+                    Observas el lugar
+                -Martillar-
+                    Usas el martillo
+                -Sombrilla-
+                    Abres la sombrilla

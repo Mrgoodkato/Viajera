@@ -1,409 +1,833 @@
 SCENE -1A+
 
-TEXT -Pasas el portal y lo primero que sientes es el agua, un vendaval que te hace estremecer. No logras ver bien lo que hay al frente tuyo, solo una pared gris y blanca. El sonido de la tormenta lo es todo.
+TEXT -Despiertas. ¿o ya estabas despierta? No sabes desde hace cuanto tiempo tienes los ojos abiertos mirando ese techo de madera.
 
-El portal está por cerrarse detrás tuyo, y recuerdas que al entrar algo te habló, un… mensaje ¿quizás?
+Estás acostada boca arriba y sientes la suavidad de una almohada bajo tu cabeza. El lugar huele a viejo, a guardado, a madera húmeda pero no podrida, a la sal del mar en el aire, al humo que despide la vela que notas al lado de tu cama en el viejo nochero, puesta sobre un porta velas de bronce. Huele también a leche y a pan, y notas el plato al lado de la vela, con… leche y pan, obviamente, pan viejo y posiblemente duro.
 
-Sabes que este no es el mundo al que te dirigías, sabes que aquí no debería haber lluvia, no ahora, si este fuera tu destino real.
+Escuchas los sonidos de la lluvia contra una ventana a tu lado izquierdo. No la habías notado porque igual, si llueve el suficiente tiempo, el ruido de la lluvia se vuelve solo parte del paisaje, casi imperceptible. Pero lo notas porque algo ha impactado suavemente la ventana, y cuando miras ves que una hoja o rama pequeña pasa derecho por entre la tormenta gris que ruge ahí afuera.
 
-Recuerdas la cabaña en esa montaña, recuerdas los cuerpos. Sabes que esto es otra vez lo mismo, alguien ha desviado tu puerta. Estás en un lugar desconocido.
-
-Un relámpago zigzaguea entre nubes negras y espesas, y luego el trueno ensordecedor. Se te muestra la silueta de una estructura alta, a unos doscientos metros de distancia, una torre enorme que contrasta con el gris de la tormenta, iluminada por la luz eléctrica.+
+Solo ves por esa ventana la ventisca, la bruma, el agua que se abalanza sobre un mar cada vez más enojado. Y entonces recuerdas que había algo en el fondo, muy al fondo del horizonte, recuerdas la forma elongada del [[g;red;]Gusano].+
 
 
-PROMPT -¿Qué haces?+
+PROMPT -¿Sigues mirando por la ventana?+
 
-1-Presionas el botón que sostienes en tu bolsillo.+END1
-2-Te das media vuelta y te vas de este lugar a un lugar seguro y conocido, después de todo, esto no podría ser otra cosa que una trampa.+END2
-3-Caminas hacia la torre que te dejó vislumbrar el rayo.+2A
-4-Revisas mejor tus alrededores, después de todo, detrás de tí, a través del ruido de la tormenta puedes distinguir el sonido de las olas del mar chocando+1B
+1- Sí, ¿por qué voy a temer a una historia? Después de todo, es solo una historia.+1B
+2- No, igual tengo que levantarme+1BA
+3- Presionas el botón+END1
+4- Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.+END2
 
 
 SCENE -1B+
 
-TEXT -La tormenta es demasiado fuerte pero logras ver mejor lo que hay al frente tuyo luego de un momento de acostumbrar los ojos. El agua es fría y el olor te resulta familiar, un olor salado.
+TEXT - Miras por la ventana a ver si algo aparece en la distancia una vez más. Una parte tuya quiere ver algo ahí, una parte tuya espera poder encontrar la forma de ese ser alzándose hasta el firmamento desde el mar una vez más, sea por curiosidad, sea por simple morbo de ver, de atestiguar algo que antes no habías visto.
 
-Es el mar, lo sabes.
+Otra parte tuya espera no ver nada, porque igual, no es agradable ser casi devorado por una entidad Lovecraftiana extraña que hurga tus pensamientos con tan solo los pliegues de su cuerpo.
 
-Estás parada en un risco de rocas grises y abajo puedes distinguir un camino de lodo. Tierra posiblemente si no estuviera cayendo ésta tormenta de mil demonios.
+Y bueno, al mirar un rato detenidamente, no encuentras nada, solo el ruido del agua, el silbar del viento enardecido y las olas chocando y despedazándose entre ellas.
 
-Detrás tuyo ves como el portal se cierra e inmediatamente en la distancia una serie de rayos te dejan ver las aguas turbulentas. Montañas de agua que se forman para chocar con otras montañas en un mar erizado, enojado. El viento amenaza con hacerte salir volando como una cometa sin hilo.
+Te sientas en la cama y miras el plato de comida que hay en el nochero. Es un nochero plano, de madera, con dos cajones. La vela está posiblemente a la mitad por toda la cerca que ves que cae a sus lados y se deposita en la taza de bronce bajo su base. 
 
-El trueno llega a los cinco segundos aproximadamente, lo que te dice que la tormenta va hasta cinco kilómetros más o menos de distancia, aunque… ahora ves fogonazos blancos mucho más lejos que te muestran lo apocalíptica que es en realidad. Nubes que se distinguen entre las muchas ramas brillantes que se propagan de aquí a allá. Nubes negras, nubes que parecen los cuerpos abultados de Leviatanes.+
+El pan se ve duro, y la leche, no se ve tan mal. Y tienes hambre.+
 
-PROMPT -¿Sigues mirando?+
 
-1-No, comienzas a bajar por el risco, es muy arriesgado estar aquí.+2A
-2-Crees ver algo entre los rayos, tratas de ver mejor. Solo por un momento.+1C
+PROMPT -¿Comes?+
+
+1- Sí, tengo hambre después de todo ¿no? Eso es lo que uno hace cuando tiene hambre.+1C
+2- No,esa vaina podría tener quién sabe qué sustancia rara+1CA
+3- Presionas el botón+END1
+4- Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.+END2
+
+
+SCENE -1BA+
+
+TEXT - Te volteas de la ventana, evitas siquiera mirarla de reojo y mejor te giras al otro lado, donde está el nochero con la vela y el plato.
+
+Te sientas en la cama y miras el plato de comida que hay en el nochero. Es un nochero plano, de madera, con dos cajones. La vela está posiblemente a la mitad por toda la cerca que ves que cae a sus lados y se deposita en la taza de bronce bajo su base. 
+
+El pan se ve duro, y la leche, no se ve tan mal. Y tienes hambre.+
+
+
+PROMPT -¿Comes?+
+
+1- Sí, tengo hambre después de todo ¿no? Eso es lo que uno hace cuando tiene hambre.+1C
+2- No,esa vaina podría tener quién sabe qué sustancia rara+1CA
+3- Presionas el botón+END1
+4- Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.+END2
 
 SCENE -1C+
 
-TEXT -Hay algo que no es la tormenta, no es nubes, no es mar.
+TEXT -El pan está duro.
 
-Estás segura de ello. Eso… eso que se… ¿retorció?
+¿Qué esperabas?
 
-Está tan lejos, es apenas distinguible.
+Pero al pasarlo con la leche notas que tiene un buen sabor, un sabor que no has probado en mucho tiempo. No tiene ese tono extraño que tiene todo lo de las ciudades, esa cualidad medio plástica y falsa que dan los aditivos, los conservantes. No sientes químicos, solo la levadura, el trigo, es pan.
 
-Eso no puede ser una nube. Eso tiene una forma definida.
+Lo mismo pasa con la leche, y sabes que es leche sacada directo de una vaca, está tibia.
 
-Pero, ¿qué puede ser?
+No sabías lo hambrienta que estabas hasta que empezaste a comer, una vez empezaste, no pudiste parar y devoraste todo lo que había en ese plato y vaso en un santiamén.
 
-¿Qué puede ser tan enorme como para verse desde tan gran distancia?
+Y estabas tan concentrada comiendo que al voltear… al escuchar el sonido de… ¿uñas? 
 
-(Aunque realmente la pregunta no es tan difícil si consideras lo que has visto en tus viajes. Pues has visto demasiado, y sabes lo que es un dragón, sabes lo que es un Antiguo levantándose del océano).
+Sí, uñas, chocando contra el piso de madera haciendo -tic, tic, tic-.
 
-Una parte tuya se siente decepcionada, por ver algo tan común. 
+-TIC, TIC, TIC-
 
-Otra parte tuya no está segura de si lo que está viendo, esa masa que se levanta y se mueve, que tendría el tamaño de uno o varios edificios, es lo que crees que es.
+Te das cuenta que lo que ha entrado en la habitación está apenas a unos centímetros de tus pies.
 
-Porque hay algo que… mientras más distingues su forma, mientras los innumerables rayos descubren su silueta, mientras se distingue su color más claramente… hay algo que te dice que eso no es lo que tu mente imagina.+
+Volteas ya pensando en el horror que está ahí, en la cosa que logras ver arrastrarse por el suelo en la periferia de tu visión, una cosa amarilla. ¿Dorada? Peluda… muy peluda.
 
-PROMPT -¿Sigues mirando la forma que se alza en la distancia?+
+Algo que.
 
-1-Sí. Quieres saber qué diablos es eso.+1D	
-2-No. Te volteas y bajas el risco al camino.+2AA
-3-Mejor te vas de este mundo de una vez, es solo otro ser Lovecraftiano después de todo, y no estás de humor para esas cosas hoy.+END2
-4-Oprimes el botón.+END1
+Es un perro.
+
+Es solo un perro y casi pegas un grito. Un labrador dorado y algo viejo que te mira impávido.+
+
+
+PROMPT -¿Qué haces?+
+
+1- Inhalas, y te acercas a acariciar al labrador.+1D
+2- Obviamente saludas al labrador como una persona adulta y diciendo “Hola”.+1DA
+3- Presionas el botón+END1
+4- Abres una puerta y te vas, no quieres que nadie se entere que casi pegas un grito por un labrador que se te escabulló.+END2
+
+
+SCENE -1CA+
+
+TEXT -Miras el plato con comida, tienes hambre pero no tocarás nada de comer, aún.
+
+Huele cada vez más bien mientras más lo miras. Y sientes que tu estómago hace sonidos extraños, protestando a tu decisión, como diciendo: “¡Aliméntame, qué esperas, ¿estás loca?!”
+
+Por el hambre que tienes supones que debe haber pasado un buen rato, incluso un día entero desde que perdiste el conocimiento.+
+
+
+PROMPT -¿Qué haces?+
+
+1- Cedes y comes, además esa comida se ve simple, no se ve amenazante.+1C
+2- No comes y te mantienes en tu punto, después de todo, tu superpoder es ser testaruda, si no, entonces ¿qué gracia?.+1CB
+3- Presionas el botón+END1
+4-.Abres una puerta y te vas de este mundo en busca de comida segura y más apetitosa.+END2
+
+SCENE -1CB+
+
+TEXT -Te cruzas de brazos en la cama y haces mala cara.
+
+Miras mejor la puerta de la habitación en la que estás. Y para empezar, está abierta.
+
+Para terminar casi te tiras de la cama porque ves una figura sentada en la base, una cosa peluda, dorada y con ojos negros.
+
+Un perro.
+
+Un labrador para ser más exactos, viejo e impávido, mirándote ahí sentado.
+
+Tratas de recuperarte del susto pues no esperabas ver algo así tan de repente, y sin que anunciara su presencia de ninguna manera.
+
+El labrador camina por el piso de madera, sus uñas de las patas hacen -tic, tic, tic- Mientras se aproxima a tu lado de la cama. No quita la mirada de ti.+
+
+PROMPT -¿Qué haces?+
+
+1- Inhalas, y te acercas a acariciar al labrador.+1D
+2- Obviamente saludas al labrador como una persona adulta y diciendo “Hola”.+1DA
+3- Presionas el botón+END1
+4- Abres una puerta y te vas, no quieres que nadie se entere que casi pegas un grito por un labrador que se te escabulló.+END2
+
+
 SCENE -1D+
 
-TEXT -Está lejos, extremadamente lejos, kilómetros, lo que sea que se estremece en el mar. Su forma es larga, puedes distinguir eso.
+TEXT -Un: 
 
-Pero, quizás… ¿su volumen? Es algo que no logras distinguir bien, porque jurarias que por momentos se va desvaneciendo, su silueta tornándose delgada, y en otros… pareciera hacerse más grande.
 
-Lo primero que se te viene a la mente es la palabra “gusano”. Un gusano gordo que se asoma desde la profundidad del océano, los truenos van mostrando su cuerpo lleno de estrías, seccionado y doblado. Su cabeza mirando hacia un lado, retorciéndose lentamente, las olas chocando contra su forma inamovible.
+[[g;grey;]-Buenos días señorita-] 
 
-El gusano se está girando, su cabeza, ahora que la ves más de frente no es el agujero lleno de dientes que uno imaginaría muchas veces de seres enormes que devoran navíos. No ves boca o cavidad alguna, no ves ojos, no ves nada que puedas distinguir como algo familiar en otro ser vivo. Ves una masa de… protuberancias difusas, como si su cabeza hubiera sido derretida y solo quedara el desastre donde debería haber algún tipo de órgano sensorial.
+Te detiene la mano antes de tocar al perro. Pero no te asusta como lo haría a una persona normal el oír hablar a un animal que de hecho ni siquiera mueve los labios al hacerlo.
 
-El gusano ahora ha girado su cuerpo por completo y se muestra de frente. Los relámpagos siguen revelando detalles momentáneos, como fotografías en ráfaga en una habitación oscura. Pero algo no anda bien, porque de alguna manera, a cada relámpago, esa figura a kilómetros de distancia, se vuelve cada vez más detallada. Y tus ojos la pueden enfocar mejor.
+Has visto perros hablar innumerables veces, y éste no es la excepción.
 
-Porque está cerca.+
+Escuchaste una voz de hombre, de un hombre mayor… una voz de un hombre que te parece familiar.
 
-PROMPT -¿Qué haces?+
+¿Fue esa la última cosa que escuchaste antes de caer inconsciente? Tienes el recuerdo de que parece que fuera así.
 
-1-Te volteas al camino, has visto suficiente.+2AAA
-2-¿Por qué esa palabra llega a tu mente? ¿Cerca? Si no se ha movido, si está tan lejos...+1E
-3-Escapas por otra puerta.+END2
-4-Oprimes el botón.+END1
-SCENE -1E+
+Sin embargo te quedas un poco sin palabras, en un silencio incómodo mientras el perro te mira de arriba a abajo.
 
-TEXT -Es que. Eso que está allá.
+[[g;grey;]-¿Cómo se encuentra el día de hoy?-]+
 
-Está aquí.
 
-El gusano, no se ha movido ni abalanzado, pero está aquí, por el solo hecho de estar, por el solo hecho de pensarlo así. El ser que se alza del agua, en el momento en que dirige su cabeza a ti, de repente lo es todo al frente tuyo.
+PROMPT -¿Qué respondes?+
 
-Has distinguido el cambio, pero no te explicas cómo pasó. De un momento a otro el espacio alrededor de ese cuerpo seccionado y rugoso se extendió hacia todos lados, haciendo crecer su forma más y más en todas direcciones en apenas un segundo.
+1-.Bien gracias ¿y usted?.+2A
+2- ¿Dónde estoy, qué es este lugar?.+2AA
+3- ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!+2B
+4- No le respondes.+2BA
+SCENE -1DA+
 
-Pasó más rápido de lo que podrías haber apretado el botón, y de no ser por tu equilibrio, y por pura suerte, no te echaste para atrás, cayendo del risco.
+TEXT -Un: 
 
-Pero ahora está ahí, y su cabeza se alza a apenas unos metros del risco en el que te paras. Y te… mira… y lo sabes así no tenga ojos, así la pared de masas y crecimientos disformes que ocupan sus “facciones” no tengan sentido. Así los innumerables agujeros y pulsantes crecimientos de color brillante no sean familiares con ningún ser vivo que conozcas.
 
-El color de moscas gordas de cementerio, verde azul.
+[[g;grey;]-Buenos días señorita-] 
 
-Los patrones que ahora ves en sus pliegues y rugosidades, los patrones que tienen forma, que tienen tantas formas que te mareas con solo mirarlas.
+Casi te sobresaltas al presenciar un perro parlanchín. Pero no lo haces.
 
-El total silencio con el que este ser te contempla.
+Has visto perros hablar innumerables veces, y éste no es la excepción.
 
-Porque ahora está completamente quieto, una pared viva, completamente quieta.+
+Escuchaste una voz de hombre, de un hombre mayor… una voz de un hombre que te parece familiar.
 
-PROMPT -¿Qué haces?+
+¿Fue esa la última cosa que escuchaste antes de caer inconsciente? Tienes el recuerdo de que parece que fuera así.
 
-1-Oprimes el botón.+END1
-2-Te tiras para atrás, así caigas por el risco, eso es preferible a ver lo que viene.+2AAAA
-3-Esperas a ver qué hará este ser.+1F
+Sin embargo te quedas un poco sin palabras, en un silencio incómodo mientras el perro te mira de arriba a abajo.
 
-SCENE -1F
+[[g;grey;]-¿Cómo se encuentra el día de hoy?-]+
 
-TEXT -El gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.
 
-Porque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.
+PROMPT -¿Qué respondes?+
 
-Tratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.
-
-Y notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.
-
-Y ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar su nombre. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.
-
-Su nombre es el concepto, su nombre es una idea. La idea de…
-
-Pero de repente. Luz.
-
-El sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.
-
-La imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.
-
-Tu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.
-
-No tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.
-
-Y luego, ya no.+
-
-PROMPT -¿Qué haces?+
-
-1-Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.+END1
-2-Tratas de recobrar tu forma, de sentir, de moverte.+3A
-
+1-.Bien gracias ¿y usted?.+2A
+2- ¿Dónde estoy, qué es este lugar?.+2AA
+3- ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!+2B
+4- No le respondes.+2BA
 SCENE -2A+
 
-DESC-Baja sin ver a su alrededor al camino.+
+TEXT -Le respondes al perro -Bien gracias ¿y usted?-
 
-TEXT -Bajas al camino por las rocas resbaladizas del risco no sin antes dar dos miradas rápidas alrededor y darte cuenta que estás en lo que parecería ser una isla. El las olas del mar son feroces y chocan contra el risco que tratas de bajar del otro lado. Es difícil pero lo logras después de varios resbalones que logras controlar de pura suerte.
+El perro se te queda mirando por un momento muy corto, y luego:
 
-Te embadurnas los zapatos con el barro del camino pero comienzas a subir una pendiente, puedes distinguir la forma de la torre por los relámpagos en el horizonte.
+[[g;grey;]-Bien señorita, muy bien, gracias por preguntar-] Notas que mueve un poco la cola, a pesar de que su expresión sigue siendo la misma.
 
-Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
+[[g;grey;]-Espero haya podido recuperarse, nos preocupaba que el… fenómeno hubiera sido irreversible-]
 
-El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
+El perro desvía su mirada un momento y se queda en silencio un momento.+
 
-Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
 
-Y un “Faro”.+
+PROMPT -¿Qué le dices al perro?+
 
-PROMPT -¿Qué haces?+
-
-1-Continúas el camino hacia el “Faro”.+2B
-2-Oprimes el botón.+END1
-3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
-
+1-.¿Dónde estoy, qué es este lugar?.+2AA
+2- ¿Quién eres?+2AC
 SCENE -2AA+
 
-DESC-Baja habiendo mirado a su alrededor primero un poco.+
+TEXT -El labrador dorado te devuelve la mirada una vez más.
 
-TEXT -Bajas al camino con cuidado pues las rocas del risco están muy mojadas, resbaladizas. Cuidas cada paso mientras el viento amenaza con echarte rodando. Pero lo logras.
+[[g;grey;]-Es una buena pregunta, rara vez la he escuchado en lo que tengo de memoria. Pocas personas pasan por aquí.-]
 
-El camino está lleno de lodo y tus zapatos se embadurnan. Es una pendiente difícil de recorrer.
+El perro se da media vuelta y recorre la habitación hasta llegar a la ventana donde la tormenta aún arroja escombros contra el vidrio. Afuera el aire gris y acelerado pasa a ráfagas, el perro dirige su mirada allí y se sienta frente a la ventana mirando afuera.
 
-Mientras subes el camino fangoso y te esfuerzas por no resbalar logras divisar la estructura que te llamó la atención cuando llegaste.
-
-Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
-
-El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
-
-Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
-
-Y un “Faro”+
-
-PROMPT -¿Qué haces?+
-
-1-Continúas el camino hacia el “Faro”.+2B
-2-Oprimes el botón.+END1
-3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
-
-SCENE -2AAA+
-
-DESC-Baja habiendo al ver al gusano más detalladamente, y sentir que se acerca.+
-
-TEXT -Te bajas rápidamente de este risco, tratas de no caer, tropiezas y por poco, más de una vez caes de cara al camino abajo tuyo. Las rocas son resbalosas y en las últimas finalmente pierdes el equilibrio y caes sobre el camino lleno de agua y fango. Toda tu ropa se embadurna de fango, tu pelo, y la mitad de tu cara.
-
-Pero al menos, como está mojado, no te hiciste daño.
-
-Aunque no es tanto consuelo ahora que te levantas vuelta nada.
-
-Sin embargo hay algo más importante, y es moverse lejos de lo que sea que había en ese horizonte. Así que avanzas por el camino, que es una pendiente que da a la estructura en el centro de esta isla.
-
-Es una estructura alta, y puedes notar que en su parte superior comienza a encogerse, ves una caseta circular rojiza con muchas ventanas que le dan la vuelta 
-
-El cuerpo de esta torre es de ladrillo pintado de blanco, y puedes ver el deterioro entre las grietas del mismo en varias partes. La parte más baja tiene una puerta de madera gruesa en su base, la puerta está cerrada, ahí va a dar el camino por lo que ves desde la pendiente que subes.
-
-Es un faro. De alguna manera sabías que era un faro desde la primera vez que divisaste este edificio. Y recuerdas algo de lo que… ¿escuchaste? Mientras pasabas la puerta. Algo sobre un “Hombre”.
-
-Y un “Faro”+
-
-PROMPT -¿Qué haces?+
-
-1-Continúas el camino hacia el “Faro”.+2B
-2-Oprimes el botón.+END1
-3-Tus zapatos favoritos están llenos de lodo y tu ropa empapada, mejor sales de esta realidad y te secas. Abres otra puerta.+END2
+[[g;grey;]-Este es el Faro, el Faro es lo que hay antes de entrar al mundo.-]+
 
 
+PROMPT -¿Qué le dices al perro?+
+
+1-.No entiendo. ¿El faro de qué? ¿Dónde estamos, en qué país? ¿En qué continente? ¿En qué mundo?+2AB
+2- ¿Quién eres?+2AC
+
+SCENE -2AB+
+
+TEXT -El perro se voltea y notas una extraña expresión en sus ojos, algo que no has visto muy seguido a un perro hacer.
+
+Confusión.
+
+[[g;grey;]-Este es el Faro, el único Faro, no hay más. Y lo que hay luego del faro es el mundo, no hay más, es el mundo.-]+
 
 
+PROMPT -¿Qué le dices al perro?+
 
+1- ¿Quién eres?+2AC
+SCENE -2AC+
 
-SCENE -2AAAA+
+TEXT -El perro vuelve a mirar la tormenta fuera de la ventana. Una rama pasa en ese momento volando a una velocidad casi imperceptible.
 
-DESC-Se tira por el risco escapando del gusano.+
+[[g;grey;]-Yo soy el cuidador del Faro, y del Hombre.-]+
 
-TEXT -Te tiras paras atrás, lo único que piensas es que si te quedas ahí un segundo más, esa cosa, esa masa de arrugas, de símbolos, de colores brillantes, ese gusano va a envolverte por completo con su forma, va a devorarte.
+PROMPT -¿Qué le dices al perro?+
 
-No te importa en este momento nada más que alejarte, tu cuerpo no protesta, no sientes el susto de la caída hacia atrás mientras te lanzas de un brinco al abismo tras de tí.
+1- ¿El hombre? ¿Cuál hombre?+2C
+2- ¿Y tienes un nombre?+2AD
 
-Notas todo lentamente al principio, el gusano, que antes ocupaba toda tu periferia, con su rostro que… no era un rostro, comienza a retraerse desde los lados, desde arriba y abajo de tu punto focal de visión. Como una ilusión óptica hecha con lentes de esas que hacen en el cine.
+SCENE -2AD+
 
-De repente el campo de visión vuelve a la normalidad, mientras tu mirada da la vuelta con tu cuerpo en el aire y ves el cielo gris oscuro, y los rayos que lo recorren, mientras sientes el agua de la lluvia caer en tu cara.
+TEXT -El perro vuelve a mirarte y mueve la cola un poco.
 
-Y vas cayendo. Y ahora sí te das cuenta que vas cayendo…
+[[g;grey;]-¿Nombre? No entiendo a qué te refieres con un nombre, las cosas tienen nombres, ¿por qué yo tendría un nombre?.-]+
 
-Pero no te das cuenta de cuando caes, no te das cuenta de un golpe, simplemente estabas en el aire, y luego… en el suelo boca abajo en el fango, con la mitad de la cara hundida en ese camino y la lluvia repiqueteando en tu rostro, a tu alrededor.+
+PROMPT -¿Qué le dices al perro?+
+
+1- Pues… yo tengo un nombre y no soy una cosa. Mi nombre es (procedes a decir tu nombre, Viajera, o el nombre que te ha identificado hasta ahora) ¿Cuál es el tuyo?+2AE
+2- Aceptas la respuesta del perro reticentemente, asientes y luego continúas: Hablaste de un Hombre que cuidas. ¿Quién es ese hombre?+2C
+SCENE -2AE+
+
+TEXT -Ahora el perro te mira completamente extrañado y algo escandalizado, si eso es posible en un perro, pero lo ves tan claro como el día en sus facciones caninas.
+
+Un trueno en la distancia de la tormenta te hace estremecerse un poco, suena como la detonación de varias bombas al tiempo.
+
+[[g;grey;]-¿Cómo si no eres una cosa, tienes un nombre? Esto es realmente extraño, y si lo tienes… ¿Por qué compartes tu nombre con un desconocido como yo?-]
+
+El perro se voltea para acercarse un poco a ti y dirigir toda su atención en tu dirección.
+
+[[g;grey;]-No te recomendaría compartir tu nombre con nadie más, no sabes lo que harán con él, los nombres tienen poder ¿sabes?-]
+
+Luego se gira y empieza a caminar hacia la puerta.
+
+[[g;grey;]-Vamos, el Hombre está haciendo las rondas al interior del faro y si te ve despierta haciendo nada… va a ser un poco incómodo para tí-]
+
+Luego, mientras el labrador va saliendo de la habitación escuchas muy un refunfuño:
+
+[[g;grey;]-Seres con nombre, ¿por qué me toca la gente rara siempre?-]+
 
 PROMPT -¿Qué haces?+
 
-1-Tratas de levantarte y analizar el daño que tienes antes de continuar, así como dónde demonios has caído+2BB
-2-Oprimes el botón.+END1
+1- Sigues al perro y sales del cuarto algo incómoda de su opinión altamente bizarra de reglas que parecerían normales en todos los mundos que has visitado.+3A
+2- Recuerdas el botón, y lo oprimes, porque… ¿sí?.+END1
+3-.Te vas de este mundo extraño sin respuestas, es demasiado sospechoso todo.+END2
 SCENE -2B+
 
-DESC-Camina al faro luego de bajar sin mayor inconveniente el risco.+
+TEXT -El perro solo te mira completamente sereno mientras sueltas esa retahíla de improperios y preguntas en voz alta.
 
-TEXT -Mientras subes el camino de fango hacia el Faro, te das cuenta de algo de repente. Te das cuenta que la puerta del Faro, está abriéndose.
+Una vez terminas, el perro parpadea lentamente y te mira a los ojos.
 
-La tormenta no deja ver bien el interior, pero la puerta se abre lentamente y puedes ver un interior oscuro del cual sale una figura a la entrada.
+[[g;grey;]-Creo que empezamos con la pata izquierda esta conversación-]
 
-Ves a un Hombre, un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.
+Notas que el perro sonríe, no es muy agradable ver una sonrisa de perro, demasiados dientes afilados y amenazantes.
 
-El hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.
+[[g;grey;]-Si gusta puedo responder a sus preguntas, siempre que no las haga demasiado rápido y uno sobre la otra, honestamente no entendí la mitad de lo usted quería decir-]
 
-El hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.
+Tú inhalas, y calmas los ánimos un poco.+
 
-Luego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.
+PROMPT -¿Qué le dices al perro?+
 
-Para ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.+
+1- Bueno, está bien. ¿Dónde estoy… qué es este lugar?+2AA
+2- ¿Quién es usted?+2AB
+3- No preguntas nada y solo haces mala cara y te quedas callada.+2BA
+4- Oprimes el botón porque, ¿este perro está muy engreído?+END1
+5- Abres otra puerta y te largas, un perro no te va a decir qué hacer.+END2
+SCENE -2BA+
+
+TEXT -.El perro se queda ahí mirándote mientras tu mantienes tu silencio incómodo por un buen rato.
+
+El perro eventualmente se rasca una oreja y da una vuelta por la habitación, no dice nada más y crees que incluso lo que escuchaste salir de él no fue más que una alucinación auditiva.
+
+Aunque has escuchado perros hablar antes, no es algo nuevo. Pero pareciera que este labrador dorado, que ahora se ha sentado al frente de la ventana a mirar afuera a la tormenta inclemente simplemente no tuviera interés en seguir preguntando si no se le responde.
+
+Es extraño.
+
+El labrador se queda inmóvil mientras afuera chilla el viento y los escombros pasan volando frente a la habitación, al otro lado del vidrio.+
 
 PROMPT -¿Qué haces?+
 
-1-Te volteas, miras qué diantres ha asustado tanto a un hombre que parece más rudo que un clavo de ataúd en este lugar olvidado por dios.+2C
-2-Abres una nueva puerta en ese instante, no quieres saber qué es lo que hizo que ese hombre abriera los ojos con tanto miedo, sería mejor evitar.+END2
-3-Oprimes el botón.+END1
+1- No rompes tu silencio, llevas tu terquedad de no hablar al límite y sigues sin decir una sola palabra.+2BB
+2- Finalmente hablas, y dices algo como -Ehm… ¿Hola?-+2BC
+3- Oprimes el botón para ¿acabar con el silencio incómodo?+END1
+4- Te largas de este mundo con sus situaciones incómodas de interacción con perros parlanchines. Abres una nueva puerta.+END2
 SCENE -2BB+
 
-DESC-Se levanta luego de haber caído del risco.+
+TEXT -.El perro continúa mirando por la ventana un rato largo. Notas que empieza a jadear como lo hace un labrador, luego se levanta y se va de la habitación por donde vino.
 
-TEXT -Tratas de levantarte, tus brazos están bien, tienes fuerzas, y te empujas del lodo. Escupes un poco porque has estado hundida con casi media cara dios sabe cuánto tiempo aquí.
+Tú te quedas ahí un rato largo mirando al marco de la puerta por el cual salió.
 
-No te duele ni la cabeza, ni el pecho, solo te sientes extremadamente mareada, y desorientada. Por instinto miras hacia el risco. El risco está solo, de él no se levanta ningún monstruo Lovecraftiano esperando devorar tu alma. Das un suspiro de… ¿alivio?
-
-Ahora intentas pararte.
-
-Y ahí viene el dolor, el dolor centelleante que te hace desplomar otra vez al barro. Tu pierna derecha, algo pasó en la caída, y el dolor es increíble.
-
-No puedes creer que hayas sido tan descuidada, aprietas los dientes, el agua te cae directo en las mejillas, en los párpados, y cuando los abres ves desenfocado todo. Te limpias la cara y tratas de levantarte usando el otro pie.
-
-Sabes que el daño debe estar en la rodilla, sentiste como si alguien hubiera tomado un hierro caliente y te hubiera empezado a pegar directo en esa rodilla cuando trataste de apoyarte.+
+La tormenta continúa rugiendo afuera y no da señas de querer acabarse.+
 
 PROMPT -¿Qué haces?+
 
-1-Abres una nueva puerta, esto es muy peligroso, es mejor escapar ahora, mientras tienes tiempo.+END2
-2-Oprimes el botón.+END1
-3-Te mueves por el camino de barro hacia la estructura que se ve entre la tormenta, la torre, el… Faro.+2CC
+1- Sales de la habitación a explorar el lugar en el que te encuentras.+2DA
+2- Exploras la habitación y miras si hay algo que te de alguna pista de dónde estás dentro de la misma.+2CA
+3- Oprimes el botón.+END1
+4- Abres una nueva puerta y te vas de este mundo.+END2
+SCENE -2BC+
 
+TEXT -.El perro se voltea y te mira en cuanto dices ¿hola? De manera torpe.
+
+[[g;grey;]-Así que puedes hablar, interesante, pensé que no me habías entendido… supongo que tu tiempo para procesar el lenguaje es muy largo… fascinante-]
+
+El perro se voltea del todo y te da toda su atención, luego baja la cabeza un momento mirando hacia el suelo, como en un gesto pensativo, de alguna manera se ve como eso, a pesar de que nunca has visto a un perro antes hacer ese gesto.
+
+Luego levanta la cabeza y te habla despacio, muy despacio, entonando cada sílaba lenta y cuidadosamente:
+
+[[g;grey;]-H o l a, s e ñ o r i t a. ¿C ó m o e s t á? (una pausa) ¿D o l o r? (una pausa) ¿M a r é o? (una pausa) ¿S a b e d ó n d e e s t á? (una pausa) ¿H a m b r…. (y continúa así)+
+
+PROMPT -¿Qué haces?+
+
+1- Lo interrumpes diciendo -¡Ya! ¡No soy una retrasada! Yo le entiendo-.+2BD
+2- Dejas que siga hablando como si le hablara a alguien con daño cerebral para tú continuar con -Tranquilo, yo entiendo bien, solo, me gusta el silencio-+2BE
+3- Oprimes el botón porque un perro te habla como si fueras una persona con mongolismo+END1
+4- Te largas por otra puerta para evadir las preguntas extremadamente lentas y molestas de ese perro insufrible.+END2
+SCENE -2BD+
+
+TEXT -.El perro para de golpe en cuanto lo interrumpes y notas que su expresión se vuelve de sorpresa.
+
+[[g;grey;]-Un ser que deliberadamente cambia su velocidad de procesamiento de información, a partir de… simple y llano acto de voluntad. Interesante-]
+
+Te llevas la mano al entrecejo, ese perro te está empezando a parecer un poco… engreído.
+
+[[g;grey;]-Bueno señorita, si me puede entender entonces pregunto de nuevo, ¿Cómo se encuentra?-]+
+
+PROMPT -¿Qué respondes?+
+
+1-.Bien gracias ¿y usted?.+2A
+2- ¿Dónde estoy, qué es este lugar?.+2AA
+3- ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!+2B
+SCENE -2BE+
+
+TEXT -.[[g;grey;]-¿R e c u e r d a a l g o a n t e s d e d e s p e r t a r a q u í?-]
+
+El perro lleva casi cuatro minutos haciendo preguntas seguido en el mismo tono de voz y la misma cadencia de sílabas. Es tan desesperante que casi lo interrumpes varias veces.
+
+Finalmente se queda callado y le respondes: 
+
+[[g;blue;]-Tranquilo, yo entiendo bien, solo, me gusta el silencio-]
+
+El perro asiente.
+
+[[g;grey;]-E s t á s e g ú r …-]
+
+Lo interrumpes casi por reflejo:
+
+[[g;blue;]-¡Ya! ¡No soy una retrasada, puedes hablar normal!-]
+
+El perro vuelve a asentir.
+
+[[g;grey;]-No sé que es eso de ‘retrasada’ pero, está bien, hablaré normal ahora. Eres un ser curioso y extraño. Sólo quería saber cómo te encuentras, cómo te sientes.-]+
+
+PROMPT -¿Qué respondes?+
+
+1-.Bien gracias ¿y usted?.+2A
+2- ¿Dónde estoy, qué es este lugar?.+2AA
+3- ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!+2B
 SCENE -2C+
 
-DESC-Voltea a mirar lo que el Hombre del Faro ha mirado con terror.+
+TEXT -.El perro se dirige a la salida de la habitación y se para ahí para mirar al corredor afuera, el corredor está oscuro.
 
-TEXT -Te volteas siguiendo la mirada horrorizada del Hombre.
+[[g;grey;]-El Hombre es quien maneja el Faro, tanto el Faro como el Hombre son necesarios. Pero el Hombre está viejo, y el Hombre cada vez está más cansado, cada día apenas logra completar las rondas dentro del Faro para mantener todo en órden.-]
 
-Te volteas a ver lo que se asoma desde el risco en el que estabas parada apenas unos minutos atrás.
+Te quedas pensando en lo que soñaste antes de entrar aquí. Pero el perro luego continúa.
 
-Y lo ves, ves la cabeza llena de bultos, ves su forma tubular imposiblemente alta alzarse y mirarte, y mirar la isla entera al mismo tiempo desde una altura que te hace dar vértigo.
+[[g;grey;]-Este lugar no es seguro para usted señorita, este lugar es el límite entre el mundo y, lo otro, nada que tenga nombre aquí puede permanecer mucho tiempo, por esa razón es mejor que me siga, porque el Hombre está dando rondas, y creo que será mejor que él no la vea a usted despierta.-]
 
-El gusano.
+El perro sale de la habitación lentamente y luego se gira y te hace una ligera seña con la cabeza.
 
-No sabes cómo lo hizo, no tienes idea de cómo algo tan grande pudiera moverse tan rápido de tan lejos para estar tan cerca ahora. Su cuerpo rugoso se alza casi tocando las rocas de ese risco maldito.
-
-Y sientes ahora que, aunque su cabeza y su cuerpo no se mueven un centímetro, y se alzan como una torre inclemente, el gusano se moviera hacia abajo, hacia ti.
+[[g;grey;]-Sígame, es mejor que nos movamos a otro lugar-]+
 
 PROMPT -¿Qué haces?+
 
-1-Se acabó, abres una nueva puerta en este mismo instante, para escapar. Algo en el cuerpo de ese ser no te gusta, algo en ese cuerpo lleno de pliegues y masas informes, parece… Tener una forma, una que no te gusta para nada.+END2
-2-Oprimes el botón.+END1
-3-Te giras para correr al faro lo más rápido que puedes.+2D
-SCENE -2CC+
+1-.Sigues al perro fuera de la habitación.+3A
+2- Abres una nueva puerta y te vas, este lugar parece que sí es algo peligroso.+END2
+3- Oprimes el botón.+END1
+SCENE -2CA+
 
-DESC-Sube herida el camino de barro al Faro.+
+TEXT -.Exploras la habitación.
 
-TEXT -Con mucho cuidado y soportando el dolor que comienza a asomarse de tu rodilla derecha subes el camino fangoso hacia el Faro.
+Ves el nochero de madera y abres los cajones del nochero. Dentro de los cajones hay lo que parecen tela, o alguna prenda vieja, unos fósforos mojados, hay unos botones de camisa sueltos. El otro cajón, más grande tiene unos frascos vacíos, nada útil. Huele a guardado y a tabaco, fuertemente a tabaco, y no del que se fuma en cigarrillo, quizás el que olerías de una pipa, o habano.
 
-La lluvia y el frío viento de la tormenta solo ayudan a que el dolor se multiplique. Pero continúas apretando los dientes.
+La habitación no tiene sino un pequeño armario en una de sus paredes de madera.
 
-Y de repente distingues bien la forma de la estructura a la que te diriges entre la ventisca, entre el agua que trata de tapar tu vista. Ves las paredes de ladrillo pintadas de blanco, ves la erosión en la pintura en las paredes, el moho que crece en varios de los recovecos de esos ladrillos.
+Lo abres y ves ropa vieja colgando, sacos, muchos sacos grises, negros que huelen todavía más fuerte a ese tabaco, y a sudor. Debajo de la ropa hay varias botas, unos tres pares, pantaneras, vueltas nada, llenas de barro que se deja escombros de tierra en el suelo.
 
-Y ves la puerta del Faro. Y al Hombre asomándose mientras la abre.
+Hay varios cajones cerrados con llave al lado de la ropa, no puedes abrirlos, y hay un espacio pequeño sobre los cajones, una pequeña repisa donde hay variados papeles apilados.
 
-Es un hombre mayor, no sabes exactamente qué tan mayor por la distancia a la que estás, todavía te deben faltar unos 50 metros para llegar, y la tormenta no ayuda con la visibilidad.
+Los revisas y notas que están escritos en un lenguaje que no logras distinguir por más que tratas de poner a tu mente a funcionar. Ni el chino, ni el hebreo, ni el sumerio antiguo parece asemejarse a lo que hay en esas páginas.
 
-El hombre está parado contra el pórtico del faro. Mirándolo bien logras distinguir su rostro, tiene una barba tupida y blanca que ocupa todo su rostro inferior. Está vestido con un gabán largo y grueso y tiene un sombrero oscuro similar al que usaría un pastor.
+Son letras, tienen patrones pero sus formas son completamente diferentes a lo que sea que hayas visto antes, de hecho, a mirar más de cerca notas que los patrones de las palabras son muy arbitrarios, sea porque es un lenguaje muy rico en sinónimos o palabras que comparten la misma estructura o bien, porque no entiendes nada de lo que hay ahí.
 
-El hombre te está mirando en este momento, te mira con una expresión que no puedes definir si es de “disgusto” o de “decepción”. Quizás ambas, quizás has irrumpido en el hogar de un hombre que solo quiere estar solo.
-
-Luego esa mirada de ojos oscuros severa, se levanta de tí y mira por encima, mientras las manos callosas sacan un par de binoculares y el hombre comienza a divisar con ellos lo que hay tras tuyo. Lo que puede ver detrás del risco en el que estabas.
-
-Para ahora bajar esas manos con sus binoculares y poder ver tú, que los ojos del Hombre están abiertos, abiertos de par en par. Por lo que sea que hay tras el risco, en el mar.+
+Al fondo de los papeles hay un marco de una fotografía.+
 
 PROMPT -¿Qué haces?+
 
-1-Abres una puerta, porque lo que sea que este hombre con cara ruda y experimentada vio, no puede ser bueno, y mucho menos luego de lo que has visto que se levanta del mar ahì atràs.+END2
-2-Oprimes el botón.+END1
-3-Tratas de avanzar más rápido hacia la entrada del Faro, y tratas de llamar la atención del Hombre.+2DD
-4-Te volteas a mirar lo que sospechas el Hombre acaba de ver. Porque sabes muy posiblemente lo que verás.+1F
-SCENE -2D+
+1-.Miras la fotografía.+2CB
+2- Te vas de la habitación a explorar el corredor.+2DA
+3- Oprimes el botón.+END1
+4- Te largas de este mundo con letras extrañas que no puedes ni leer.+END2
+SCENE -2CB+
 
-DESC-Trata de escapar del gusano hacia el Faro+
+TEXT -.Es la fotografía de un hombre abrazando a una mujer, ambos son jóvenes, unos treinta años. Está en blanco y negro y sus expresiones son solemnes.
 
-TEXT -Te giras para correr. Pero es muy tarde, el movimiento, el cambio pasa en fracciones de segundo.
+Ambos están en el primer plano de la fotografía y detrás ves el [[g;blue;]Faro] alzándose. Te acercas a mirar más con detalle porque hay algo al fondo de la fotografía algo que está sobresaliendo contra el blanco del cielo al lado del [[g;blue;]Faro].
 
-El gusano se roba la tormenta, ya ni el agua se siente caer sobre tu piel. Tratas de no concentrarte en los símbolos y jeroglíficos que distingues sobre su “piel”.
+Es el perro, el labrador, y está parado mirando hacia la pareja.
 
-Porque las rugosidades, los pliegues no son accidentes naturales sobre este ser, porque todo lo que este ser es, tiene un propósito definido, sin accidentes, sin casualidad alguna. Un propósito que ningún ser “pensante” podría definir en un millón de años.
-
-Tratas de evitar mirar muy detenidamente los bolsillos colgantes de ese color verde azul brillante y enfermizo. Tratas de hacer eso porque cada vez que te concentras en alguna parte, tu mente va a lugares oscuros, tu mente entra en laberintos, porque las líneas de los símbolos son caminos que pueden no terminar, porque los colores anti-naturales que brillan ahí, se meten en tu cabeza más allá de lo que los recuerdos e ideas pueden hacer.
-
-Y notas que todo a tu alrededor es el gusano, notas que aunque no se ha movido un centímetro, alzándose como un pilar de piedra del océano, ahora está tan cerca que te envuelve. El cielo es apenas un punto de luz arriba.
-
-Y ahora sabes que esto no es un “gusano”, ahora empiezas a escuchar su nombre. Pero no es un nombre, no se trata de sonidos, de letras, no son vocales y consonantes burdas.
-
-Su nombre es el concepto, su nombre es una idea. La idea de…
-
-Pero de repente. Luz.
-
-El sonido eléctrico de algo en la distancia, algo que no es parte de la tormenta.
-
-La imagen residual en tu retina del gusano. De los símbolos que amenazan con meterse en tu cabeza y dar vueltas, dar vueltas escarbando.
-
-Tu cuerpo ha dejado de ser importante, arriba y abajo dejan de ser conceptos que tengas en consideración.
-
-No tienes forma. Solo está el brillo imposiblemente intenso de esa luz azul. Una liberación, un momento muy fugaz en el que todo lo que existe en el universo está quieto.
-
-Y luego, ya no.+
+Hay algo escrito en la base de la fotografía, una especie de mensaje que, obviamente no puedes descifrar, pero la mano que lo escribió es muy diferente a la mano que escribió todos esos papeles que revisaste, el trazo menos linear y cuadriculado, y un poco más ovalado, más estilizado, casi cursivo, alguien que le puso esmero en poner su mensaje en esta fotografía.+
 
 PROMPT -¿Qué haces?+
 
-1-Oprimes el botón con una mano que apenas puedes empezar a volver a sentir.+END1
-2-Tratas de recuperar tu forma, de sentir, de moverte.+3A
+1-.Dejas la fotografía y sales de la habitación.+2DA
+2- Oprimes el botón.+END1
+3- Te largas de este mundo, después de todo, esas fotos a blanco y negro son un poco creepy.+END2
+SCENE -2DA+
+
+TEXT -.Te dispones a salir de la habitación pero el perro ahora está parado en la puerta sosteniendo un libro en su hocico, se acerca a tí y lo deja caer a tus pies.
+
+El libro tiene las palabras: 
+[[g;grey;]Diccionario (algo ininteligible) - Español]
+[[g;grey;]Español - (algo ininteligible)]
+
+El perro te mira expectante.+
+
+PROMPT -¿Qué haces?+
+
+1-.Recoges el diccionario.+2DB
+2- Le dices al perro -Está bien, yo sé hablar, ¡no necesito un diccionario!-+2DC
+3- Oprimes el botón.+END1
+4- Te largas de este mundo y te llevas el diccionario, es mejor que nada, al menos puedes… tomar algo de aquí.+END2
+SCENE -2DB+
+
+TEXT -.Empiezas a leer el diccionario, es un libro pequeño pero notas que tiene demasiadas páginas.
+
+Has visto libros extraños, pero este tiene definiciones que antes no habías leído, palabras en el arabesco extraño que debe ser el idioma de este lugar, y luego las definiciones, hay desde cosas tan simples como “casa” o “luz”, o “tormenta”, “ventisca”, hasta cosas como:
+
+[[g;grey;]La forma de nubes que tragan recuerdos de un viaje.]
+[[g;grey;]Una piedra que se mueve hacia arriba.]
+[[g;grey;]La sensación de lo que las gaviotas planean hacer una vez duermas esta noche]
+[[g;grey;]Comida que sabe amarillo]
+[[g;grey;]Agua que se mete en los zapatos y nunca sale de allí.]
+[[g;grey;]Ser abultado que vive en la profundidad de los almacenes.]
+[[g;grey;]Amor por un buen vaso de Cognác con un banano.]
+
+Cierras el libro y lo guardas. Crees que podrá ser útil en este lugar extraño.
+
+[[g;grey;]-Señorita… ¿p u e d e e n t e n d e r m e?-]
+
+El perro habla muy despacio y pronuncia cada sílaba.+
+
+PROMPT -¿Qué haces?+
+
+1-.Finalmente le respondes al perro: -Está bien, sí, ¡puedo entender!-+2DC
+2- Oprimes el botón.+END1
+3- Te largas de este mundo y te llevas el diccionario, es mejor que nada, al menos puedes… tomar algo de aquí.+END2
+SCENE -2DC+
+
+TEXT -.El perro hace un gesto de extrañeza que nunca has visto en otro perro en tu vida.
+
+[[g;grey;]-Si me podía entender, ¿entonces por qué no me ha respondido?-]
+
+Luego, en el mismo tono lento y vocalizando:
+
+[[g;grey;]-¿S e s i e n t e b i en? ¿L e d u e l e l a  c a b e z a?-]
+
+Tú reaccionas casi por instinto y lo interrumpes:
+-
+¡Estoy bien! ¡No soy una retrasada!-
+
+El perro entonces asiente con su cabeza.
+
+[[g;grey;]-Extraño, eres un ser muy extraño, señorita. Pero entonces, continúo: ¿cómo se encuentra?-]+
+
+PROMPT -¿Qué respondes?+
+
+1-.Bien gracias ¿y usted?.+2A
+2- ¿Dónde estoy, qué es este lugar?.+2AA
+3- ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!+2B
+
 SCENE -3A+
 
-DESC-Despierta.+
+TEXT -Caminas con el perro guiándote por un corredor oscuro y algo frío a comparación de la habitación en la que estabas antes. Las paredes aquí también son de madera.
 
-TEXT -El brillo, el agua, el frío. El olor salado del mar y el ruido de incontables truenos en la distancia.
+En este corredor no escuchas tan fuerte la tormenta. Tus pasos resuenan en las paredes junto con el -tic, tic, tic- de las patas del perro, el cual mueve su cola de lado a lado suavemente.
 
-Escuchas pasos acercarse mientras comienzas a sentir tus piernas, a sentir tus brazos, tu espalda contra un suelo mojado, no, más que mojado, un riachuelo donde el agua fría te roza la espalda.
+Finalmente giran a la derecha y vas con él por otro corredor que da a una ventana, la vista de esta ventana da al mar y la tormenta, la misma masa gris llena de los ocasionales relámpagos en la distancia.
 
-Pero no te sientes fría, te sientes… como si no hubiera distinción en la sensación, como salida de una anestesia particularmente fuerte.
+El perro se detiene y gira su cabeza en tu dirección.
 
-En tu cabeza retumba una especie de zumbido, una vibración que se siente seca, que se siente como lijas que se retuercen dentro de tu cráneo. Tu boca tiene un sabor metálico, tus labios están semi dormidos.
+[[g;grey;]-Señorita, a partir de ahora, haga lo que haga, no deje de seguirme, sin importar lo que vea, sin importar lo que escuche, tenemos que salir del Faro, o el Hombre la encontrará.-]
 
-Pero te sientes de alguna manera, tranquila. Por un momento no existías, por un momento la luz cegadora te borró, y eras algo que no estaba limitado por la piel, eras algo que existía y se movía por todos lados, como la lluvia.
+Luego ves en sus ojos un gesto de genuina preocupación.
 
-Los pasos están más cerca y tratas de ver algo, pero solo está la imagen residual de esa luz, solo está el tenue brillo de la tormenta.
+[[g;grey;]-No quiere que el Hombre la encuentre, no así, se lo puedo asegurar-]
 
-Escuchas una voz sobre el agua que cae, y sobre el océano enojado.
+El perro sigue avanzando.+
 
-Escuchas una voz vieja, algo carrasposa, pero segura, muy segura de lo que está diciendo.
+PROMPT -¿Qué haces?+
 
--Usted no debería estar aquí-
+1- Sigues al perro un momento pero no lo seguirás ciegamente y, si lo decides, si se te da la oportunidad o te invade la curiosidad, explorarás este lugar por tu cuenta. Después de todo, siempre puedes abrir una nueva puerta. U oprimir el botón.+3B
+2- Oprimes el botón.+END1
+3- Te vas de este mundo, esta situación no es confiable, ese perro no es confiable.+END2
+SCENE -3AA+
 
-Y de repente tus ojos se van cerrando, mientras pierdes la conciencia.+
+TEXT -El perro escucha tus palabras sin expresión.y luego te ve partir pero no protesta, solo se queda ahí. Lo único que escuchas mientras lo dejas atrás es:
 
-PROMPT -Conexión perdida…+
+[[g;grey;]-No logro entender a estos seres, irracionales-]
 
-SCENE -END1+
+Luego, mientras estás por dar la vuelta por el corredor por el que llegaste logras ver que el perro se ha ido, y el -tic, tic, tic- de sus patas se pierde en el fondo del corredor.
 
-TEXT -FATAL ERROR+
+De alguna parte, entre el pasillo al que acabas de llegar, escuchas unos pasos, unos pasos pesados y lentos, de botas, de pies cansados pero firmes.
 
-PROMPT -Conexión perdida…+
+No sabes bien de dónde vienen, si de adelante, o de atrás, o de la derecha o de la izquierda, de arriba o abajo. Jurarias que en momentos los escuchas al frente, para luego escucharlos atrás, y luego debajo tuyo.+
 
-SCENE -END2+
+PROMPT -¿Qué haces?+
 
-TEXT -NOT FOUND+
+1-.Sigues andando sola y explorando el lugar.+2DA
+2-.Te arrepientes y corres a donde está el perro para decirle que mejor sigues su plan porque… has reconsiderado.+3AB
+3- Oprimes el botón.+END1
+4- Te vas de este mundo, no sabes por qué, pero ahora sí te sientes en peligro.+END2
+SCENE -3AB+
 
-PROMPT -Conexión perdida…+
+TEXT -Vuelves al pasillo del cual el perro partió.
 
+[[g;grey;]-Pensé que quería explorar sola, señorita-]
+
+Te dice el perro en cuanto das la vuelta por el corredor, casi haciéndote soltar un grito. No esperabas que el perro estuviera ahí sentado, pacientemente. Como sabiendo lo que harías.
+
+[[g;grey;]-Podemos continuar si lo desea, señorita-]
+
+El perro se gira y comienza a caminar hacia el fondo del corredor. +
+
+PROMPT -¿Qué haces?+
+
+1-.Lo sigues finalmente y a regañadientes.+4A
+2- Oprimes el botón.+END1
+3- Te vas de este mundo, ese perro es raro y además te molesta mucho haber tenido que cambiar de parecer ante un pulgoso engreído.+END2
+SCENE -3B+
+
+TEXT -El perro empieza a caminar más rápido, y lo sigues volteando por corredores y esquinas de madera. Casi lo pierdes más de una vez, pero logras dar con él.
+
+No sabes por qué este espacio tiene tantos recovecos, tantos giros distintos, tantas posibles rutas, si lo que viste de afuera era un simple faro, una cosa vertical pero angosta. Sin embargo es como si estuvieras en una casona gigante, en un laberinto de puertas cerradas y a medio cerrar, ventanas a una tormenta infinita e interminables corredores que huelen a madera mojada y encerrada.
+
+La única luz mientras sigues al perro es la que llega de afuera por las ventanas.
+
+Vas observando dentro de las habitaciones que dejan ver algo de su interior en busca de sentido, de algo que te parezca de interés.
+
+Y ves tantas cosas mientras sigues a ese perro, ves tantas cosas en las aberturas de esas habitaciones, que solo te dejan con más y más preguntas mientras más logras vislumbrar.+
+
+PROMPT -¿Qué haces?+
+
+1-.Tratas de armar un mapa mental de lo que ves dentro de las habitaciones que pasas +4A
+2- Continuas tu camino tratando de no pensar mucho en lo que ves dentro de esas habitaciones semi-abiertas.+4AB
+3- Oprimes el botón.+END1
+4- Te vas de este mundo, esta situación no es confiable, ese perro no es confiable.+END2
+SCENE -4A+
+
+TEXT -No lo puedes entender, no lo puedes armar en tu cabeza. Cada habitación es una cosa más rara que la anterior.
+
+Primero solo veías habitaciones similares a la que te despertaste, una cama, una ventana, nochero, quizás una vela encendida o apagada.
+
+Pero luego empezaron a cambiar cosas.
+
+Para empezar hubo dos o tres habitaciones que no tenían cama, solo nochero, solo la ventana. Luego pudiste ver que la ventana, que siempre daba al mismo lado, sin importar por qué lado del corredor estuvieras caminando, se volvía más pequeña, o más grande. Viste habitaciones donde era apenas un punto, un cuadrado no más grande que un desague. Y otras donde la ventana y la tormenta ocupaban la totalidad de la pared.
+
+Pero no solo había habitaciones, viste algunas bodegas llenas de cajas de madera apiladas, una sobre otra en estantes que se extendían en filas que, para tí, podrían ser cientos de metros de largo, y de alto, no sabrías decir pues la oscuridad del techo escondía dónde terminaban estas torres de objetos.
+
+Viste una habitación donde la cama estaría pegada del muro derecho y abajo, en el suelo estaría la ventana.
+
+Viste habitaciones completamente vacías, incluso vacías de la madera de las paredes, solo un cubo gris, con una que otra tabla como pegada de alguna de sus superficies, como si estuviera siendo construida, como una fachada.
+
+El perro sigue caminando y calculas que llevas aproximadamente una hora en estas.+
+
+PROMPT -¿Qué haces?+
+
+1-.Le preguntas al perro: -Bueno, ¿cuánto falta para salir de aquí?-+4AA
+2- Sigues caminando, no dices nada, no hay nada que decir, tampoco es que estés cansada.+4AB
+3- Oprimes el botón.+END1
+4- Te vas de este mundo, abres una nueva puerta.+END2
+SCENE -4AA+
+
+TEXT -El perro no se detiene pero sí habla.
+
+[[g;grey;]-Apenas estamos llegando a la antesala del Faro, tenga paciencia y por favor, si escucha pasos venir de cualquier dirección, diferentes a los míos o los suyos, dígame. Es de extrema importancia.-]
+
+La noticia no es muy buena, y tampoco las implicaciones de ‘pasos’.
+
+Si apenas vamos a la antesala, ¿qué tamaño tiene este lugar del demonio?+
+
+PROMPT -¿Qué haces?+
+
+1-.Sigues al perro-+4AB
+2- Oprimes el botón.+END1
+3- Te vas de este mundo, abres una nueva puerta.+END2
+SCENE -4AB+
+
+TEXT -Luego de pasar cada vez más y más corredores similares, empiezas a pensar que esto es inútil, que ese perro te está guiando por un laberinto infinito, y empiezas a dudar si aún seguirlo.
+
+Hasta que llegan a una puerta, una puerta que no se bifurca en más corredores, solo una puerta gris de metal con un pomo cromado.
+
+El perro se detiene y mira en tu dirección.
+
+[[g;grey;]-A partir de aquí el Hombre sabrá que te has ido de tu habitación. A partir de esta puerta, tendremos que correr, ¿tienes fuerzas para correr?-]
+
+Esto te agarra de sorpresa pues, no esperabas tener que correr, aunque una parte tuya, de alguna manera sabía que podría pasar.+
+
+PROMPT -¿Qué haces?+
+
+1-.Le respondes al perro: -Claro que tengo fuerzas para correr, ni que fuera una debilucha- Y abres la puerta de metal de un solo movimiento-+5A
+2- Le dices al perro que te dé un momento para recolectar tus fuerzas, después de todo, estuviste inconsciente mucho tiempo.+4AC
+3- Oprimes el botón.+END1
+4- Te vas de este mundo, abres una nueva puerta, porque correr de cosas desconocidas no está en tus planes el día de hoy.+END2
+SCENE -4AC+
+
+TEXT -[[g;grey;]-Tómese su tiempo señorita, no hay prisa, o… bueno, sí la hay, pero igualmente, es su existencia, usted decide cómo desea arriesgarla-]
+
+Te recuperas un poco mientras el perro habla como un completo cretino y tú lo miras con bastante malhumor.
+
+Y es mientras estás estabilizando tu respiración algo agitada que lo escuchas.
+
+Los pasos firmes, pesados de botas que resuenan por todos lados, que parecieran venir de atrás, de adelante, de los lados, todo al mismo tiempo.
+
+Ves que el perro levanta las orejas y se pone tenso.
+
+[[g;grey;]-Creo que no tenemos tiempo, recuperada o no, si no quiere vérselas con el Hombre, es mejor que abra esa puerta ya mismo-]
+
+El perro se acerca a la puerta ansioso.+
+
+PROMPT -¿Qué haces?+
+
+1-.Abres la puerta de un solo movimiento sin pensarlo y te preparas para salir corriendo lo más rápido que puedes-+5A
+2- Decides que quieres ver qué diablos es este Hombre del que tanto habla el perro y esperas.+4AD
+3- Oprimes el botón.+END1
+4- Te vas de este mundo, no vas a correr y tampoco quieres averiguar lo que ningún Hombre se supone que te va a hacer tampoco.+END2
+SCENE -4AD+
+
+TEXT -El perro araña la puerta de metal mientras tu miras al otro lado de ese pasillo de madera, hay una ventana por la que pasaron al girar al fondo. La luz de la tormenta es más brillante aquí de lo que ha sido en todo tu viaje, y no sabes por qué.
+
+[[g;grey;]-Señorita, tenemos que salir ya mismo de aquí ¡señorita!-]
+
+El perro está completamente desesperado golpeando la puerta con sus patas.
+
+Al fondo del corredor los pasos, esas botas que resuenan por todos lados, comienzan a adquirir la dirección del final del corredor. Y comienzas a ver una sombra aparecer en el suelo, saliendo de la esquina, una sombra que se mueve muy despacio.
+
+[[g;grey;]-Maldición, no voy a entenderlos a ustedes, seres extraños. Si no nos vamos… ¡va a ser demasiado tarde!-]
+
+Pero ya es demasiado tarde porque el [[g;red;]Hombre] se asoma desde la esquina.
+
+Y lo ves. Y ves su cansancio, tanto, pero tanto cansancio de estar aquí, de estar en el [[g;blue;]Faro], siempre.
+
+De los días indistinguibles, de la retahíla de semanas, y años que no se diferencian, de las labores repetitivas en este espacio limítrofe, de su obligación, de su deber imposible de evadir, porque el [[g;blue;]Faro] debe ser cuidado, siempre. El [[g;blue;]Faro] debe estar listo para funcionar siempre.
+
+Su cara arrugada, sus ojos apagados te miran desde ahí, te miran y saben, de alguna manera quién eres. Y sabes que ven algo en tí, ven algo que tratas de traducir, una palabra que ambos intercambian mientras él se va acercando. Una palabra que este [[g;red;]Hombre] ha buscado desde hace tanto, tanto tiempo.
+
+[[g;red;]-Reemplazo-]+
+
+PROMPT -¿Qué haces?+
+
+1-.Esperas a que el hombre se acerque, porque él no es una amenaza, solo está, tan , pero tan cansado-+5AB
+2- Decides voltear a la puerta con las últimas onzas de voluntad que te quedan.+4AE
+SCENE -4AE+
+
+TEXT -Te giras, aunque te es tan difícil. Es extremadamente difícil, porque es como decirle adiós alguien que quieres, como negarle un abrazo a alguien que te pide consuelo, y por quien sientes compasión, por quien sientes, el dolor que siente, como un espejo, un espejo sin imperfecciones.
+
+Te giras y sientes una lágrima caer por tu mejilla.
+
+Pero ahora ves la puerta, el perro te mira completamente histérico, y lo escuchas ladrar, ya no habla, ya no hay una voz saliendo de su hocico cerrado, solo ladridos contínuos que te ensordecen de las pisadas lentas del [[g;red;]Hombre] a tus espaldas, sus pisadas cansadas y pesadas.
+
+Te abalanzas hacia la puerta y giras el pomo de un solo movimiento. No te importa caer al suelo del otro lado, solo necesitas poner una barrera entre tí, y eso… ese… [[g;red;]Hombre].
+
+Cierras la puerta en cuanto tú y el perro logran pasar.+
+
+PROMPT -SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN]+
+SCENE -5A+
+
+TEXT -.Abres la puerta y pasas mientras escuchas desde atrás, y al parecer de los lados también, y arriba y abajo el sonido de pasos pesados, lentos, cansados.
+
+El perro entra primero.
+
+[[g;grey;]-Rápido, ¡ya viene!-]
+
+Logras ver que del corredor por el que llegaste, de la esquina que tiene la ventana, una sombra empieza a asomarse en el suelo.
+
+Y los pasos de eso, lo que sea que sea, se vuelven cada vez más concretos, puedes distinguir su dirección.
+
+El perro ladra tras de tí, la primera vez que has escuchado a este perro ladrar, de hecho ni siquiera pensaste que podría hacer algo así.+
+
+PROMPT -¿Qué haces?+
+
+1-.Te quedas un momento más, te invade la curiosidad de saber qué es lo que viene, quién viene, quién es ese Hombre.+5AA
+2- Cierras la puerta tras de tí y continúas con el perro el viaje por este nuevo lugar. Tu experiencia con el Gusano te ha enseñado que esto no es algo para tomar con ligereza.+5B
+SCENE -5AA+
+
+TEXT - Ves que los pasos se aproximan ahora del fondo del corredor, el perro ladra, ladra muy fuerte.
+
+Una sombra se asoma desde la esquina iluminada por la ventana que da a la tormenta, la tormenta que ahora brilla en esos vidrios empañados. Un blanco grisáceo que se acentúa con los relámpagos, los relámpagos que parecieran acelerarse mientras la forma que da esos pasos se asoma.
+
+Ves un [[g;red;]Hombre] viejo, ves una figura encorvada en un gabán viejo y botas sucias, con el pelo blanco y desenmarañado, largo y cayendo a ambos lados de su cabeza. Ves la barba tupida.
+
+Ves los ojos [[g;red;]cansados], muy cansados, que ahora se posan en tí.
+
+Y sientes ese cansancio de los días que se confunden entre ellos de la rutina, de entrar y salir, de reparar esta estructura decrépita, de cargar bultos, de limpiar, de organizar las bombillas del [[g;blue;]Faro]. El servicio infinito que hace que el tiempo pierda significado porque nunca termina, porque la labor nunca termina.
+
+El [[g;blue;]Faro] es lo que es por el [[g;red;]Hombre], y el [[g;red;]Hombre] es lo que es por el [[g;blue;]Faro]. Pero el [[g;red;]Hombre], a diferencia del [[g;blue;]Faro], se sabe cansado. Y ahora que estás aquí sabe que alguien más entiende eso, alguien más que puede entender su aflicción.
+
+Escuchas una palabra claramente en tu cabeza mientras el [[g;red;]Hombre] se acerca lento, cansado, pesado a tí.
+
+[[g;red;]-Reemplazo-[+
+
+PROMPT -¿Qué haces?+
+
+1-.No te mueves, el Hombre se seguirá acercando como el tiempo, inevitable, y tú aceptarás el destino que él te ruega con cada onza de su ser, el destino que quiere que sea tuyo.+5AB
+2- Cierras la puerta con las últimas fuerzas que tienes antes de ceder, antes de que la tristeza, el cansancio sean todo lo que quede en tu existencia.+5BA
+SCENE -5AB+
+
+TEXT -El perro no se oye ya, se ha dejado de oír su ladrido, se ha dejado de sentir el suelo, se ha dejado de ver el corredor porque lo único que hay ahora es el [[g;red;]Hombre], que está a unos centímetros apenas, alzando una mano arrugada y callosa hacia tí.
+
+Y sabes que en cuanto te toque, ese [[g;red;]Hombre] va a poder descansar. Es un sacrificio que él ha pensado y sabido, y aceptado, la única esperanza de vencer el tiempo infinito que el [[g;blue;]Faro] ha impuesto en él.
+
+Tú no tienes la fuerza para voltear ahora. Tú solo te dignas a cerrar los ojos. El botón en tu mano es lo único que existe en esta realidad. Y estás, por primera vez considerando usarlo, tanto para liberar al [[g;red;]Hombre] como para liberarte tú.
+
+Del peso del tiempo.+
+
+PROMPT -Lo siento, espero me perdones, Viajera.
+
+[[g;red;]createWeapon(orbStrikeCannon(excalibur)).exec(t.deltaTime)]
+[[g;red;]Orbital Strike -armed- -ready-]
+
+Pero no lo puedo permitir.
+
+[[g;green;]excalibur(IonStrike).pos(Viajera - dist.min.safe).exec()]+
+
+1-.Ejecutar función excalibur() <<por favor ejecuta la función>>+5AC
+2-.Oprimes el botón, toda la esperanza se ha perdido, no queda otra opción.+END1
+SCENE -5AC+
+
+TEXT -[[g;green;]<<Función ejecutada con éxito>>]
+
+Un brillo y un calor impresionante, así como el ruido del trueno invaden todo y sientes cómo vuelas por el aire hacia atrás, cayendo sobre tu espalda.
+
+Sientes como si se te hubiera desconectado de un sueño en el que creías estar viva, de un sueño que asegurarías era la vida misma, y que una parte de tu mente aún, tercamente, considera que es la realidad.
+
+Pero abres los ojos y ves al perro mirándote, y lo escuchas ladrar.
+
+Todo es muy borroso, todos los sonidos se mezclan, el fuego, la lluvia en torrente, el perro.
+
+Levantas la cabeza y ves lo que recuerdas era la puerta por la que ibas a entrar, ahora es un montón de escombros que tapan lo que sea que hay al otro lado. Lo que sabes que hay al otro lado.
+
+Porque de alguna manera escuchas, entre la destrucción las botas, los pasos lentos alejarse del otro lado de los escombros, los escuchas casi como si estuvieran aquí, donde estás tirada.
+
+[[g;grey;]-Señorita… no entiendo qué hizo… pero creo que ganamos unos minutos, pocos minutos… tenemos que continuar-]
+
+Te vas incorporando. [[g;red;]<<SEÑAL DÉBIL>>]
+
+Est…[[g;red;]<<PERDIENDO CONEXIÓN>>]+
+
+PROMPT -SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN]+
+SCENE -5B+
+
+TEXT -Terminas de entrar en este nuevo espacio y cierras la puerta tras de tí.
+
+Escuchas los pasos acercándose, los pasos cansados, los pasos pesados, y ves la sombra y una figura irse asomando por entre la esquina del otro lado del corredor que cierras.
+
+La luz de la ventana contrasta con el saco negro y viejo, y logras distinguir pelo blanco desenmarañado y el rostro arrugado del [[g;red;]Hombre].
+
+Y mientras la puerta se termina de cerrar casi por inercia divisas los ojos, los ojos que te llenan del cansancio más puro de la vida, ves el [[g;blue;]Faro] y ves lo que el [[g;red;]]Hombre] ha hecho por tanto tiempo en este [[g;blue;]Faro].
+
+Sientes el paso inclemente del tiempo eterno de alguien, de algo que ha vivido sin tener descanso… siempre con el deber como una piedra gigante en su espalda, aplastando lo poco que queda, los días volviéndose lo mismo, lo mismo cada vez más y más como una bruma indistinguible.
+
+Y el [[g;red;]Hombre] te ve en ese fragmento de tiempo que toma a la puerta terminar de cerrarse.
+
+Y sabes que te reconoce, y que ahora él piensa, él siente, algo diferente, y lo implora.
+
+Implora con una palabra que pueda terminar su infinito suplicio en este [[g;blue;]Faro].
+
+[[g;red;]-Reemplazo-]
+
+La puerta se cierra y el perro te jala del pantalón, insistente. [[g;red;]<<SEÑAL DÉBIL>>]
+
+[[g;grey;]-Señorita, no hay mucho tiempo, hay que movernos ahora mismo-]][g;red;]<<PERDIENDO CONEXIÓN>>]+
+
+PROMPT -SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN]+
+SCENE -5BA+
+
+TEXT -Con la fuerza que te queda, con la voluntad que te queda cierras la puerta de un solo movimiento, oscureciendo la figura del [[g;red;]Hombre] tras ese bloque de metal que resuena en cuanto la cerradura termina de ajustarse.
+
+Te tiemblan las rodillas, y sientes como caen lágrimas por tus mejillas.
+
+La sensación de culpa es inevitable, la sensación de pesar, de pesadez de ese [[g;red;]Hombre] es inconmensurable. Es la peor sensación de pérdida que has sentido en mucho tiempo.
+
+Escuchas claramente los pasos lentos y cansados alejarse de la puerta y desvanecerse tras ella.
+
+Tratas de reponerte lo mejor que puedes.
+
+El perro te jala del pantalón, insistente. [[g;red;]<<SEÑAL DÉBIL>>]
+
+[[g;grey;]-Señorita, no hay mucho tiempo, hay que movernos ahora mismo-]][g;red;]<<PERDIENDO CONEXIÓN>>]+
+
+PROMPT -SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN]+
 

@@ -1,0 +1,16 @@
+{
+    "prompt": "[[g;#475c85F;]/] Iniciar [[g;#475c85;]>>>]",
+    "init_messages": [
+
+        {
+            "timeout": 250,
+            "message": "[[g;#475c85;]Abriendo conexión...]"
+        }       
+    ],
+    "data": [
+            {
+            "index" : 1,
+            "text" : "Hola [[g;#3488EF;]Viajera].\n\nEspero estés bien."
+            }
+    ]
+}

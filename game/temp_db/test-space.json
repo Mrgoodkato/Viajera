@@ -1,0 +1,74 @@
+{
+    "spaces": [
+
+        {
+            "name": "SPACE1",
+            "description": "Es una casa, grande y al tiempo negra, como la noche",
+            "extraDescriptions": [
+
+                {
+                    "result": "observe",
+                    "content": "Encuentras en el suelo un martillo y una sombrilla"
+                },
+                {
+                    "title": "Exterior",
+                    "content": "El exterior de la casa está poblado de maleza"
+                }
+
+            ],
+            "prompt": "¿Qué haces?",
+            "objects": [
+
+                {
+                    "object": "Martillo",
+                    "description": "Es un martillo simple, con agarradera de madera, cabeza de acero",
+                    "trigger": "abrir-puerta"
+                },
+                {
+                    "object": "Sombrilla",
+                    "description": "Una sombrilla pequeña de plástico para proteger de la lluvia",
+                    "trigger": "proteger-lluvia"
+                }
+
+            ],
+            "actions": [
+
+                {
+                    "description": "Te mueves a la derecha",
+                    "key": "Derecha",
+                    "dest": "SPACE1A"
+                },
+                {
+                    "description": "Te mueves a la izquierda",
+                    "key": "Izquierda",
+                    "dest": "SPACE1B"
+                },
+                {
+                    "description": "Te mueves al frente",
+                    "key": "Adelante",
+                    "dest": "SPACE2"
+                },
+                {
+                    "description": "Te mueves hacia atrás",
+                    "key": "Atras",
+                    "dest": "SPACE0"
+                },
+                {
+                    "description": "Revisas tus alrededores",
+                    "key": "Observar",
+                    "trigger": "observar"
+                },
+                {
+                    "description": "Empiezas a martillar la puerta",
+                    "key": "Martillar",
+                    "trigger": "abrir-puerta"
+                },
+                {
+                    "description": "Usas la sombrilla porque ha empezado a llover",
+                    "key": "Sombrilla",
+                    "trigger": "proteger-lluvia"
+                }
+            ]
+        }
+    ] 
+}

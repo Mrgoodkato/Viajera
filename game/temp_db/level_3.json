@@ -1,0 +1,802 @@
+{
+    "data": [
+        {
+            "scene": "1A",
+            "mainTxt": "Despiertas. ¿o ya estabas despierta? No sabes desde hace cuanto tiempo tienes los ojos abiertos mirando ese techo de madera.\r\n\r\nEstás acostada boca arriba y sientes la suavidad de una almohada bajo tu cabeza. El lugar huele a viejo, a guardado, a madera húmeda pero no podrida, a la sal del mar en el aire, al humo que despide la vela que notas al lado de tu cama en el viejo nochero, puesta sobre un porta velas de bronce. Huele también a leche y a pan, y notas el plato al lado de la vela, con… leche y pan, obviamente, pan viejo y posiblemente duro.\r\n\r\nEscuchas los sonidos de la lluvia contra una ventana a tu lado izquierdo. No la habías notado porque igual, si llueve el suficiente tiempo, el ruido de la lluvia se vuelve solo parte del paisaje, casi imperceptible. Pero lo notas porque algo ha impactado suavemente la ventana, y cuando miras ves que una hoja o rama pequeña pasa derecho por entre la tormenta gris que ruge ahí afuera.\r\n\r\nSolo ves por esa ventana la ventisca, la bruma, el agua que se abalanza sobre un mar cada vez más enojado. Y entonces recuerdas que había algo en el fondo, muy al fondo del horizonte, recuerdas la forma elongada del [[g;red;]Gusano].",
+            "prompt": "[[g;blue;]/]¿Sigues mirando por la ventana?[[g;blue;]>>>>]\n[[g;blue;]1)] Sí, ¿por qué voy a temer a una historia? Después de todo, es solo una historia.\n[[g;blue;]2)] No, igual tengo que levantarme\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)] Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1B"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1BA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1B",
+            "mainTxt": " Miras por la ventana a ver si algo aparece en la distancia una vez más. Una parte tuya quiere ver algo ahí, una parte tuya espera poder encontrar la forma de ese ser alzándose hasta el firmamento desde el mar una vez más, sea por curiosidad, sea por simple morbo de ver, de atestiguar algo que antes no habías visto.\r\n\r\nOtra parte tuya espera no ver nada, porque igual, no es agradable ser casi devorado por una entidad Lovecraftiana extraña que hurga tus pensamientos con tan solo los pliegues de su cuerpo.\r\n\r\nY bueno, al mirar un rato detenidamente, no encuentras nada, solo el ruido del agua, el silbar del viento enardecido y las olas chocando y despedazándose entre ellas.\r\n\r\nTe sientas en la cama y miras el plato de comida que hay en el nochero. Es un nochero plano, de madera, con dos cajones. La vela está posiblemente a la mitad por toda la cerca que ves que cae a sus lados y se deposita en la taza de bronce bajo su base. \r\n\r\nEl pan se ve duro, y la leche, no se ve tan mal. Y tienes hambre.",
+            "prompt": "[[g;blue;]/]¿Comes?[[g;blue;]>>>>]\n[[g;blue;]1)] Sí, tengo hambre después de todo ¿no? Eso es lo que uno hace cuando tiene hambre.\n[[g;blue;]2)] No,esa vaina podría tener quién sabe qué sustancia rara\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)] Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1C"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1CA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1BA",
+            "mainTxt": " Te volteas de la ventana, evitas siquiera mirarla de reojo y mejor te giras al otro lado, donde está el nochero con la vela y el plato.\r\n\r\nTe sientas en la cama y miras el plato de comida que hay en el nochero. Es un nochero plano, de madera, con dos cajones. La vela está posiblemente a la mitad por toda la cerca que ves que cae a sus lados y se deposita en la taza de bronce bajo su base. \r\n\r\nEl pan se ve duro, y la leche, no se ve tan mal. Y tienes hambre.",
+            "prompt": "[[g;blue;]/]¿Comes?[[g;blue;]>>>>]\n[[g;blue;]1)] Sí, tengo hambre después de todo ¿no? Eso es lo que uno hace cuando tiene hambre.\n[[g;blue;]2)] No,esa vaina podría tener quién sabe qué sustancia rara\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)] Te incorporas y abres otra puerta, para salir de esta historia, de esta trampa.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1C"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1CA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1C",
+            "mainTxt": "El pan está duro.\r\n\r\n¿Qué esperabas?\r\n\r\nPero al pasarlo con la leche notas que tiene un buen sabor, un sabor que no has probado en mucho tiempo. No tiene ese tono extraño que tiene todo lo de las ciudades, esa cualidad medio plástica y falsa que dan los aditivos, los conservantes. No sientes químicos, solo la levadura, el trigo, es pan.\r\n\r\nLo mismo pasa con la leche, y sabes que es leche sacada directo de una vaca, está tibia.\r\n\r\nNo sabías lo hambrienta que estabas hasta que empezaste a comer, una vez empezaste, no pudiste parar y devoraste todo lo que había en ese plato y vaso en un santiamén.\r\n\r\nY estabas tan concentrada comiendo que al voltear… al escuchar el sonido de… ¿uñas? \r\n\r\nSí, uñas, chocando contra el piso de madera haciendo -tic, tic, tic-.\r\n\r\n-TIC, TIC, TIC-\r\n\r\nTe das cuenta que lo que ha entrado en la habitación está apenas a unos centímetros de tus pies.\r\n\r\nVolteas ya pensando en el horror que está ahí, en la cosa que logras ver arrastrarse por el suelo en la periferia de tu visión, una cosa amarilla. ¿Dorada? Peluda… muy peluda.\r\n\r\nAlgo que.\r\n\r\nEs un perro.\r\n\r\nEs solo un perro y casi pegas un grito. Un labrador dorado y algo viejo que te mira impávido.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Inhalas, y te acercas a acariciar al labrador.\n[[g;blue;]2)] Obviamente saludas al labrador como una persona adulta y diciendo “Hola”.\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)] Abres una puerta y te vas, no quieres que nadie se entere que casi pegas un grito por un labrador que se te escabulló.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1D"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1DA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1CA",
+            "mainTxt": "Miras el plato con comida, tienes hambre pero no tocarás nada de comer, aún.\r\n\r\nHuele cada vez más bien mientras más lo miras. Y sientes que tu estómago hace sonidos extraños, protestando a tu decisión, como diciendo: “¡Aliméntame, qué esperas, ¿estás loca?!”\r\n\r\nPor el hambre que tienes supones que debe haber pasado un buen rato, incluso un día entero desde que perdiste el conocimiento.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Cedes y comes, además esa comida se ve simple, no se ve amenazante.\n[[g;blue;]2)] No comes y te mantienes en tu punto, después de todo, tu superpoder es ser testaruda, si no, entonces ¿qué gracia?.\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)].Abres una puerta y te vas de este mundo en busca de comida segura y más apetitosa.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1C"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1CB"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1CB",
+            "mainTxt": "Te cruzas de brazos en la cama y haces mala cara.\r\n\r\nMiras mejor la puerta de la habitación en la que estás. Y para empezar, está abierta.\r\n\r\nPara terminar casi te tiras de la cama porque ves una figura sentada en la base, una cosa peluda, dorada y con ojos negros.\r\n\r\nUn perro.\r\n\r\nUn labrador para ser más exactos, viejo e impávido, mirándote ahí sentado.\r\n\r\nTratas de recuperarte del susto pues no esperabas ver algo así tan de repente, y sin que anunciara su presencia de ninguna manera.\r\n\r\nEl labrador camina por el piso de madera, sus uñas de las patas hacen -tic, tic, tic- Mientras se aproxima a tu lado de la cama. No quita la mirada de ti.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Inhalas, y te acercas a acariciar al labrador.\n[[g;blue;]2)] Obviamente saludas al labrador como una persona adulta y diciendo “Hola”.\n[[g;blue;]3)] Presionas el botón\n[[g;blue;]4)] Abres una puerta y te vas, no quieres que nadie se entere que casi pegas un grito por un labrador que se te escabulló.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "1D"
+                },
+                {
+                    "option": 2,
+                    "goTo": "1DA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "1D",
+            "mainTxt": "Un: \r\n\r\n\r\n[[g;grey;]-Buenos días señorita-] \r\n\r\nTe detiene la mano antes de tocar al perro. Pero no te asusta como lo haría a una persona normal el oír hablar a un animal que de hecho ni siquiera mueve los labios al hacerlo.\r\n\r\nHas visto perros hablar innumerables veces, y éste no es la excepción.\r\n\r\nEscuchaste una voz de hombre, de un hombre mayor… una voz de un hombre que te parece familiar.\r\n\r\n¿Fue esa la última cosa que escuchaste antes de caer inconsciente? Tienes el recuerdo de que parece que fuera así.\r\n\r\nSin embargo te quedas un poco sin palabras, en un silencio incómodo mientras el perro te mira de arriba a abajo.\r\n\r\n[[g;grey;]-¿Cómo se encuentra el día de hoy?-]",
+            "prompt": "[[g;blue;]/]¿Qué respondes?[[g;blue;]>>>>]\n[[g;blue;]1)].Bien gracias ¿y usted?.\n[[g;blue;]2)] ¿Dónde estoy, qué es este lugar?.\n[[g;blue;]3)] ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!\n[[g;blue;]4)] No le respondes.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2B"
+                },
+                {
+                    "option": 4,
+                    "goTo": "2BA"
+                }
+            ]
+        },
+        {
+            "scene": "1DA",
+            "mainTxt": "Un: \r\n\r\n\r\n[[g;grey;]-Buenos días señorita-] \r\n\r\nCasi te sobresaltas al presenciar un perro parlanchín. Pero no lo haces.\r\n\r\nHas visto perros hablar innumerables veces, y éste no es la excepción.\r\n\r\nEscuchaste una voz de hombre, de un hombre mayor… una voz de un hombre que te parece familiar.\r\n\r\n¿Fue esa la última cosa que escuchaste antes de caer inconsciente? Tienes el recuerdo de que parece que fuera así.\r\n\r\nSin embargo te quedas un poco sin palabras, en un silencio incómodo mientras el perro te mira de arriba a abajo.\r\n\r\n[[g;grey;]-¿Cómo se encuentra el día de hoy?-]",
+            "prompt": "[[g;blue;]/]¿Qué respondes?[[g;blue;]>>>>]\n[[g;blue;]1)].Bien gracias ¿y usted?.\n[[g;blue;]2)] ¿Dónde estoy, qué es este lugar?.\n[[g;blue;]3)] ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!\n[[g;blue;]4)] No le respondes.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2B"
+                },
+                {
+                    "option": 4,
+                    "goTo": "2BA"
+                }
+            ]
+        },
+        {
+            "scene": "2A",
+            "mainTxt": "Le respondes al perro -Bien gracias ¿y usted?-\r\n\r\nEl perro se te queda mirando por un momento muy corto, y luego:\r\n\r\n[[g;grey;]-Bien señorita, muy bien, gracias por preguntar-] Notas que mueve un poco la cola, a pesar de que su expresión sigue siendo la misma.\r\n\r\n[[g;grey;]-Espero haya podido recuperarse, nos preocupaba que el… fenómeno hubiera sido irreversible-]\r\n\r\nEl perro desvía su mirada un momento y se queda en silencio un momento.",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)].¿Dónde estoy, qué es este lugar?.\n[[g;blue;]2)] ¿Quién eres?\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AC"
+                }
+            ]
+        },
+        {
+            "scene": "2AA",
+            "mainTxt": "El labrador dorado te devuelve la mirada una vez más.\r\n\r\n[[g;grey;]-Es una buena pregunta, rara vez la he escuchado en lo que tengo de memoria. Pocas personas pasan por aquí.-]\r\n\r\nEl perro se da media vuelta y recorre la habitación hasta llegar a la ventana donde la tormenta aún arroja escombros contra el vidrio. Afuera el aire gris y acelerado pasa a ráfagas, el perro dirige su mirada allí y se sienta frente a la ventana mirando afuera.\r\n\r\n[[g;grey;]-Este es el Faro, el Faro es lo que hay antes de entrar al mundo.-]",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)].No entiendo. ¿El faro de qué? ¿Dónde estamos, en qué país? ¿En qué continente? ¿En qué mundo?\n[[g;blue;]2)] ¿Quién eres?\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AC"
+                }
+            ]
+        },
+        {
+            "scene": "2AB",
+            "mainTxt": "El perro se voltea y notas una extraña expresión en sus ojos, algo que no has visto muy seguido a un perro hacer.\r\n\r\nConfusión.\r\n\r\n[[g;grey;]-Este es el Faro, el único Faro, no hay más. Y lo que hay luego del faro es el mundo, no hay más, es el mundo.-]",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)] ¿Quién eres?\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AC"
+                }
+            ]
+        },
+        {
+            "scene": "2AC",
+            "mainTxt": "El perro vuelve a mirar la tormenta fuera de la ventana. Una rama pasa en ese momento volando a una velocidad casi imperceptible.\r\n\r\n[[g;grey;]-Yo soy el cuidador del Faro, y del Hombre.-]",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)] ¿El hombre? ¿Cuál hombre?\n[[g;blue;]2)] ¿Y tienes un nombre?\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2C"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AD"
+                }
+            ]
+        },
+        {
+            "scene": "2AD",
+            "mainTxt": "El perro vuelve a mirarte y mueve la cola un poco.\r\n\r\n[[g;grey;]-¿Nombre? No entiendo a qué te refieres con un nombre, las cosas tienen nombres, ¿por qué yo tendría un nombre?.-]",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)] Pues… yo tengo un nombre y no soy una cosa. Mi nombre es (procedes a decir tu nombre, Viajera, o el nombre que te ha identificado hasta ahora) ¿Cuál es el tuyo?\n[[g;blue;]2)] Aceptas la respuesta del perro reticentemente, asientes y luego continúas: Hablaste de un Hombre que cuidas. ¿Quién es ese hombre?\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AE"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2C"
+                }
+            ]
+        },
+        {
+            "scene": "2AE",
+            "mainTxt": "Ahora el perro te mira completamente extrañado y algo escandalizado, si eso es posible en un perro, pero lo ves tan claro como el día en sus facciones caninas.\r\n\r\nUn trueno en la distancia de la tormenta te hace estremecerse un poco, suena como la detonación de varias bombas al tiempo.\r\n\r\n[[g;grey;]-¿Cómo si no eres una cosa, tienes un nombre? Esto es realmente extraño, y si lo tienes… ¿Por qué compartes tu nombre con un desconocido como yo?-]\r\n\r\nEl perro se voltea para acercarse un poco a ti y dirigir toda su atención en tu dirección.\r\n\r\n[[g;grey;]-No te recomendaría compartir tu nombre con nadie más, no sabes lo que harán con él, los nombres tienen poder ¿sabes?-]\r\n\r\nLuego se gira y empieza a caminar hacia la puerta.\r\n\r\n[[g;grey;]-Vamos, el Hombre está haciendo las rondas al interior del faro y si te ve despierta haciendo nada… va a ser un poco incómodo para tí-]\r\n\r\nLuego, mientras el labrador va saliendo de la habitación escuchas muy un refunfuño:\r\n\r\n[[g;grey;]-Seres con nombre, ¿por qué me toca la gente rara siempre?-]",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Sigues al perro y sales del cuarto algo incómoda de su opinión altamente bizarra de reglas que parecerían normales en todos los mundos que has visitado.\n[[g;blue;]2)] Recuerdas el botón, y lo oprimes, porque… ¿sí?.\n[[g;blue;]3)].Te vas de este mundo extraño sin respuestas, es demasiado sospechoso todo.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "3A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2B",
+            "mainTxt": "El perro solo te mira completamente sereno mientras sueltas esa retahíla de improperios y preguntas en voz alta.\r\n\r\nUna vez terminas, el perro parpadea lentamente y te mira a los ojos.\r\n\r\n[[g;grey;]-Creo que empezamos con la pata izquierda esta conversación-]\r\n\r\nNotas que el perro sonríe, no es muy agradable ver una sonrisa de perro, demasiados dientes afilados y amenazantes.\r\n\r\n[[g;grey;]-Si gusta puedo responder a sus preguntas, siempre que no las haga demasiado rápido y uno sobre la otra, honestamente no entendí la mitad de lo usted quería decir-]\r\n\r\nTú inhalas, y calmas los ánimos un poco.",
+            "prompt": "[[g;blue;]/]¿Qué le dices al perro?[[g;blue;]>>>>]\n[[g;blue;]1)] Bueno, está bien. ¿Dónde estoy… qué es este lugar?\n[[g;blue;]2)] ¿Quién es usted?\n[[g;blue;]3)] No preguntas nada y solo haces mala cara y te quedas callada.\n[[g;blue;]4)] Oprimes el botón porque, ¿este perro está muy engreído?\n[[g;blue;]5)] Abres otra puerta y te largas, un perro no te va a decir qué hacer.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AB"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2BA"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 5,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2BA",
+            "mainTxt": ".El perro se queda ahí mirándote mientras tu mantienes tu silencio incómodo por un buen rato.\r\n\r\nEl perro eventualmente se rasca una oreja y da una vuelta por la habitación, no dice nada más y crees que incluso lo que escuchaste salir de él no fue más que una alucinación auditiva.\r\n\r\nAunque has escuchado perros hablar antes, no es algo nuevo. Pero pareciera que este labrador dorado, que ahora se ha sentado al frente de la ventana a mirar afuera a la tormenta inclemente simplemente no tuviera interés en seguir preguntando si no se le responde.\r\n\r\nEs extraño.\r\n\r\nEl labrador se queda inmóvil mientras afuera chilla el viento y los escombros pasan volando frente a la habitación, al otro lado del vidrio.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] No rompes tu silencio, llevas tu terquedad de no hablar al límite y sigues sin decir una sola palabra.\n[[g;blue;]2)] Finalmente hablas, y dices algo como -Ehm… ¿Hola?-\n[[g;blue;]3)] Oprimes el botón para ¿acabar con el silencio incómodo?\n[[g;blue;]4)] Te largas de este mundo con sus situaciones incómodas de interacción con perros parlanchines. Abres una nueva puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2BB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2BC"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2BB",
+            "mainTxt": ".El perro continúa mirando por la ventana un rato largo. Notas que empieza a jadear como lo hace un labrador, luego se levanta y se va de la habitación por donde vino.\r\n\r\nTú te quedas ahí un rato largo mirando al marco de la puerta por el cual salió.\r\n\r\nLa tormenta continúa rugiendo afuera y no da señas de querer acabarse.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Sales de la habitación a explorar el lugar en el que te encuentras.\n[[g;blue;]2)] Exploras la habitación y miras si hay algo que te de alguna pista de dónde estás dentro de la misma.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Abres una nueva puerta y te vas de este mundo.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2DA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2CA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2BC",
+            "mainTxt": ".El perro se voltea y te mira en cuanto dices ¿hola? De manera torpe.\r\n\r\n[[g;grey;]-Así que puedes hablar, interesante, pensé que no me habías entendido… supongo que tu tiempo para procesar el lenguaje es muy largo… fascinante-]\r\n\r\nEl perro se voltea del todo y te da toda su atención, luego baja la cabeza un momento mirando hacia el suelo, como en un gesto pensativo, de alguna manera se ve como eso, a pesar de que nunca has visto a un perro antes hacer ese gesto.\r\n\r\nLuego levanta la cabeza y te habla despacio, muy despacio, entonando cada sílaba lenta y cuidadosamente:\r\n\r\n[[g;grey;]-H o l a, s e ñ o r i t a. ¿C ó m o e s t á? (una pausa) ¿D o l o r? (una pausa) ¿M a r é o? (una pausa) ¿S a b e d ó n d e e s t á? (una pausa) ¿H a m b r…. (y continúa así)",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Lo interrumpes diciendo -¡Ya! ¡No soy una retrasada! Yo le entiendo-.\n[[g;blue;]2)] Dejas que siga hablando como si le hablara a alguien con daño cerebral para tú continuar con -Tranquilo, yo entiendo bien, solo, me gusta el silencio-\n[[g;blue;]3)] Oprimes el botón porque un perro te habla como si fueras una persona con mongolismo\n[[g;blue;]4)] Te largas por otra puerta para evadir las preguntas extremadamente lentas y molestas de ese perro insufrible.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2BD"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2BE"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2BD",
+            "mainTxt": ".El perro para de golpe en cuanto lo interrumpes y notas que su expresión se vuelve de sorpresa.\r\n\r\n[[g;grey;]-Un ser que deliberadamente cambia su velocidad de procesamiento de información, a partir de… simple y llano acto de voluntad. Interesante-]\r\n\r\nTe llevas la mano al entrecejo, ese perro te está empezando a parecer un poco… engreído.\r\n\r\n[[g;grey;]-Bueno señorita, si me puede entender entonces pregunto de nuevo, ¿Cómo se encuentra?-]",
+            "prompt": "[[g;blue;]/]¿Qué respondes?[[g;blue;]>>>>]\n[[g;blue;]1)].Bien gracias ¿y usted?.\n[[g;blue;]2)] ¿Dónde estoy, qué es este lugar?.\n[[g;blue;]3)] ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2B"
+                }
+            ]
+        },
+        {
+            "scene": "2BE",
+            "mainTxt": ".[[g;grey;]-¿R e c u e r d a a l g o a n t e s d e d e s p e r t a r a q u í?-]\r\n\r\nEl perro lleva casi cuatro minutos haciendo preguntas seguido en el mismo tono de voz y la misma cadencia de sílabas. Es tan desesperante que casi lo interrumpes varias veces.\r\n\r\nFinalmente se queda callado y le respondes: \r\n\r\n[[g;blue;]-Tranquilo, yo entiendo bien, solo, me gusta el silencio-]\r\n\r\nEl perro asiente.\r\n\r\n[[g;grey;]-E s t á s e g ú r …-]\r\n\r\nLo interrumpes casi por reflejo:\r\n\r\n[[g;blue;]-¡Ya! ¡No soy una retrasada, puedes hablar normal!-]\r\n\r\nEl perro vuelve a asentir.\r\n\r\n[[g;grey;]-No sé que es eso de ‘retrasada’ pero, está bien, hablaré normal ahora. Eres un ser curioso y extraño. Sólo quería saber cómo te encuentras, cómo te sientes.-]",
+            "prompt": "[[g;blue;]/]¿Qué respondes?[[g;blue;]>>>>]\n[[g;blue;]1)].Bien gracias ¿y usted?.\n[[g;blue;]2)] ¿Dónde estoy, qué es este lugar?.\n[[g;blue;]3)] ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2B"
+                }
+            ]
+        },
+        {
+            "scene": "2C",
+            "mainTxt": ".El perro se dirige a la salida de la habitación y se para ahí para mirar al corredor afuera, el corredor está oscuro.\r\n\r\n[[g;grey;]-El Hombre es quien maneja el Faro, tanto el Faro como el Hombre son necesarios. Pero el Hombre está viejo, y el Hombre cada vez está más cansado, cada día apenas logra completar las rondas dentro del Faro para mantener todo en órden.-]\r\n\r\nTe quedas pensando en lo que soñaste antes de entrar aquí. Pero el perro luego continúa.\r\n\r\n[[g;grey;]-Este lugar no es seguro para usted señorita, este lugar es el límite entre el mundo y, lo otro, nada que tenga nombre aquí puede permanecer mucho tiempo, por esa razón es mejor que me siga, porque el Hombre está dando rondas, y creo que será mejor que él no la vea a usted despierta.-]\r\n\r\nEl perro sale de la habitación lentamente y luego se gira y te hace una ligera seña con la cabeza.\r\n\r\n[[g;grey;]-Sígame, es mejor que nos movamos a otro lugar-]",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Sigues al perro fuera de la habitación.\n[[g;blue;]2)] Abres una nueva puerta y te vas, este lugar parece que sí es algo peligroso.\n[[g;blue;]3)] Oprimes el botón.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "3A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END2"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "2CA",
+            "mainTxt": ".Exploras la habitación.\r\n\r\nVes el nochero de madera y abres los cajones del nochero. Dentro de los cajones hay lo que parecen tela, o alguna prenda vieja, unos fósforos mojados, hay unos botones de camisa sueltos. El otro cajón, más grande tiene unos frascos vacíos, nada útil. Huele a guardado y a tabaco, fuertemente a tabaco, y no del que se fuma en cigarrillo, quizás el que olerías de una pipa, o habano.\r\n\r\nLa habitación no tiene sino un pequeño armario en una de sus paredes de madera.\r\n\r\nLo abres y ves ropa vieja colgando, sacos, muchos sacos grises, negros que huelen todavía más fuerte a ese tabaco, y a sudor. Debajo de la ropa hay varias botas, unos tres pares, pantaneras, vueltas nada, llenas de barro que se deja escombros de tierra en el suelo.\r\n\r\nHay varios cajones cerrados con llave al lado de la ropa, no puedes abrirlos, y hay un espacio pequeño sobre los cajones, una pequeña repisa donde hay variados papeles apilados.\r\n\r\nLos revisas y notas que están escritos en un lenguaje que no logras distinguir por más que tratas de poner a tu mente a funcionar. Ni el chino, ni el hebreo, ni el sumerio antiguo parece asemejarse a lo que hay en esas páginas.\r\n\r\nSon letras, tienen patrones pero sus formas son completamente diferentes a lo que sea que hayas visto antes, de hecho, a mirar más de cerca notas que los patrones de las palabras son muy arbitrarios, sea porque es un lenguaje muy rico en sinónimos o palabras que comparten la misma estructura o bien, porque no entiendes nada de lo que hay ahí.\r\n\r\nAl fondo de los papeles hay un marco de una fotografía.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Miras la fotografía.\n[[g;blue;]2)] Te vas de la habitación a explorar el corredor.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te largas de este mundo con letras extrañas que no puedes ni leer.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2CB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2DA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2CB",
+            "mainTxt": ".Es la fotografía de un hombre abrazando a una mujer, ambos son jóvenes, unos treinta años. Está en blanco y negro y sus expresiones son solemnes.\r\n\r\nAmbos están en el primer plano de la fotografía y detrás ves el [[g;blue;]Faro] alzándose. Te acercas a mirar más con detalle porque hay algo al fondo de la fotografía algo que está sobresaliendo contra el blanco del cielo al lado del [[g;blue;]Faro].\r\n\r\nEs el perro, el labrador, y está parado mirando hacia la pareja.\r\n\r\nHay algo escrito en la base de la fotografía, una especie de mensaje que, obviamente no puedes descifrar, pero la mano que lo escribió es muy diferente a la mano que escribió todos esos papeles que revisaste, el trazo menos linear y cuadriculado, y un poco más ovalado, más estilizado, casi cursivo, alguien que le puso esmero en poner su mensaje en esta fotografía.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Dejas la fotografía y sales de la habitación.\n[[g;blue;]2)] Oprimes el botón.\n[[g;blue;]3)] Te largas de este mundo, después de todo, esas fotos a blanco y negro son un poco creepy.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2DA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2DA",
+            "mainTxt": ".Te dispones a salir de la habitación pero el perro ahora está parado en la puerta sosteniendo un libro en su hocico, se acerca a tí y lo deja caer a tus pies.\r\n\r\nEl libro tiene las palabras: \r\n[[g;grey;]Diccionario (algo ininteligible) - Español]\r\n[[g;grey;]Español - (algo ininteligible)]\r\n\r\nEl perro te mira expectante.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Recoges el diccionario.\n[[g;blue;]2)] Le dices al perro -Está bien, yo sé hablar, ¡no necesito un diccionario!-\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te largas de este mundo y te llevas el diccionario, es mejor que nada, al menos puedes… tomar algo de aquí.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2DB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2DC"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2DB",
+            "mainTxt": ".Empiezas a leer el diccionario, es un libro pequeño pero notas que tiene demasiadas páginas.\r\n\r\nHas visto libros extraños, pero este tiene definiciones que antes no habías leído, palabras en el arabesco extraño que debe ser el idioma de este lugar, y luego las definiciones, hay desde cosas tan simples como “casa” o “luz”, o “tormenta”, “ventisca”, hasta cosas como:\r\n\r\n[[g;grey;]La forma de nubes que tragan recuerdos de un viaje.]\r\n[[g;grey;]Una piedra que se mueve hacia arriba.]\r\n[[g;grey;]La sensación de lo que las gaviotas planean hacer una vez duermas esta noche]\r\n[[g;grey;]Comida que sabe amarillo]\r\n[[g;grey;]Agua que se mete en los zapatos y nunca sale de allí.]\r\n[[g;grey;]Ser abultado que vive en la profundidad de los almacenes.]\r\n[[g;grey;]Amor por un buen vaso de Cognác con un banano.]\r\n\r\nCierras el libro y lo guardas. Crees que podrá ser útil en este lugar extraño.\r\n\r\n[[g;grey;]-Señorita… ¿p u e d e e n t e n d e r m e?-]\r\n\r\nEl perro habla muy despacio y pronuncia cada sílaba.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Finalmente le respondes al perro: -Está bien, sí, ¡puedo entender!-\n[[g;blue;]2)] Oprimes el botón.\n[[g;blue;]3)] Te largas de este mundo y te llevas el diccionario, es mejor que nada, al menos puedes… tomar algo de aquí.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2DC"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "2DC",
+            "mainTxt": ".El perro hace un gesto de extrañeza que nunca has visto en otro perro en tu vida.\r\n\r\n[[g;grey;]-Si me podía entender, ¿entonces por qué no me ha respondido?-]\r\n\r\nLuego, en el mismo tono lento y vocalizando:\r\n\r\n[[g;grey;]-¿S e s i e n t e b i en? ¿L e d u e l e l a  c a b e z a?-]\r\n\r\nTú reaccionas casi por instinto y lo interrumpes:\r\n-\r\n¡Estoy bien! ¡No soy una retrasada!-\r\n\r\nEl perro entonces asiente con su cabeza.\r\n\r\n[[g;grey;]-Extraño, eres un ser muy extraño, señorita. Pero entonces, continúo: ¿cómo se encuentra?-]",
+            "prompt": "[[g;blue;]/]¿Qué respondes?[[g;blue;]>>>>]\n[[g;blue;]1)].Bien gracias ¿y usted?.\n[[g;blue;]2)] ¿Dónde estoy, qué es este lugar?.\n[[g;blue;]3)] ¡¿Dónde putas estoy y qué putas es este lugar, y ese gusano, y ese faro, y quién diablos es usted y por qué no anuncia que va a entrar apareciendo así, como un ladrón?!\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "2AA"
+                },
+                {
+                    "option": 3,
+                    "goTo": "2B"
+                }
+            ]
+        },
+        {
+            "scene": "3A",
+            "mainTxt": "Caminas con el perro guiándote por un corredor oscuro y algo frío a comparación de la habitación en la que estabas antes. Las paredes aquí también son de madera.\r\n\r\nEn este corredor no escuchas tan fuerte la tormenta. Tus pasos resuenan en las paredes junto con el -tic, tic, tic- de las patas del perro, el cual mueve su cola de lado a lado suavemente.\r\n\r\nFinalmente giran a la derecha y vas con él por otro corredor que da a una ventana, la vista de esta ventana da al mar y la tormenta, la misma masa gris llena de los ocasionales relámpagos en la distancia.\r\n\r\nEl perro se detiene y gira su cabeza en tu dirección.\r\n\r\n[[g;grey;]-Señorita, a partir de ahora, haga lo que haga, no deje de seguirme, sin importar lo que vea, sin importar lo que escuche, tenemos que salir del Faro, o el Hombre la encontrará.-]\r\n\r\nLuego ves en sus ojos un gesto de genuina preocupación.\r\n\r\n[[g;grey;]-No quiere que el Hombre la encuentre, no así, se lo puedo asegurar-]\r\n\r\nEl perro sigue avanzando.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)] Sigues al perro un momento pero no lo seguirás ciegamente y, si lo decides, si se te da la oportunidad o te invade la curiosidad, explorarás este lugar por tu cuenta. Después de todo, siempre puedes abrir una nueva puerta. U oprimir el botón.\n[[g;blue;]2)] Oprimes el botón.\n[[g;blue;]3)] Te vas de este mundo, esta situación no es confiable, ese perro no es confiable.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "3B"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "3AA",
+            "mainTxt": "El perro escucha tus palabras sin expresión.y luego te ve partir pero no protesta, solo se queda ahí. Lo único que escuchas mientras lo dejas atrás es:\r\n\r\n[[g;grey;]-No logro entender a estos seres, irracionales-]\r\n\r\nLuego, mientras estás por dar la vuelta por el corredor por el que llegaste logras ver que el perro se ha ido, y el -tic, tic, tic- de sus patas se pierde en el fondo del corredor.\r\n\r\nDe alguna parte, entre el pasillo al que acabas de llegar, escuchas unos pasos, unos pasos pesados y lentos, de botas, de pies cansados pero firmes.\r\n\r\nNo sabes bien de dónde vienen, si de adelante, o de atrás, o de la derecha o de la izquierda, de arriba o abajo. Jurarias que en momentos los escuchas al frente, para luego escucharlos atrás, y luego debajo tuyo.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Sigues andando sola y explorando el lugar.\n[[g;blue;]2)].Te arrepientes y corres a donde está el perro para decirle que mejor sigues su plan porque… has reconsiderado.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te vas de este mundo, no sabes por qué, pero ahora sí te sientes en peligro.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "2DA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "3AB"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "3AB",
+            "mainTxt": "Vuelves al pasillo del cual el perro partió.\r\n\r\n[[g;grey;]-Pensé que quería explorar sola, señorita-]\r\n\r\nTe dice el perro en cuanto das la vuelta por el corredor, casi haciéndote soltar un grito. No esperabas que el perro estuviera ahí sentado, pacientemente. Como sabiendo lo que harías.\r\n\r\n[[g;grey;]-Podemos continuar si lo desea, señorita-]\r\n\r\nEl perro se gira y comienza a caminar hacia el fondo del corredor. ",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Lo sigues finalmente y a regañadientes.\n[[g;blue;]2)] Oprimes el botón.\n[[g;blue;]3)] Te vas de este mundo, ese perro es raro y además te molesta mucho haber tenido que cambiar de parecer ante un pulgoso engreído.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "4A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "3B",
+            "mainTxt": "El perro empieza a caminar más rápido, y lo sigues volteando por corredores y esquinas de madera. Casi lo pierdes más de una vez, pero logras dar con él.\r\n\r\nNo sabes por qué este espacio tiene tantos recovecos, tantos giros distintos, tantas posibles rutas, si lo que viste de afuera era un simple faro, una cosa vertical pero angosta. Sin embargo es como si estuvieras en una casona gigante, en un laberinto de puertas cerradas y a medio cerrar, ventanas a una tormenta infinita e interminables corredores que huelen a madera mojada y encerrada.\r\n\r\nLa única luz mientras sigues al perro es la que llega de afuera por las ventanas.\r\n\r\nVas observando dentro de las habitaciones que dejan ver algo de su interior en busca de sentido, de algo que te parezca de interés.\r\n\r\nY ves tantas cosas mientras sigues a ese perro, ves tantas cosas en las aberturas de esas habitaciones, que solo te dejan con más y más preguntas mientras más logras vislumbrar.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Tratas de armar un mapa mental de lo que ves dentro de las habitaciones que pasas \n[[g;blue;]2)] Continuas tu camino tratando de no pensar mucho en lo que ves dentro de esas habitaciones semi-abiertas.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te vas de este mundo, esta situación no es confiable, ese perro no es confiable.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "4A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "4AB"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "4A",
+            "mainTxt": "No lo puedes entender, no lo puedes armar en tu cabeza. Cada habitación es una cosa más rara que la anterior.\r\n\r\nPrimero solo veías habitaciones similares a la que te despertaste, una cama, una ventana, nochero, quizás una vela encendida o apagada.\r\n\r\nPero luego empezaron a cambiar cosas.\r\n\r\nPara empezar hubo dos o tres habitaciones que no tenían cama, solo nochero, solo la ventana. Luego pudiste ver que la ventana, que siempre daba al mismo lado, sin importar por qué lado del corredor estuvieras caminando, se volvía más pequeña, o más grande. Viste habitaciones donde era apenas un punto, un cuadrado no más grande que un desague. Y otras donde la ventana y la tormenta ocupaban la totalidad de la pared.\r\n\r\nPero no solo había habitaciones, viste algunas bodegas llenas de cajas de madera apiladas, una sobre otra en estantes que se extendían en filas que, para tí, podrían ser cientos de metros de largo, y de alto, no sabrías decir pues la oscuridad del techo escondía dónde terminaban estas torres de objetos.\r\n\r\nViste una habitación donde la cama estaría pegada del muro derecho y abajo, en el suelo estaría la ventana.\r\n\r\nViste habitaciones completamente vacías, incluso vacías de la madera de las paredes, solo un cubo gris, con una que otra tabla como pegada de alguna de sus superficies, como si estuviera siendo construida, como una fachada.\r\n\r\nEl perro sigue caminando y calculas que llevas aproximadamente una hora en estas.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Le preguntas al perro: -Bueno, ¿cuánto falta para salir de aquí?-\n[[g;blue;]2)] Sigues caminando, no dices nada, no hay nada que decir, tampoco es que estés cansada.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te vas de este mundo, abres una nueva puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "4AA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "4AB"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "4AA",
+            "mainTxt": "El perro no se detiene pero sí habla.\r\n\r\n[[g;grey;]-Apenas estamos llegando a la antesala del Faro, tenga paciencia y por favor, si escucha pasos venir de cualquier dirección, diferentes a los míos o los suyos, dígame. Es de extrema importancia.-]\r\n\r\nLa noticia no es muy buena, y tampoco las implicaciones de ‘pasos’.\r\n\r\nSi apenas vamos a la antesala, ¿qué tamaño tiene este lugar del demonio?",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Sigues al perro-\n[[g;blue;]2)] Oprimes el botón.\n[[g;blue;]3)] Te vas de este mundo, abres una nueva puerta.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "4AB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "4AB",
+            "mainTxt": "Luego de pasar cada vez más y más corredores similares, empiezas a pensar que esto es inútil, que ese perro te está guiando por un laberinto infinito, y empiezas a dudar si aún seguirlo.\r\n\r\nHasta que llegan a una puerta, una puerta que no se bifurca en más corredores, solo una puerta gris de metal con un pomo cromado.\r\n\r\nEl perro se detiene y mira en tu dirección.\r\n\r\n[[g;grey;]-A partir de aquí el Hombre sabrá que te has ido de tu habitación. A partir de esta puerta, tendremos que correr, ¿tienes fuerzas para correr?-]\r\n\r\nEsto te agarra de sorpresa pues, no esperabas tener que correr, aunque una parte tuya, de alguna manera sabía que podría pasar.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Le respondes al perro: -Claro que tengo fuerzas para correr, ni que fuera una debilucha- Y abres la puerta de metal de un solo movimiento-\n[[g;blue;]2)] Le dices al perro que te dé un momento para recolectar tus fuerzas, después de todo, estuviste inconsciente mucho tiempo.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te vas de este mundo, abres una nueva puerta, porque correr de cosas desconocidas no está en tus planes el día de hoy.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "4AC"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "4AC",
+            "mainTxt": "[[g;grey;]-Tómese su tiempo señorita, no hay prisa, o… bueno, sí la hay, pero igualmente, es su existencia, usted decide cómo desea arriesgarla-]\r\n\r\nTe recuperas un poco mientras el perro habla como un completo cretino y tú lo miras con bastante malhumor.\r\n\r\nY es mientras estás estabilizando tu respiración algo agitada que lo escuchas.\r\n\r\nLos pasos firmes, pesados de botas que resuenan por todos lados, que parecieran venir de atrás, de adelante, de los lados, todo al mismo tiempo.\r\n\r\nVes que el perro levanta las orejas y se pone tenso.\r\n\r\n[[g;grey;]-Creo que no tenemos tiempo, recuperada o no, si no quiere vérselas con el Hombre, es mejor que abra esa puerta ya mismo-]\r\n\r\nEl perro se acerca a la puerta ansioso.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Abres la puerta de un solo movimiento sin pensarlo y te preparas para salir corriendo lo más rápido que puedes-\n[[g;blue;]2)] Decides que quieres ver qué diablos es este Hombre del que tanto habla el perro y esperas.\n[[g;blue;]3)] Oprimes el botón.\n[[g;blue;]4)] Te vas de este mundo, no vas a correr y tampoco quieres averiguar lo que ningún Hombre se supone que te va a hacer tampoco.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5A"
+                },
+                {
+                    "option": 2,
+                    "goTo": "4AD"
+                },
+                {
+                    "option": 3,
+                    "goTo": "END1"
+                },
+                {
+                    "option": 4,
+                    "goTo": "END2"
+                }
+            ]
+        },
+        {
+            "scene": "4AD",
+            "mainTxt": "El perro araña la puerta de metal mientras tu miras al otro lado de ese pasillo de madera, hay una ventana por la que pasaron al girar al fondo. La luz de la tormenta es más brillante aquí de lo que ha sido en todo tu viaje, y no sabes por qué.\r\n\r\n[[g;grey;]-Señorita, tenemos que salir ya mismo de aquí ¡señorita!-]\r\n\r\nEl perro está completamente desesperado golpeando la puerta con sus patas.\r\n\r\nAl fondo del corredor los pasos, esas botas que resuenan por todos lados, comienzan a adquirir la dirección del final del corredor. Y comienzas a ver una sombra aparecer en el suelo, saliendo de la esquina, una sombra que se mueve muy despacio.\r\n\r\n[[g;grey;]-Maldición, no voy a entenderlos a ustedes, seres extraños. Si no nos vamos… ¡va a ser demasiado tarde!-]\r\n\r\nPero ya es demasiado tarde porque el [[g;red;]Hombre] se asoma desde la esquina.\r\n\r\nY lo ves. Y ves su cansancio, tanto, pero tanto cansancio de estar aquí, de estar en el [[g;blue;]Faro], siempre.\r\n\r\nDe los días indistinguibles, de la retahíla de semanas, y años que no se diferencian, de las labores repetitivas en este espacio limítrofe, de su obligación, de su deber imposible de evadir, porque el [[g;blue;]Faro] debe ser cuidado, siempre. El [[g;blue;]Faro] debe estar listo para funcionar siempre.\r\n\r\nSu cara arrugada, sus ojos apagados te miran desde ahí, te miran y saben, de alguna manera quién eres. Y sabes que ven algo en tí, ven algo que tratas de traducir, una palabra que ambos intercambian mientras él se va acercando. Una palabra que este [[g;red;]Hombre] ha buscado desde hace tanto, tanto tiempo.\r\n\r\n[[g;red;]-Reemplazo-]",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Esperas a que el hombre se acerque, porque él no es una amenaza, solo está, tan , pero tan cansado-\n[[g;blue;]2)] Decides voltear a la puerta con las últimas onzas de voluntad que te quedan.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5AB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "4AE"
+                }
+            ]
+        },
+        {
+            "scene": "4AE",
+            "mainTxt": "Te giras, aunque te es tan difícil. Es extremadamente difícil, porque es como decirle adiós alguien que quieres, como negarle un abrazo a alguien que te pide consuelo, y por quien sientes compasión, por quien sientes, el dolor que siente, como un espejo, un espejo sin imperfecciones.\r\n\r\nTe giras y sientes una lágrima caer por tu mejilla.\r\n\r\nPero ahora ves la puerta, el perro te mira completamente histérico, y lo escuchas ladrar, ya no habla, ya no hay una voz saliendo de su hocico cerrado, solo ladridos contínuos que te ensordecen de las pisadas lentas del [[g;red;]Hombre] a tus espaldas, sus pisadas cansadas y pesadas.\r\n\r\nTe abalanzas hacia la puerta y giras el pomo de un solo movimiento. No te importa caer al suelo del otro lado, solo necesitas poner una barrera entre tí, y eso… ese… [[g;red;]Hombre].\r\n\r\nCierras la puerta en cuanto tú y el perro logran pasar.",
+            "prompt": "[[g;blue;]/]SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN][[g;blue;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "5A",
+            "mainTxt": ".Abres la puerta y pasas mientras escuchas desde atrás, y al parecer de los lados también, y arriba y abajo el sonido de pasos pesados, lentos, cansados.\r\n\r\nEl perro entra primero.\r\n\r\n[[g;grey;]-Rápido, ¡ya viene!-]\r\n\r\nLogras ver que del corredor por el que llegaste, de la esquina que tiene la ventana, una sombra empieza a asomarse en el suelo.\r\n\r\nY los pasos de eso, lo que sea que sea, se vuelven cada vez más concretos, puedes distinguir su dirección.\r\n\r\nEl perro ladra tras de tí, la primera vez que has escuchado a este perro ladrar, de hecho ni siquiera pensaste que podría hacer algo así.",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].Te quedas un momento más, te invade la curiosidad de saber qué es lo que viene, quién viene, quién es ese Hombre.\n[[g;blue;]2)] Cierras la puerta tras de tí y continúas con el perro el viaje por este nuevo lugar. Tu experiencia con el Gusano te ha enseñado que esto no es algo para tomar con ligereza.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5AA"
+                },
+                {
+                    "option": 2,
+                    "goTo": "5B"
+                }
+            ]
+        },
+        {
+            "scene": "5AA",
+            "mainTxt": " Ves que los pasos se aproximan ahora del fondo del corredor, el perro ladra, ladra muy fuerte.\r\n\r\nUna sombra se asoma desde la esquina iluminada por la ventana que da a la tormenta, la tormenta que ahora brilla en esos vidrios empañados. Un blanco grisáceo que se acentúa con los relámpagos, los relámpagos que parecieran acelerarse mientras la forma que da esos pasos se asoma.\r\n\r\nVes un [[g;red;]Hombre] viejo, ves una figura encorvada en un gabán viejo y botas sucias, con el pelo blanco y desenmarañado, largo y cayendo a ambos lados de su cabeza. Ves la barba tupida.\r\n\r\nVes los ojos [[g;red;]cansados], muy cansados, que ahora se posan en tí.\r\n\r\nY sientes ese cansancio de los días que se confunden entre ellos de la rutina, de entrar y salir, de reparar esta estructura decrépita, de cargar bultos, de limpiar, de organizar las bombillas del [[g;blue;]Faro]. El servicio infinito que hace que el tiempo pierda significado porque nunca termina, porque la labor nunca termina.\r\n\r\nEl [[g;blue;]Faro] es lo que es por el [[g;red;]Hombre], y el [[g;red;]Hombre] es lo que es por el [[g;blue;]Faro]. Pero el [[g;red;]Hombre], a diferencia del [[g;blue;]Faro], se sabe cansado. Y ahora que estás aquí sabe que alguien más entiende eso, alguien más que puede entender su aflicción.\r\n\r\nEscuchas una palabra claramente en tu cabeza mientras el [[g;red;]Hombre] se acerca lento, cansado, pesado a tí.\r\n\r\n[[g;red;]-Reemplazo-[",
+            "prompt": "[[g;blue;]/]¿Qué haces?[[g;blue;]>>>>]\n[[g;blue;]1)].No te mueves, el Hombre se seguirá acercando como el tiempo, inevitable, y tú aceptarás el destino que él te ruega con cada onza de su ser, el destino que quiere que sea tuyo.\n[[g;blue;]2)] Cierras la puerta con las últimas fuerzas que tienes antes de ceder, antes de que la tristeza, el cansancio sean todo lo que quede en tu existencia.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5AB"
+                },
+                {
+                    "option": 2,
+                    "goTo": "5BA"
+                }
+            ]
+        },
+        {
+            "scene": "5AB",
+            "mainTxt": "El perro no se oye ya, se ha dejado de oír su ladrido, se ha dejado de sentir el suelo, se ha dejado de ver el corredor porque lo único que hay ahora es el [[g;red;]Hombre], que está a unos centímetros apenas, alzando una mano arrugada y callosa hacia tí.\r\n\r\nY sabes que en cuanto te toque, ese [[g;red;]Hombre] va a poder descansar. Es un sacrificio que él ha pensado y sabido, y aceptado, la única esperanza de vencer el tiempo infinito que el [[g;blue;]Faro] ha impuesto en él.\r\n\r\nTú no tienes la fuerza para voltear ahora. Tú solo te dignas a cerrar los ojos. El botón en tu mano es lo único que existe en esta realidad. Y estás, por primera vez considerando usarlo, tanto para liberar al [[g;red;]Hombre] como para liberarte tú.\r\n\r\nDel peso del tiempo.",
+            "prompt": "[[g;blue;]/]Lo siento, espero me perdones, Viajera.\r\n\r\n[[g;red;]createWeapon(orbStrikeCannon(excalibur)).exec(t.deltaTime)]\r\n[[g;red;]Orbital Strike -armed- -ready-]\r\n\r\nPero no lo puedo permitir.\r\n\r\n[[g;green;]excalibur(IonStrike).pos(Viajera - dist.min.safe).exec()][[g;blue;]>>>>]\n[[g;blue;]1)].Ejecutar función excalibur() <<por favor ejecuta la función>>\n[[g;blue;]2)].Oprimes el botón, toda la esperanza se ha perdido, no queda otra opción.\n",
+            "actions": [
+                {
+                    "option": 1,
+                    "goTo": "5AC"
+                },
+                {
+                    "option": 2,
+                    "goTo": "END1"
+                }
+            ]
+        },
+        {
+            "scene": "5AC",
+            "mainTxt": "[[g;green;]<<Función ejecutada con éxito>>]\r\n\r\nUn brillo y un calor impresionante, así como el ruido del trueno invaden todo y sientes cómo vuelas por el aire hacia atrás, cayendo sobre tu espalda.\r\n\r\nSientes como si se te hubiera desconectado de un sueño en el que creías estar viva, de un sueño que asegurarías era la vida misma, y que una parte de tu mente aún, tercamente, considera que es la realidad.\r\n\r\nPero abres los ojos y ves al perro mirándote, y lo escuchas ladrar.\r\n\r\nTodo es muy borroso, todos los sonidos se mezclan, el fuego, la lluvia en torrente, el perro.\r\n\r\nLevantas la cabeza y ves lo que recuerdas era la puerta por la que ibas a entrar, ahora es un montón de escombros que tapan lo que sea que hay al otro lado. Lo que sabes que hay al otro lado.\r\n\r\nPorque de alguna manera escuchas, entre la destrucción las botas, los pasos lentos alejarse del otro lado de los escombros, los escuchas casi como si estuvieran aquí, donde estás tirada.\r\n\r\n[[g;grey;]-Señorita… no entiendo qué hizo… pero creo que ganamos unos minutos, pocos minutos… tenemos que continuar-]\r\n\r\nTe vas incorporando. [[g;red;]<<SEÑAL DÉBIL>>]\r\n\r\nEst…[[g;red;]<<PERDIENDO CONEXIÓN>>]",
+            "prompt": "[[g;blue;]/]SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN][[g;blue;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "5B",
+            "mainTxt": "Terminas de entrar en este nuevo espacio y cierras la puerta tras de tí.\r\n\r\nEscuchas los pasos acercándose, los pasos cansados, los pasos pesados, y ves la sombra y una figura irse asomando por entre la esquina del otro lado del corredor que cierras.\r\n\r\nLa luz de la ventana contrasta con el saco negro y viejo, y logras distinguir pelo blanco desenmarañado y el rostro arrugado del [[g;red;]Hombre].\r\n\r\nY mientras la puerta se termina de cerrar casi por inercia divisas los ojos, los ojos que te llenan del cansancio más puro de la vida, ves el [[g;blue;]Faro] y ves lo que el [[g;red;]]Hombre] ha hecho por tanto tiempo en este [[g;blue;]Faro].\r\n\r\nSientes el paso inclemente del tiempo eterno de alguien, de algo que ha vivido sin tener descanso… siempre con el deber como una piedra gigante en su espalda, aplastando lo poco que queda, los días volviéndose lo mismo, lo mismo cada vez más y más como una bruma indistinguible.\r\n\r\nY el [[g;red;]Hombre] te ve en ese fragmento de tiempo que toma a la puerta terminar de cerrarse.\r\n\r\nY sabes que te reconoce, y que ahora él piensa, él siente, algo diferente, y lo implora.\r\n\r\nImplora con una palabra que pueda terminar su infinito suplicio en este [[g;blue;]Faro].\r\n\r\n[[g;red;]-Reemplazo-]\r\n\r\nLa puerta se cierra y el perro te jala del pantalón, insistente. [[g;red;]<<SEÑAL DÉBIL>>]\r\n\r\n[[g;grey;]-Señorita, no hay mucho tiempo, hay que movernos ahora mismo-]][g;red;]<<PERDIENDO CONEXIÓN>>]",
+            "prompt": "[[g;blue;]/]SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN][[g;blue;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "5BA",
+            "mainTxt": "Con la fuerza que te queda, con la voluntad que te queda cierras la puerta de un solo movimiento, oscureciendo la figura del [[g;red;]Hombre] tras ese bloque de metal que resuena en cuanto la cerradura termina de ajustarse.\r\n\r\nTe tiemblan las rodillas, y sientes como caen lágrimas por tus mejillas.\r\n\r\nLa sensación de culpa es inevitable, la sensación de pesar, de pesadez de ese [[g;red;]Hombre] es inconmensurable. Es la peor sensación de pérdida que has sentido en mucho tiempo.\r\n\r\nEscuchas claramente los pasos lentos y cansados alejarse de la puerta y desvanecerse tras ella.\r\n\r\nTratas de reponerte lo mejor que puedes.\r\n\r\nEl perro te jala del pantalón, insistente. [[g;red;]<<SEÑAL DÉBIL>>]\r\n\r\n[[g;grey;]-Señorita, no hay mucho tiempo, hay que movernos ahora mismo-]][g;red;]<<PERDIENDO CONEXIÓN>>]",
+            "prompt": "[[g;blue;]/]SEÑAL PERDIDA - [[g;red;LOCACIÓN DESCONOCIDA]] [[g;blue;]]ESPERANDO RECONEXIÓN][[g;blue;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "END1",
+            "mainTxt": "[[g;red;]FATAL ERROR]",
+            "prompt": "[[g;#475c85;]/]Conexión perdida…[[g;#475c85;]>>>>]\n",
+            "actions": []
+        },
+        {
+            "scene": "END2",
+            "mainTxt": "[[g;red;]NOT FOUND]",
+            "prompt": "[[g;#475c85;]/]Conexión perdida…[[g;#475c85;]>>>>]\n",
+            "actions": []
+        }
+    ]
+}

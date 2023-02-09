@@ -91,7 +91,7 @@ function createJsonFile(data){
     const jsonData = JSON.stringify(data)
 
     // write JSON string to a file
-    writeFile('game/temp_db/level_2.json', jsonData, err => {
+    writeFile('game/temp_db/level_3.json', jsonData, err => {
     if (err) {
         throw err
     }
