@@ -1,0 +1,156 @@
+PROMPT-Continuar…+
+
+INIT_MESSAGE-Conectando…+
+STYLE-#5E788F+
+TIMEOUT-200+
+
+INIT_MESSAGE-Conectando..+
+STYLE-#5E788F+
+TIMEOUT-200+
+
+INIT_MESSAGE-Conectando.+
+STYLE-#5E788F+
+TIMEOUT-200+
+
+INIT_MESSAGE-Conectando..+
+STYLE-#5E788F+
+TIMEOUT-200+
+
+INIT_MESSAGE-Conectando…+
+STYLE-#5E788F+
+TIMEOUT-200+
+
+INIT_MESSAGE-<<Conexión establecida>>+
+STYLE-#11781d+
+TIMEOUT-200+
+
+INIT_MESSAGE-enter(dreamstate) =>(pos, deltaTime)Traveler.beacon+
+STYLE-#5E788F+
+TIMEOUT-400+
+
+INIT_MESSAGE-estabilizarPos()+
+STYLE-red+
+TIMEOUT-400+
+
+INIT_MESSAGE-estabilizarTime()+
+STYLE-red+
+TIMEOUT-400+
+
+INIT_MESSAGE-estabilizarVars()+
+STYLE-red+
+TIMEOUT-400+
+
+
+INIT_MESSAGE-findBeacon(Traveler.pos, deltaTime)+
+STYLE-#5E788F+
+TIMEOUT-400+
+
+INIT_MESSAGE-deployAssets(excalibur, orbital)+
+STYLE-#5E788F+
+TIMEOUT-500+
+
+INIT_MESSAGE-initComms(dreamstate) => ()+
+STYLE-#5E788F+
+TIMEOUT-500+
+
+INIT_MESSAGE-initComms(dreamstate) => ().+
+STYLE-#5E788F+
+TIMEOUT-500+
+
+INIT_MESSAGE-initComms(dreamstate) => ()..+
+STYLE-#5E788F+
+TIMEOUT-500+
+
+INIT_MESSAGE-initComms(dreamstate) => ()...+
+STYLE-#5E788F+
+TIMEOUT-500+
+
+INIT_MESSAGE-<<SUCCESS>>+
+STYLE-#11781d+
+TIMEOUT-500+
+
+DATA-Hola [[g;#2185de;]Viajera]+
+
+DATA-Espero te encuentres bien…+
+
+DATA-Es posible que sí, así como es posible que no.
+
+Es decir…+
+
+DATA-No puedo saber qué piensas en medio de tu sueño, mientras te encuentras inconsciente en este espacio etéreo.+
+
+DATA-Es posible que no estés pensando en nada, y solo flotes sin rumbo en la neblina de la somnolencia.
+
+Porque igual, lo que viste, lo mínimo que hizo fue dejarte inconsciente.+
+
+DATA-Los minutos, horas, días podrían pasar en este estado sin que te dieras cuenta. Pues no estás ahí, no estás sintiendo el mundo a tu alrededor. Este tiempo se vuelve, en este espacio, algo indefinible, algo que carece de importancia.+
+
+DATA-Pero este sueño durará solo unos instantes más. Solo un poco más antes de que despiertes, donde sea que estés en este momento.+
+
+DATA-Supongo que no tienes miedo de eso, no de a dónde vas a parar. Has visto cosas peores fuera de estos mundos.
+
+Has visto cosas y experimentado un mundo que es [[g;red;]mucho peor].+
+
+DATA-Y lo entiendo, quizás te causa curiosidad tu estado actual. A la deriva.
+
+Y cómo llegaste aquí.+
+
+DATA-[[g;#5E788F;]¿Qué es lo último que recuerdas antes de esto?]+
+
+DATA-¿Recuerdas el [[g;red;]Gusano]?+
+
+DATA-Te preguntarás qué era ese ser, esa criatura, esa cosa que te envolvía.
+
+Y quizás tu instinto natural, si pudieras, sería preguntarme a mí, porque quizás puedes estar bajo la impresión de que yo he creado este mundo en el que te encuentras ahora.
+
+[[g;#5E788F;]Una historia más].+
+
+DATA-Pero la verdad, ni yo sé qué era esa entidad. Yo solo la vi en el horizonte contigo de alguna manera.
+
+Yo solo fui escarbando en lo que eso era, tomando nota de lo que aparecía al frente, en el fondo, tras las nubes, tras la tormenta y el mar agitado.+
+
+DATA-Y puedo decir que… lo que se acercó, o te acercó, no es un ser, o una cosa.
+
+Es algo que viene de [[g;#5E788F;]otro lugar], algo que se manifiesta con una forma aquí, porque aquí las cosas tienen forma.+
+
+DATA-Pero quizás ese ente, esa presencia, no era más pequeña que un grano de arena de dónde vino, o quizás solo viste una parte infinitesimal de algo que ocuparía el espacio de galaxias.+
+
+DATA-[[g;#5E788F;]¿Qué manera hay de saberlo?]+
+
+DATA-Lo importante es que algo intervino, algo que también está ahí, en ese mundo que habitas ahora. Algo que ha estado ahí tanto tiempo.
+
+La idea de un [[g;blue;]Faro] eterno.+
+
+DATA-Y de un [[g;red;]Hombre]+
+
+DATA-Es lo único que tenía para trabajar porque así sentí que era este mundo.+
+
+DATA-Porque creo que de eso se trata, como de ir con una linterna por un bosque de noche, [[g;green;]buscando algo], abriéndose camino entre los árboles, iluminando pequeños pedazos, rocas, ruinas. 
+
+[[g;#5E788F;]Descubriendo tu camino].+
+
+DATA-No son inventos, no son simples palabras en el papel sacadas de la “imaginación”+
+
+DATA-Es una exploración.+
+
+DATA-Y ahora que estás despertando, y estos mensajes empiezan a volverse borrosos, y tu mente comienza a tomar forma de nuevo en ese mundo…
+
+Ahora que sientes un poco tus manos, tus brazos, tus piernas, tu rostro…+
+
+DATA-Solo puedo dejarte con unas palabras más que posiblemente no recuerdes cuando despiertes, pero que quizás te sirvan de algo al explorar este mundo extraño.+
+
+DATA-Hay un peso infinito sobre algo, [[g;red;]sobre alguien] en este mundo, un peso que busca transferirse.+
+
+DATA-Ten cuidado al desplazarte por este espacio.+
+
+DATA-Pero al mismo tiempo, si puedes leer este espacio, si puedes explorarlo, y sacar algún sentido. Me alegraría saber qué es.+
+
+DATA-Sin embargo, creo que ya se acaba nues[[g;grey;]CONEXIÓN DÉBIL]+
+
+DATA-Tiemp[[g;grey;]CONEXIÓN PERDIDA]+
+
+DATA-[[g;#2185de;]Despertar]+
+
+
+
+

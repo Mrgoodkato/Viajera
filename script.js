@@ -14,8 +14,8 @@ const index = {
 };
 
 const colorsDream = {
-    color: ["#7A7E90", "#475c85"],
-    back: ["#191A1F", "#c1cfda"]
+    color: ["#5E788F", "#011220"],
+    back: ["#08090a", "#5E788F"]
 }
 
 const inputField = document.getElementsByClassName('clipboard');
@@ -30,7 +30,7 @@ $('#terminal').terminal(function() {
     greetings: greetings.innerHTML,
     onBlur: function(){
         return true;
-    }
+    },
 });
 
 $('#terminal').on('click', ()=>{

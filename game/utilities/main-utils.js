@@ -47,3 +47,4 @@ export function atmosphereChangeFull(colors){
     $(".terminal").css("--background", `${colors.back[0]}`);
     $("body").css("background-color", `${colors.back[0]}`);
 }
+

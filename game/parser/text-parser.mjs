@@ -10,9 +10,7 @@ const text = readFileSync("./game/temp_db/text-base.txt",
 {encoding:'utf8', flag:'r'});
 
 const data = parseTextInfo();
-createJsonFile(data);
-
-
+createJsonFile(data, 'game/temp_db/level_3.json');
 
 function parseTextInfo(){
 
@@ -79,23 +77,21 @@ function parseTextInfo(){
 function promptDecider(prompt, counter){
 
     if(counter == 0){
-        return '[[g;blue;]/]' + prompt + '[[g;blue;]>>>>]\n'
+        return '[[g;#5E788F;]/]' + prompt + '[[g;#5E788F;]>>>>]\n'
     }
 
-    return `[[g;blue;]${counter})]${prompt}\n`
+    return `[[g;#5E788F;]${counter})]${prompt}\n`
 
 }
 
-function createJsonFile(data){
-
+function createJsonFile(data, path){
     const jsonData = JSON.stringify(data)
 
     // write JSON string to a file
-    writeFile('game/temp_db/level_3.json', jsonData, err => {
+    writeFile(path, jsonData, err => {
     if (err) {
         throw err
     }
     console.log('JSON data is saved.')
     })
-
 }

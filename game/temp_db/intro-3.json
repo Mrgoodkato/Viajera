@@ -1,16 +1,195 @@
 {
-    "prompt": "[[g;#475c85F;]/] Iniciar [[g;#475c85;]>>>]",
+    "prompt": "Continuar…",
     "init_messages": [
-
         {
-            "timeout": 250,
-            "message": "[[g;#475c85;]Abriendo conexión...]"
-        }       
+            "message": "[[g;#5E788F;]Conectando…]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#5E788F;]Conectando..]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#5E788F;]Conectando.]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#5E788F;]Conectando..]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#5E788F;]Conectando…]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#11781d;]<<Conexión establecida>>]",
+            "timeout": 200
+        },
+        {
+            "message": "[[g;#5E788F;]enter(dreamstate) =>(pos, deltaTime)Traveler.beacon]",
+            "timeout": 400
+        },
+        {
+            "message": "[[g;red;]estabilizarPos()]",
+            "timeout": 400
+        },
+        {
+            "message": "[[g;red;]estabilizarTime()]",
+            "timeout": 400
+        },
+        {
+            "message": "[[g;red;]estabilizarVars()]",
+            "timeout": 400
+        },
+        {
+            "message": "[[g;#5E788F;]findBeacon(Traveler.pos, deltaTime)]",
+            "timeout": 400
+        },
+        {
+            "message": "[[g;#5E788F;]deployAssets(excalibur, orbital)]",
+            "timeout": 500
+        },
+        {
+            "message": "[[g;#5E788F;]initComms(dreamstate) => ()]",
+            "timeout": 500
+        },
+        {
+            "message": "[[g;#5E788F;]initComms(dreamstate) => ().]",
+            "timeout": 500
+        },
+        {
+            "message": "[[g;#5E788F;]initComms(dreamstate) => ()..]",
+            "timeout": 500
+        },
+        {
+            "message": "[[g;#5E788F;]initComms(dreamstate) => ()...]",
+            "timeout": 500
+        },
+        {
+            "message": "[[g;#11781d;]<<SUCCESS>>]",
+            "timeout": 500
+        }
     ],
     "data": [
-            {
-            "index" : 1,
-            "text" : "Hola [[g;#3488EF;]Viajera].\n\nEspero estés bien."
-            }
+        {
+            "text": "Hola [[g;#2185de;]Viajera]",
+            "index": 1
+        },
+        {
+            "text": "Espero te encuentres bien…",
+            "index": 2
+        },
+        {
+            "text": "Es posible que sí, así como es posible que no.\r\n\r\nEs decir…",
+            "index": 3
+        },
+        {
+            "text": "No puedo saber qué piensas en medio de tu sueño, mientras te encuentras inconsciente en este espacio etéreo.",
+            "index": 4
+        },
+        {
+            "text": "Es posible que no estés pensando en nada, y solo flotes sin rumbo en la neblina de la somnolencia.\r\n\r\nPorque igual, lo que viste, lo mínimo que hizo fue dejarte inconsciente.",
+            "index": 5
+        },
+        {
+            "text": "Los minutos, horas, días podrían pasar en este estado sin que te dieras cuenta. Pues no estás ahí, no estás sintiendo el mundo a tu alrededor. Este tiempo se vuelve, en este espacio, algo indefinible, algo que carece de importancia.",
+            "index": 6
+        },
+        {
+            "text": "Pero este sueño durará solo unos instantes más. Solo un poco más antes de que despiertes, donde sea que estés en este momento.",
+            "index": 7
+        },
+        {
+            "text": "Supongo que no tienes miedo de eso, no de a dónde vas a parar. Has visto cosas peores fuera de estos mundos.\r\n\r\nHas visto cosas y experimentado un mundo que es [[g;red;]mucho peor].",
+            "index": 8
+        },
+        {
+            "text": "Y lo entiendo, quizás te causa curiosidad tu estado actual. A la deriva.\r\n\r\nY cómo llegaste aquí.",
+            "index": 9
+        },
+        {
+            "text": "[[g;#5E788F;]¿Qué es lo último que recuerdas antes de esto?]",
+            "index": 10
+        },
+        {
+            "text": "¿Recuerdas el [[g;red;]Gusano]?",
+            "index": 11
+        },
+        {
+            "text": "Te preguntarás qué era ese ser, esa criatura, esa cosa que te envolvía.\r\n\r\nY quizás tu instinto natural, si pudieras, sería preguntarme a mí, porque quizás puedes estar bajo la impresión de que yo he creado este mundo en el que te encuentras ahora.\r\n\r\n[[g;#5E788F;]Una historia más].",
+            "index": 12
+        },
+        {
+            "text": "Pero la verdad, ni yo sé qué era esa entidad. Yo solo la vi en el horizonte contigo de alguna manera.\r\n\r\nYo solo fui escarbando en lo que eso era, tomando nota de lo que aparecía al frente, en el fondo, tras las nubes, tras la tormenta y el mar agitado.",
+            "index": 13
+        },
+        {
+            "text": "Y puedo decir que… lo que se acercó, o te acercó, no es un ser, o una cosa.\r\n\r\nEs algo que viene de [[g;#5E788F;]otro lugar], algo que se manifiesta con una forma aquí, porque aquí las cosas tienen forma.",
+            "index": 14
+        },
+        {
+            "text": "Pero quizás ese ente, esa presencia, no era más pequeña que un grano de arena de dónde vino, o quizás solo viste una parte infinitesimal de algo que ocuparía el espacio de galaxias.",
+            "index": 15
+        },
+        {
+            "text": "[[g;#5E788F;]¿Qué manera hay de saberlo?]",
+            "index": 16
+        },
+        {
+            "text": "Lo importante es que algo intervino, algo que también está ahí, en ese mundo que habitas ahora. Algo que ha estado ahí tanto tiempo.\r\n\r\nLa idea de un [[g;blue;]Faro] eterno.",
+            "index": 17
+        },
+        {
+            "text": "Y de un [[g;red;]Hombre]",
+            "index": 18
+        },
+        {
+            "text": "Es lo único que tenía para trabajar porque así sentí que era este mundo.",
+            "index": 19
+        },
+        {
+            "text": "Porque creo que de eso se trata, como de ir con una linterna por un bosque de noche, [[g;green;]buscando algo], abriéndose camino entre los árboles, iluminando pequeños pedazos, rocas, ruinas. \r\n\r\n[[g;#5E788F;]Descubriendo tu camino].",
+            "index": 20
+        },
+        {
+            "text": "No son inventos, no son simples palabras en el papel sacadas de la “imaginación”",
+            "index": 21
+        },
+        {
+            "text": "Es una exploración.",
+            "index": 22
+        },
+        {
+            "text": "Y ahora que estás despertando, y estos mensajes empiezan a volverse borrosos, y tu mente comienza a tomar forma de nuevo en ese mundo…\r\n\r\nAhora que sientes un poco tus manos, tus brazos, tus piernas, tu rostro…",
+            "index": 23
+        },
+        {
+            "text": "Solo puedo dejarte con unas palabras más que posiblemente no recuerdes cuando despiertes, pero que quizás te sirvan de algo al explorar este mundo extraño.",
+            "index": 24
+        },
+        {
+            "text": "Hay un peso infinito sobre algo, [[g;red;]sobre alguien] en este mundo, un peso que busca transferirse.",
+            "index": 25
+        },
+        {
+            "text": "Ten cuidado al desplazarte por este espacio.",
+            "index": 26
+        },
+        {
+            "text": "Pero al mismo tiempo, si puedes leer este espacio, si puedes explorarlo, y sacar algún sentido. Me alegraría saber qué es.",
+            "index": 27
+        },
+        {
+            "text": "Sin embargo, creo que ya se acaba nues[[g;grey;]CONEXIÓN DÉBIL]",
+            "index": 28
+        },
+        {
+            "text": "Tiemp[[g;grey;]CONEXIÓN PERDIDA]",
+            "index": 29
+        },
+        {
+            "text": "[[g;#2185de;]Despertar]",
+            "index": 30
+        }
     ]
 }

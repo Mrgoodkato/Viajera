@@ -25,9 +25,8 @@ export function introGame(introData, index, term, colors){
     }
 
     term.clear();
-    atmosphereChanger(index.page, 5, 31, colors);
     term.echo(
-        '[[g;#475c85;]\n-------]\n' + textIndexFinder(introData.data, index.page) + '[[g;#475c85;]\n-------]\n',
+        '[[g;#5E788F;]\n-------]\n' + textIndexFinder(introData.data, index.page) + '[[g;#5E788F;]\n-------]\n',
         {
             keepWords:true
         });
